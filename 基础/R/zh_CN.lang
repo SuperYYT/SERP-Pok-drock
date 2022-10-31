@@ -181,22 +181,22 @@ item.serp:timerball.name=计时球
 
 Ball Parts#################################
 
-item.serp:down_part.name=Pokéball Base
-item.serp:pokeball_up.name=Pokéball Top
-item.serp:greatball_up.name=Great ball Top
-item.serp:ultraball_up.name=Ultra ball Top
-item.serp:diveball_up.name=Dive ball Top
-item.serp:duskball_up.name=Dusk ball Top
-item.serp:fastball_up.name=Fast ball Top
-item.serp:heavyball_up.name=Heavy ball Top
-item.serp:lureball_up.name=Lure ball Top
-item.serp:moonball_up.name=Moon ball Top
-item.serp:nestball_up.name=Nest ball Top
-item.serp:netball_up.name=Net ball Top
-item.serp:parkball_up.name=Park ball Top
-item.serp:premierball_up.name=Premiere ball Top
-item.serp:safariball_up.name=Safari ball Top
-item.serp:timerball_up.name=Timer ball Top
+item.serp:down_part.name=精灵球底座(未组装)
+item.serp:pokeball_up.name=精灵球盖子(未组装)
+item.serp:greatball_up.name=超级球盖子(未组装)
+item.serp:ultraball_up.name=高级球盖子(未组装)
+item.serp:diveball_up.name=潜水球盖子(未组装)
+item.serp:duskball_up.name=黑暗球盖子(未组装)
+item.serp:fastball_up.name=速度球盖子(未组装)
+item.serp:heavyball_up.name=沉重球盖子(未组装)
+item.serp:lureball_up.name=诱饵球盖子(未组装)
+item.serp:moonball_up.name=月亮球盖子(未组装)
+item.serp:nestball_up.name=巢穴球盖子(未组装)
+item.serp:netball_up.name=捕网球盖子(未组装)
+item.serp:parkball_up.name=公园球盖子(未组装)
+item.serp:premierball_up.name=纪念球盖子(未组装)
+item.serp:safariball_up.name=狩猎球盖子(未组装)
+item.serp:timerball_up.name=计时球盖子(未组装)
 
 Stones#####################################
 
