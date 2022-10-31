@@ -5,7 +5,7 @@ pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享
 rocket.1=敢和火箭队员作对？ 你很快就会后悔的！
 rocket.2=宝可梦，攻击！
 rocket.3=切……算你运气好！
-rocket.4=来领取你的奖励吧，即使是最伟大的恶棍，我们也有必须遵守的荣誉与原则......
+rocket.4=来领取你的奖励吧，即使是最伟大的反派，我们也有必须遵守的荣誉与原则......
 rocket.5=你在看什么？ 我已经没有宝可梦可以继续战斗了！
 rocket.6=哈！我警告过你小子！
 trainer.1=宝可梦对战？加油吧，我不可能输的！
@@ -17,17 +17,17 @@ trainer.6=走吧！我和我的宝可梦是无敌的！
 
 //////////////////////////////////////////
 
-item.serp:first_generation.name=First Generation
-item.serp:legendary_gen1.name=Legendary Evidence from first generation
-item.serp:frozen_feather.name=Frozen Feather
-item.serp:electric_feather.name=Electric Feather
-item.serp:fire_feather.name=Fire Feather
-item.serp:articuno_offering.name=Articuno offering
-item.serp:zapdos_offering.name=Zapdos offering
-item.serp:moltres_offering.name=Moltres offering
-item.serp:pre_bulbasaur.name=Bulbasaur, the §aPlant §ftype Seed Pokémon?
-item.serp:pre_charmander.name=Charmander, the §cFire §f type Lizard Pokémon?
-item.serp:pre_squirtle.name=Squirtle, the §bWater §f type Little Turtle Pokémon?
+item.serp:first_generation.name=第一世代
+item.serp:legendary_gen1.name=第一世代的传奇证据
+item.serp:frozen_feather.name=冰羽
+item.serp:electric_feather.name=电羽
+item.serp:fire_feather.name=火羽
+item.serp:articuno_offering.name=急冻鸟
+item.serp:zapdos_offering.name=闪电鸟
+item.serp:moltres_offering.name=火焰鸟
+item.serp:pre_bulbasaur.name=妙蛙种子，§a草§f系的种子宝可梦?
+item.serp:pre_charmander.name=小火龙，§c火§f系的蜥蜴宝可梦？
+item.serp:pre_squirtle.name=杰尼龟，§b水§f系的小龟宝可梦？
 
 //////////////////////////////////////////
 
