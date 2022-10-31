@@ -1,6 +1,6 @@
-pack.description=§fHave fun capturing, breeding and fighting alongside Pokémon with this addon for Minecraft bedrock! §2created by Zacek el Serpentín, §cNo Play store application or any page other than Mcpedl and www.serpzacek.com have permission to distribute this project, do not encourage piracy. The names of the species and those of various objects are the property of the Pokémon company and this project is not related to the Pokémon video game saga
+pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享受捕捉、培育和战斗的乐趣！ §2由 Zacek el Serpentín 创作， §c除 MCPEDL 、 www.serpzacek.com 和 MineBBS 之外，没有任何商店或页面有权分发此项目，请勿鼓励盗版。物种名称和各种物体的名称是 Pokémon 公司的资产，本项目与 Pokémon 游戏无关
 
-intro######################################
+介绍######################################
 
 item.serp:button_a.name=Button A
 ball.catch=漂亮！我抓到了一宝可梦！
@@ -29,56 +29,56 @@ joy.4=每个宝可梦中心都会有和我一样的护士，别怕，我们是�
 joy.5=如果你附近没有宝可梦中心，你可以制作自己的治疗机器！
 jenny.1=失物招领处，你认得吗？
 jenny.2=在这里，看起来这是属于你的！
-jenny.3=Oops... I'm afraid this item doesn't belong to you. See you soon!
-jenny.4=Thank you for your collaboration! When the owner of this object comes for it, we will deliver it to him!
-prof.1=Studying Pokémon is exhausting work... But fascinating!
-prof.2=How many Pokemon have you caught today?
-prof.3=Every so often a different Professor will come to take my place, but until then I'll keep working!
-prof.4=Don't forget that if you need to rest, you can go to any Pokémon center!
-prof.5=Our research will progress much faster thanks to your help!
+jenny.3=哎呀……恐怕这件物品不属于你。 再见！
+jenny.4=谢谢您的合作！ 当这个物品的主人来找它时，我们会把它交给他！
+prof.1=学习宝可梦是件很累人的工作……但令人着迷！
+prof.2=你今天抓到了多少只宝可梦？
+prof.3=每隔一段时间就会有不同的教授来代替我的位置，但在那之前我会继续工作！
+prof.4=别忘了，如果你需要休息，你可以去任何宝可梦中心！
+prof.5=感谢您的帮助，我们的研究进展会更快！
 
-Store######################################
+商店######################################
 
-store.bike=Let's see... C'mon! A Bike Pass? Here you have, enjoy it!
-store.ride=This is... A Ride Pass?? Here you have, take care!
+store.bike=让我们看看……来吧！ 自行车通行证？ 给你，祝你骑得愉快！
+store.ride=这是……骑行通行证？？ 给你了，保重！
 
-Mission####################################
+任务####################################
 
-communicator.on=Welcome to the Rotom-Communicator! Crouch and interact to switch contacts.
-trainer.mission=Hello! This happens, I need a wish star, a key stone or a Rare Candy Bowl. If you help me I'll give you something I have in my backpack!
-trainer.thanks=Thank you very much! Here is your reward.
-prof.mission=Greetings! Do you need me to inspect something?
-prof.mega=Ohh, a Key stone! Okay, this device will help you properly use your energy. it's called Mega Ring!
-prof.dynamax=This is... a wish star?! incredible! With this device you will be able to release the Dynamax energy of your Pokémon, it is called Dynamax Band!
-prof.egg=A bad Egg... Even though it's bad, I can still get it back. Take! Take it to the Personal Laboratory to make it hatch!
-mission.legendary=Show me your skill as a Pokémon trainer and I'll give you evidence of the existence of Legendary Pokémon in return!
-goh.mission=Hello! Do you have any item related to a Legendary Pokémon? If so, show me, and I will give you the necessary tools to summon them!
-goh.articuno=Wow, a Frozen Feather! With this I can check the likes of Articuno and... Let's go! If you give this offering to a Hoopa Ring sure Articuno is the one who will appear!
-goh.zapdos=Wow, an Electric Feather! With this I can check the likes of Zapdos and... Come on! If you give this offering to a Hoopa Ring sure Zapdos is the one who will appear!
-goh.moltres=Wow, a Fire Feather! With this I can check the tastes of Moltres and... Let's go! If you give this offering to a Hoopa Ring surely Moltres is the one who will appear!
+communicator.on=欢迎来到 罗托姆-通讯器！ 蹲下并互动以切换联系人。
+trainer.mission=你好！ 发生这种情况，我需要一颗许愿星、一颗钥石或一个稀有糖果碗。 如果你帮助我，我会给你我背包里的东西！
+trainer.thanks=非常感谢！ 这是你的奖励。
+prof.mission=你好！ 你需要我检查什么吗？
+prof.mega=哦，钥石！ 好的，这个设备将帮助你正确使用你的能量。 它被称为超级戒指！
+prof.dynamax=这是……许愿星？！ 极好的！ 使用此设备，您将能够释放神奇宝贝的极巨化能量，它被称为极巨腕带！
+prof.egg=一个坏蛋……即使它坏了，我仍然可以把它拿回来。 拿着！ 把它带到私人实验室孵化！
+mission.legendary=向我展示你作为宝可梦训练师的技能，我会给你证明传奇的宝可梦存在的证据！
+goh.mission=你好！ 你有任何与传奇的宝可梦有关的物品吗？ 如果有，请给我看看，我会给你必要的工具来召唤他们！
+goh.articuno=哇，冰冻的羽毛！ 有了这个，我可以检查急冻鸟之类的......走吧！如果你把它给予胡帕戒指，急冻鸟肯定会出现！
+goh.zapdos=哇，电羽！ 有了这个，我可以检查闪电鸟之类的......来吧！如果你把它给予胡帕戒指，闪电鸟肯定会出现！
+goh.moltres=哇，火羽！ 有了这个，我可以检查火焰鸟的口味什么的......走吧！如果你把它给予胡帕戒指，火焰鸟肯定会出现！
 
-Battle#####################################
+对战#####################################
 
-combat.received=The Pokémon has received
-combat.receivedd=The Pokémon has received §l§c
-combat.receivedm=The Pokémon has received §l§d
-combat.damage=§r of damage!
-combat.not_received=Pokémon has not received damage!
-combat.ineffective=The attack was ineffective!
-combat.immunity=The Pokémon is immune!
-combat.miss=Attack missed!
-combat.effective=The attack was super effective!
-combat.critic=A critical hit!
+combat.received=宝可梦受到了
+combat.receivedd=宝可梦受到了 §l§c
+combat.receivedm=宝可梦受到了 §l§d
+combat.damage=§r 点伤害！
+combat.not_received=宝可梦没有受到伤害！
+combat.ineffective=攻击无效！
+combat.immunity=宝可梦免疫！
+combat.miss=攻击未命中！
+combat.effective=攻击卓有成效！
+combat.critic=暴击！
 
-Rotodialogs################################
+轮播对话################################
 
-entity.serp:pc_description.name=¡welcome to Poké Mart online!
-entity.serp:rotomarket_buy.name=¡Hi-roto! Did you bring something for me??
-entity.serp:rotomarket_potions.name=¡Hi-roto! Do you want some Consumable??
-entity.serp:rotomarket_pokeballs.name=¡Hi-roto! Do you want to buy Pokéballs??
-entity.serp:rotomarket_stuff.name=¡Hi-roto! Would you like some item??
-entity.serp:rotomarket_suits.name=¡Hi-roto! Will you buy any clothes??
-entity.pokedrock.pilot.name=Let me see, what do you have for me today?
+entity.serp:pc_description.name=¡欢迎在线 Poké 市场！
+entity.serp:rotomarket_buy.name=¡嗨！洛托！你给我带来了什么？？
+entity.serp:rotomarket_potions.name=¡嗨！洛托！你想要一些消耗品吗？
+entity.serp:rotomarket_pokeballs.name=¡嗨！洛托！你想买精灵球吗？？
+entity.serp:rotomarket_stuff.name=¡嗨！洛托！你想要一些东西吗？
+entity.serp:rotomarket_suits.name=¡嗨！洛托！你会买衣服吗？？
+entity.pokedrock.pilot.name=让我看看，你今天给我什么？
 
 Apricorn###################################
 
@@ -112,11 +112,11 @@ item.serp:revive.name=Revivir
 item.compass.name=Pokédex
 item.lodestonecompass.name=Lodestone Pokédex
 item.serp:mulch.name=Mulch
-item.serp:candy_bowl.name=Rarecandy Bowl
+item.serp:candy_bowl.name=稀有糖果碗
 item.serp:vs_seeker.name=Vs Seeker
 item.serp:poke_ride.name=Ride Pager
-item.serp:rare_candy.name=Rarecandy
-item.serp:poke.name=Poke Dollar
+item.serp:rare_candy.name=稀有糖果
+item.serp:poke.name=宝可元
 item.serp:fluffy_tail.name=Fluffy Tail
 item.serp:poke_toy.name=Poké Toy
 item.serp:key_shard_natural.name=Mega Shards Natural
