@@ -154,11 +154,11 @@ item.serp:green_helmet.name=绿色的帽子
 item.serp:green_chestplate.name=绿色的衬衫
 item.serp:green_leggings.name=绿色的短裙
 item.serp:green_boots.name=绿色的鞋
-item.serp:rocket_helmet.name=火箭队制服-帽子
-item.serp:rocket_chestplate.name=火箭队制服-上衣
-item.serp:rocketm_leggings.name=火箭队制服-裤子
-item.serp:rocketf_leggings.name=火箭队制服-裙子
-item.serp:rocket_boots.name=火箭队制服-鞋子
+item.serp:rocket_helmet.name=火箭队队员制服-帽子
+item.serp:rocket_chestplate.name=火箭队队员制服-上衣
+item.serp:rocketm_leggings.name=火箭队队员制服-裤子
+item.serp:rocketf_leggings.name=火箭队队员制服-裙子
+item.serp:rocket_boots.name=火箭队队员制服-鞋子
 
 Balls######################################
 
@@ -200,38 +200,38 @@ item.serp:timerball_up.name=计时球盖子(未组装)
 
 Stones#####################################
 
-item.serp:fire_stone.name=Fire Stone
-item.serp:leaf_stone.name=Leaf Stone
-item.serp:water_stone.name=Water Stone
-item.serp:thunder_stone.name=Thunder Stone
-item.serp:moon_stone.name=Moon Stone
+item.serp:fire_stone.name=火之石
+item.serp:leaf_stone.name=叶之石
+item.serp:water_stone.name=冰之石
+item.serp:thunder_stone.name=雷之石
+item.serp:moon_stone.name=月之石
 
 Berries####################################
 
-item.serp:oran_berry.name=Oran Berry
-item.serp:sitrus_berry.name=Sitrus Berry
-item.serp:mago_berry.name=Mago Berry
-item.serp:enigma_berry.name=Enigma Berry
-item.serp:chery_berry.name=Cheri Berry
-item.serp:leppa_berry.name=Leppa Berry
-item.serp:lum_berry.name=Lum Berry
-item.serp:nanab_berry.name=Nanab Berry
-item.serp:razz_berry.name=Razz Berry
-item.serp:hondew_berry.name=Hondew Berry 
-item.serp:pamtre_berry.name=Pamtre Berry
-item.serp:rindo_berry.name=Rindo Berry
-item.serp:pinap_berry.name=Pinap Berry
-item.serp:tamato_berry.name=Tamato Berry
+item.serp:oran_berry.name=蓝橘果
+item.serp:sitrus_berry.name=文柚果
+item.serp:mago_berry.name=芒芒果
+item.serp:enigma_berry.name=谜芝果
+item.serp:chery_berry.name=樱子果
+item.serp:leppa_berry.name=苹野果
+item.serp:lum_berry.name=木子果
+item.serp:nanab_berry.name=蕉香果
+item.serp:razz_berry.name=蔓莓果
+item.serp:hondew_berry.name=哈密果
+item.serp:pamtre_berry.name=椰木果
+item.serp:rindo_berry.name=罗子果
+item.serp:pinap_berry.name=凰梨果
+item.serp:tamato_berry.name=茄番果
 
 Potions####################################
 
-item.serp:potion.name=Potion
-item.serp:super_potion.name=Super Potion
-item.serp:hyper_potion.name=Hyper Potion
-item.serp:max_potion.name=Max Potion
-item.serp:fresh_water.name=Fresh water
-item.serp:lemonade.name=Lemonade
-item.serp:soda_pop.name=Soda pop
+item.serp:potion.name=伤药
+item.serp:super_potion.name=好伤药
+item.serp:hyper_potion.name=厉害伤药
+item.serp:max_potion.name=全满药
+item.serp:fresh_water.name=美味之水
+item.serp:lemonade.name=果汁牛奶
+item.serp:soda_pop.name=劲爽汽水
 
 Actions####################################
 
@@ -248,19 +248,19 @@ action.interact.activate=¡Activate!
 
 Spawn Eggs#################################
 
-item.spawn_egg.entity.serp:bike.name=Bike
-item.spawn_egg.entity.serp:poke_stop.name=Pokéstop
+item.spawn_egg.entity.serp:bike.name=自行车
+item.spawn_egg.entity.serp:poke_stop.name=宝可补给站(TCG)
 item.spawn_egg.entity.serp:key_spawn.name=Table to Disassemble
-item.spawn_egg.entity.serp:slot_spawn.name=Slot Machine
-item.spawn_egg.entity.serp:healer_spawn.name=Healing Machine
-item.spawn_egg.entity.serp:pc_box_spawn.name=Pokémon center PC
-item.spawn_egg.entity.serp:lab_spawn.name=Personal Laboratory
-item.spawn_egg.entity.serp:rotomarket.name=RotoMarket
-item.spawn_egg.entity.serp:trader_spawn.name=Trade Machine
-item.spawn_egg.entity.serp:joy.name=Nurse Joy
-item.spawn_egg.entity.serp:jenny.name=Officer Jenny
-item.spawn_egg.entity.serp:store.name=Pokéstore
-item.spawn_egg.entity.serp:communicator_spawn.name=Rotom-Communicator
+item.spawn_egg.entity.serp:slot_spawn.name=老虎机
+item.spawn_egg.entity.serp:healer_spawn.name=宝可梦治疗机
+item.spawn_egg.entity.serp:pc_box_spawn.name=宝可梦电脑(PC)
+item.spawn_egg.entity.serp:lab_spawn.name=化石复活仪
+item.spawn_egg.entity.serp:rotomarket.name=洛托姆便携商店
+item.spawn_egg.entity.serp:trader_spawn.name=宝可梦交换机
+item.spawn_egg.entity.serp:joy.name=乔伊(NPC)
+item.spawn_egg.entity.serp:jenny.name=君莎(NPC)
+item.spawn_egg.entity.serp:store.name=商店店员(NPC)
+item.spawn_egg.entity.serp:communicator_spawn.name=洛托姆通讯器
 
 Trade//////////////////////////////////////
 
