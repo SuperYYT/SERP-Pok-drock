@@ -21,10 +21,10 @@ item.serp:second_generation.name=第二世代
 item.serp:pre_chikorita.name=菊草叶，§a草§f属性的叶子宝可梦？
 item.serp:pre_cyndaquil.name=火球术，§c火§f属性的火鼠宝可梦？
 item.serp:pre_totodile.name=小锯鳄，§b水§f系的大颚宝可梦？
-item.serp:badge.name=Battle Badge
-item.serp:battle_permission.name=Battle Permission
-item.serp:pichu_plush.name=Pichu plush
-item.serp:metal_coat.name=Metal coat
+item.serp:badge.name=战斗徽章
+item.serp:battle_permission.name=战斗许可
+item.serp:pichu_plush.name=皮丘毛绒（Pichu plush）
+item.serp:metal_coat.name=金属膜
 
 //////////////////////////////////////////
 
@@ -32,7 +32,7 @@ action.interact.next=下一步
 action.interact.serp_other=查看其它初始宝可梦
 action.interact.mega=¡超级进化！
 action.interact.max=¡极巨化！
-action.interact.pokedex=See records of the Pokédex
+action.interact.pokedex=查看宝可梦图鉴的记录
 action.interact.evolve=¡Evolve!
 action.interact.pokeride=Put Poke Ride
 action.interact.unride=Remove Poke Ride
@@ -43,9 +43,9 @@ action.interact.stop_fight=Stop fight
 
 //////////////////////////////////////////
 
-action.hint.exit.serp:meganium=duck down to get off Meganium
-action.hint.exit.serp:meganiums=duck down to get off Meganium
-action.hint.exit.serp:typhlosion=duck down to get off Typhlosion
+action.hint.exit.serp:meganium=蹲下离开大兰葵
+action.hint.exit.serp:meganiums=蹲下离开大兰葵
+action.hint.exit.serp:typhlosion=蹲下离开火暴兽
 action.hint.exit.serp:typhlosions=duck down to get off Typhlosion
 action.hint.exit.serp:feraligatr=duck down to get off Feraligatr
 action.hint.exit.serp:feraligatrs=duck down to get off Feraligatr
