@@ -19,9 +19,9 @@ trainer.6=走吧！我和我的宝可梦是无敌的！
 
 item.serp:first_generation.name=第一世代
 item.serp:legendary_gen1.name=第一世代的传奇证据
-item.serp:frozen_feather.name=冰羽
-item.serp:electric_feather.name=电羽
-item.serp:fire_feather.name=火羽
+item.serp:frozen_feather.name=冰之羽
+item.serp:electric_feather.name=电之羽
+item.serp:fire_feather.name=火之羽
 item.serp:articuno_offering.name=急冻鸟
 item.serp:zapdos_offering.name=闪电鸟
 item.serp:moltres_offering.name=火焰鸟
