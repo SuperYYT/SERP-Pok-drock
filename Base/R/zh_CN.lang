@@ -135,10 +135,10 @@ item.serp:key_ore.name=巨型碎片矿
 item.serp:wish_ore.name=许愿星矿
 item.serp:wishing_star.name=许愿星
 item.serp:bad_egg.name=坏蛋
-item.serp:pokemon_egg.name=Pokémon Egg
-item.serp:bike_pass.name=Bike Pass
-item.serp:ride_pass.name=Ride Pass
-item.serp:clothing_ticket.name=Clothing Ticket
+item.serp:pokemon_egg.name=宝可梦的蛋
+item.serp:bike_pass.name=自行车通行证
+item.serp:ride_pass.name=骑乘通行证
+item.serp:clothing_ticket.name=服装折扣卷
 
 Suits######################################
 
