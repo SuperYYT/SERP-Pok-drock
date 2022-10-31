@@ -94,8 +94,8 @@ item.serp:apricorn_orange.name=橙球果
 tile.serp:berry_top.name=浆果树顶
 tile.serp:berry_leaves_dark.name=浆果树叶（dark）
 tile.serp:berry_leaves_light.name=浆果树叶（light）
-tile.serp:berry_log.name=浆果数日志（Berry Tree Log）
-tile.serp:apricorn_stem.name=球果茎（Bonguri Stem）
+tile.serp:berry_log.name=浆果树原木
+tile.serp:apricorn_stem.name=球果茎
 tile.serp:apricorn_black_block.name=球果黑
 tile.serp:apricorn_blue_block.name=球果蓝
 tile.serp:apricorn_cyan_block.name=球果蓝绿
@@ -264,12 +264,12 @@ item.spawn_egg.entity.serp:communicator_spawn.name=Rotom-Communicator
 
 Trade//////////////////////////////////////
 
-item.serp:trading_kadabra.name=I'll trade kadabra
-item.serp:trading_kadabras.name=I'll trade kadabra
-item.serp:trading_machoke.name=I'll trade machoke
-item.serp:trading_machokes.name=I'll trade machoke
-item.serp:trading_graveler.name=I'll trade graveler
-item.serp:trading_gravelers.name=I'll trade graveler
+item.serp:trading_kadabra.name=我将用勇基拉进行交换
+item.serp:trading_kadabras.name=我将用勇基拉进行交换
+item.serp:trading_machoke.name=我将用豪力进行交换
+item.serp:trading_machokes.name=我将用豪力进行交换
+item.serp:trading_graveler.name=我将用隆隆石进行交换
+item.serp:trading_gravelers.name=我将用隆隆石进行交换
 item.serp:trading_haunter.name=I'll trade haunter
 item.serp:trading_haunters.name=I'll trade haunter
 item.serp:trading_onix.name=I'll trade onix
