@@ -33,14 +33,14 @@ item.serp:pre_squirtle.name=杰尼龟，§b水§f系的小龟宝可梦？
 
 item.serp:badge.name=Battle Badge
 item.serp:battle_permission.name=Battle Permission
-item.serp:slowpoke_tail.name=Slowpoke Tail
-item.serp:cooked_slowpoke_tail.name=Cooked Slowpoke tail
-item.serp:shellder_shell.name=Shellder Shell
-item.serp:cooked_magikarp.name=Cooked Magikarp
-item.serp:fossil_helix.name=Hélix fossil
-item.serp:fossil_dome.name=Dome fossil
-item.serp:ancient_amber.name=Ancient Amber
-item.serp:clefairy_plush.name=Peluche Clefairy
+item.serp:slowpoke_tail.name=呆呆兽的尾巴
+item.serp:cooked_slowpoke_tail.name=煮熟的呆呆兽的尾巴
+item.serp:shellder_shell.name=大舌贝的壳
+item.serp:cooked_magikarp.name=煮熟的鲤鱼王
+item.serp:fossil_helix.name=贝壳化石
+item.serp:fossil_dome.name=甲壳化石
+item.serp:ancient_amber.name=秘密琥珀
+item.serp:clefairy_plush.name=皮皮玩偶
 
 //////////////////////////////////////////
 
