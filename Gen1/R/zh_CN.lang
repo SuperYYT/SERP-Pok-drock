@@ -25,14 +25,14 @@ item.serp:fire_feather.name=火羽
 item.serp:articuno_offering.name=急冻鸟
 item.serp:zapdos_offering.name=闪电鸟
 item.serp:moltres_offering.name=火焰鸟
-item.serp:pre_bulbasaur.name=妙蛙种子，§a草§f系的种子宝可梦?
-item.serp:pre_charmander.name=小火龙，§c火§f系的蜥蜴宝可梦？
-item.serp:pre_squirtle.name=杰尼龟，§b水§f系的小龟宝可梦？
+item.serp:pre_bulbasaur.name=妙蛙种子，§a草§f属性的种子宝可梦?
+item.serp:pre_charmander.name=小火龙，§c火§f属性的蜥蜴宝可梦？
+item.serp:pre_squirtle.name=杰尼龟，§b水§f属性的小龟宝可梦？
 
 //////////////////////////////////////////
 
-item.serp:badge.name=Battle Badge
-item.serp:battle_permission.name=Battle Permission
+item.serp:badge.name=战斗徽章
+item.serp:battle_permission.name=战斗许可
 item.serp:slowpoke_tail.name=呆呆兽的尾巴
 item.serp:cooked_slowpoke_tail.name=煮熟的呆呆兽的尾巴
 item.serp:shellder_shell.name=大舌贝的壳
@@ -44,18 +44,18 @@ item.serp:clefairy_plush.name=皮皮玩偶
 
 //////////////////////////////////////////
 
-action.interact.next=Next
-action.interact.serp_other=See other starter
-action.interact.rotochange=Change Category
-action.interact.mega=¡Mega Evolve!
-action.interact.max=¡Dynamax!
-action.interact.pokedex=See records of the Pokédex
-action.interact.take_pokemon=Take Pokémon
-action.interact.destroy=Disarm
-action.interact.fossil_revive=Fossil Revive
-action.interact.amber_revive=Extract DNA
-action.interact.grow=Use Mulch
-action.interact.take_apricorn=Take Apricorn
+action.interact.next=下一步
+action.interact.serp_other=查看其它初始宝可梦
+action.interact.rotochange=更换分类
+action.interact.mega=¡超级进化！
+action.interact.max=¡极巨化！
+action.interact.pokedex=查看宝可梦图鉴的记录
+action.interact.take_pokemon=捕捉宝可梦
+action.interact.destroy=解除武装
+action.interact.fossil_revive=复活化石
+action.interact.amber_revive=提取DNA
+action.interact.grow=使用肥料
+action.interact.take_apricorn=取得球果
 action.interact.bet=¡Bet!
 action.interact.evolve=¡Evolve!
 action.interact.pokeride=Put Poke Ride
