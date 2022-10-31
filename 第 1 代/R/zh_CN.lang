@@ -31,8 +31,8 @@ item.serp:pre_squirtle.name=杰尼龟，§b水§f属性的小龟宝可梦？
 
 //////////////////////////////////////////
 
-item.serp:badge.name=战斗徽章
-item.serp:battle_permission.name=战斗许可
+item.serp:badge.name=对战奖章
+item.serp:battle_permission.name=对战许可证
 item.serp:slowpoke_tail.name=呆呆兽的尾巴
 item.serp:cooked_slowpoke_tail.name=煮熟的呆呆兽的尾巴
 item.serp:shellder_shell.name=大舌贝的壳
