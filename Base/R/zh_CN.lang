@@ -108,13 +108,13 @@ tile.serp:apricorn_yellow_block.name=球果黄
 Items######################################
 
 item.serp:dynamax_band.name=Dynamax Band
-item.serp:revive.name=Revivir
-item.compass.name=Pokédex
+item.serp:revive.name=活力碎片
+item.compass.name=宝可梦图鉴
 item.lodestonecompass.name=Lodestone Pokédex
-item.serp:mulch.name=Mulch
+item.serp:mulch.name=湿湿肥
 item.serp:candy_bowl.name=稀有糖果碗
-item.serp:vs_seeker.name=Vs Seeker
-item.serp:poke_ride.name=Ride Pager
+item.serp:vs_seeker.name=对战搜寻器
+item.serp:poke_ride.name=骑行装置
 item.serp:rare_candy.name=稀有糖果
 item.serp:poke.name=宝可元
 item.serp:fluffy_tail.name=Fluffy Tail
