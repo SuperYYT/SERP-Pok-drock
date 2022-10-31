@@ -1,0 +1,1337 @@
+pack.description=§fDiviértete capturando, criando y combatiendo junto a los Pokémon con éste addon para Minecraft bedrock! §2creado por Zacek el Serpentín, §cNinguna aplicación de Play store ni ninguna página además de Mcpedl y www.serpzacek.com tienen permiso de distribuciónde éste proyecto, no fomentes la piratería. Los nombres de las especies y los de varios objetos son propiedad de Pokémon company y éste proyecto no está relacionado a la saga de videojuegos Pokémon
+
+dialogs///////////////////////////////////
+
+rocket.1=Así que te quieres enfrentar a un miembro del Equipo Rocket? No sabes el error que acabas de cometer!
+rocket.2=Pokémon, Ataca!
+rocket.3=Tsk... Sólo has tenido suerte.
+rocket.4=Ven a recoger tu recompensa, hasta los más grandes villanos tenemos nuestro código de honor...
+rocket.5=Qué me ves? ya no tengo Pokémon para seguir combatiendo!
+rocket.6=Ja! Te lo advertí gusano!
+trainer.1=Un combate Pokémon? Adelante, no perderé!
+trainer.2=Pokémon, adelante!
+trainer.3=NOOO, ésto no se quedará así!
+trainer.4=Gran combate! Ven a recoger tu recompensa, te la has ganado.
+trainer.5=No tengo más Pokémon para combatir, iré al centro Pokémon...
+trainer.6=Éso es! Yo y mis Pokémon somos invencibles!
+
+//////////////////////////////////////////
+
+item.serp:first_generation.name=Primera Generación
+item.serp:legendary_gen1.name=Evidencia Legendaria de primera generación
+item.serp:frozen_feather.name=Pluma Congelada
+item.serp:electric_feather.name=Pluma Eléctrica
+item.serp:fire_feather.name=Pluma en Llamas
+item.serp:articuno_offering.name=Ofrenda para Articuno
+item.serp:zapdos_offering.name=Ofrenda para Zapdos
+item.serp:moltres_offering.name=Ofrenda para Moltres
+item.serp:pre_bulbasaur.name=Bulbasaur, el Pokémon Semilla de tipo §aPlanta§f?
+item.serp:pre_charmander.name=Charmander, el Pokémon Lagartija de tipo §cFuego§f?
+item.serp:pre_squirtle.name=Squirtle, el Pokémon Tortuguita de tipo §bAgua§f?
+
+//////////////////////////////////////////
+
+item.serp:badge.name=Medalla de Combate
+item.serp:battle_permission.name=Permiso de Combate
+item.serp:slowpoke_tail.name=Cola Slowpoke
+item.serp:cooked_slowpoke_tail.name=Cola Slowpoke cocinada
+item.serp:shellder_shell.name=Caparazón de Shellder
+item.serp:cooked_magikarp.name=Magikarp asado
+item.serp:fossil_helix.name=Fósil Hélix
+item.serp:fossil_dome.name=Fósil Domo
+item.serp:ancient_amber.name=Ambar Viejo
+item.serp:clefairy_plush.name=Peluche Clefairy
+
+//////////////////////////////////////////
+
+action.interact.next=Siguiente
+action.interact.serp_other=Ver otro inicial
+action.interact.rotochange=Cambiar Categoría
+action.interact.mega=¡Mega Evolucionar!
+action.interact.max=¡Dynamax!
+action.interact.pokedex=Ver registros de la Pokédex
+action.interact.take_pokemon=Tomar Pokémon
+action.interact.destroy=Desarmar
+action.interact.fossil_revive=Revivir Fósil
+action.interact.amber_revive=Extraer ADN
+action.interact.grow=Usar Abono
+action.interact.take_apricorn=Tomar Bonguri
+action.interact.bet=¡Apostar!
+action.interact.evolve=¡Evolucionar!
+action.interact.pokeride=Poner Pokémontura
+action.interact.unride=Quitar Pokémontura
+action.interact.ride.pokemon=¡Usar Pokémontura!
+action.interact.store=Guardar
+action.interact.activate=¡Activar!
+action.interact.return=¡Pokémon, regresa!
+action.interact.to_fight=¡a luchar!
+action.interact.stop_fight=Detener batalla
+
+//////////////////////////////////////////
+
+action.hint.exit.serp:venusaur=Agáchate para bajar de Venusaur
+action.hint.exit.serp:venusaurs=Agáchate para bajar de Venusaur
+action.hint.exit.serp:charizard=Agáchate para bajar de Charizard
+action.hint.exit.serp:charizards=Agáchate para bajar de Charizard
+action.hint.exit.serp:blastoise=Agáchate para bajar de Blastoise
+action.hint.exit.serp:blastoises=Agáchate para bajar de Blastoise
+action.hint.exit.serp:pidgeot=Agáchate para bajar de Pidgeot
+action.hint.exit.serp:pidgeots=Agáchate para bajar de Pidgeot
+action.hint.exit.serp:fearow=Agáchate para bajar de Fearow
+action.hint.exit.serp:fearows=Agáchate para bajar de Fearow
+action.hint.exit.serp:arcanine=Agáchate para bajar de Arcanine
+action.hint.exit.serp:arcanines=Agáchate para bajar de Arcanine
+action.hint.exit.serp:gyarados=Agáchate para bajar de Gyarados
+action.hint.exit.serp:gyaradoss=Agáchate para bajar de Gyarados
+action.hint.exit.serp:lapras=Agáchate para bajar de Lapras
+action.hint.exit.serp:laprass=Agáchate para bajar de Lapras
+action.hint.exit.serp:aerodactyl=Agáchate para bajar de Aerodactyl
+action.hint.exit.serp:aerodactyls=Agáchate para bajar de Aerodactyl
+action.hint.exit.serp:articuno=Agáchate para bajar de Articuno
+action.hint.exit.serp:articunos=Agáchate para bajar de Articuno
+action.hint.exit.serp:zapdos=Agáchate para bajar de Zapdos
+action.hint.exit.serp:zapdoss=Agáchate para bajar de Zapdos
+action.hint.exit.serp:moltres=Agáchate para bajar de Moltres
+action.hint.exit.serp:moltress=Agáchate para bajar de Moltres
+
+//////////////////////////////////////////
+
+item.spawn_egg.entity.serp:oak.name=Profesor Oak
+item.spawn_egg.entity.serp:rocket.name=Equipo Rocket
+item.spawn_egg.entity.serp:trainer.name=Entrenadores de la primera Generación
+item.spawn_egg.entity.serp:fossil_ore.name=Mineral con Fósil
+
+//////////////////////////////////////////
+
+item.serp:bulbasaur.name=Bulbasaur, Yo te elijo!
+item.serp:ivysaur.name=Ivysaur, Yo te elijo!
+item.serp:venusaur.name=Venusaur, Yo te elijo!
+item.serp:charmander.name=Charmander, Yo te elijo!
+item.serp:charmeleon.name=Charmeleon, Yo te elijo!
+item.serp:charizard.name=Charizard, Yo te elijo!
+item.serp:squirtle.name=Squirtle, Yo te elijo!
+item.serp:wartortle.name=Wartortle, Yo te elijo!
+item.serp:blastoise.name=Blastoise, Yo te elijo!
+item.serp:caterpie.name=Caterpie, Yo te elijo!
+item.serp:metapod.name=Metapod, Yo te elijo!
+item.serp:butterfree.name=Butterfree, Yo te elijo!
+item.serp:weedle.name=Weedle, Yo te elijo!
+item.serp:kakuna.name=Kakuna, Yo te elijo!
+item.serp:beedrill.name=Beedrill, Yo te elijo!
+item.serp:pidgey.name=Pidgey, Yo te elijo!
+item.serp:pidgeotto.name=Pidgeotto, Yo te elijo!
+item.serp:pidgeot.name=Pidgeot, Yo te elijo!
+item.serp:rattata.name=Rattata, Yo te elijo!
+item.serp:raticate.name=Raticate, Yo te elijo!
+item.serp:spearow.name=Spearow, Yo te elijo!
+item.serp:fearow.name=Fearow, Yo te elijo!
+item.serp:ekans.name=Ekans, Yo te elijo!
+item.serp:arbok.name=Arbok, Yo te elijo!
+item.serp:pikachu.name=Pikachu, Yo te elijo!
+item.serp:raichu.name=Raichu, Yo te elijo!
+item.serp:sandshrew.name=Sandshrew, Yo te elijo!
+item.serp:sandslash.name=Sandslash, Yo te elijo!
+item.serp:nidoranh.name=Nidoran (hembra), Yo te elijo!
+item.serp:nidorina.name=Nidorina, Yo te elijo!
+item.serp:nidoqueen.name=Nidoqueen, Yo te elijo!
+item.serp:nidoranm.name=Nidoran (macho), Yo te elijo!
+item.serp:nidorino.name=Nidorino, Yo te elijo!
+item.serp:nidoking.name=Nidoking, Yo te elijo!
+item.serp:clefairy.name=Clefairy, Yo te elijo!
+item.serp:clefable.name=Clefable, Yo te elijo!
+item.serp:vulpix.name=Vulpix, Yo te elijo!
+item.serp:ninetales.name=Ninetales, Yo te elijo!
+item.serp:jigglypuff.name=Jigglypuff, Yo te elijo!
+item.serp:wigglytuff.name=Wigglytuff, Yo te elijo!
+item.serp:zubat.name=Zubat, Yo te elijo!
+item.serp:golbat.name=Golbat, Yo te elijo!
+item.serp:oddish.name=Oddish, Yo te elijo!
+item.serp:gloom.name=Gloom, Yo te elijo!
+item.serp:vileplume.name=Vileplume, Yo te elijo!
+item.serp:paras.name=Paras, Yo te elijo!
+item.serp:parasect.name=Parasect, Yo te elijo!
+item.serp:venonat.name=Venonat, Yo te elijo!
+item.serp:venomoth.name=Venomoth, Yo te elijo!
+item.serp:diglett.name=Diglett, Yo te elijo!
+item.serp:dugtrio.name=Dugtrio, Yo te elijo!
+item.serp:meowth.name=Meowth, Yo te elijo!
+item.serp:persian.name=Persian, Yo te elijo!
+item.serp:psyduck.name=Psyduck, Yo te elijo!
+item.serp:golduck.name=Golduck, Yo te elijo!
+item.serp:mankey.name=Mankey, Yo te elijo!
+item.serp:primeape.name=Primeape, Yo te elijo!
+item.serp:growlithe.name=Growlithe, Yo te elijo!
+item.serp:arcanine.name=Arcanine, Yo te elijo!
+item.serp:poliwag.name=Poliwag, Yo te elijo!
+item.serp:poliwhirl.name=Poliwhirl, Yo te elijo!
+item.serp:poliwrath.name=Poliwrath, Yo te elijo!
+item.serp:abra.name=Abra, Yo te elijo!
+item.serp:kadabra.name=Kadabra, Yo te elijo!
+item.serp:alakazam.name=Alakazam, Yo te elijo!
+item.serp:machop.name=Machop, Yo te elijo!
+item.serp:machoke.name=Machoke, Yo te elijo!
+item.serp:machamp.name=Machamp, Yo te elijo!
+item.serp:bellsprout.name=Bellsprout, Yo te elijo!
+item.serp:weepinbell.name=Weepinbell, Yo te elijo!
+item.serp:victreebel.name=Victreebel, Yo te elijo!
+item.serp:tentacool.name=Tentacool, Yo te elijo!
+item.serp:tentacruel.name=Tentacruel, Yo te elijo!
+item.serp:geodude.name=Geodude, Yo te elijo!
+item.serp:graveler.name=Graveler, Yo te elijo!
+item.serp:golem.name=Golem, Yo te elijo!
+item.serp:ponyta.name=Ponyta, Yo te elijo!
+item.serp:rapidash.name=Rapidash, Yo te elijo!
+item.serp:slowpoke.name=Slowpoke, Yo te elijo!
+item.serp:slowbro.name=Slowbro, Yo te elijo!
+item.serp:magnemite.name=Magnemite, Yo te elijo!
+item.serp:magneton.name=Magneton, Yo te elijo!
+item.serp:farfetchd.name=Farfetch'd, Yo te elijo!
+item.serp:doduo.name=Doduo, Yo te elijo!
+item.serp:dodrio.name=Dodrio, Yo te elijo!
+item.serp:seel.name=Seel, Yo te elijo!
+item.serp:dewgong.name=Dewgong, Yo te elijo!
+item.serp:grimer.name=Grimer, Yo te elijo!
+item.serp:muk.name=Muk, Yo te elijo!
+item.serp:shellder.name=Shellder, Yo te elijo!
+item.serp:cloyster.name=Cloyster, Yo te elijo!
+item.serp:gastly.name=Gastly, Yo te elijo!
+item.serp:haunter.name=Haunter, Yo te elijo!
+item.serp:gengar.name=Gengar, Yo te elijo!
+item.serp:onix.name=Onix, Yo te elijo!
+item.serp:drowzee.name=Drowzee, Yo te elijo!
+item.serp:hypno.name=Hypno, Yo te elijo!
+item.serp:krabby.name=Krabby, Yo te elijo!
+item.serp:kingler.name=Kingler, Yo te elijo!
+item.serp:voltorb.name=Voltorb, Yo te elijo!
+item.serp:electrode.name=Electrode, Yo te elijo!
+item.serp:exeggcute.name=Exeggcute, Yo te elijo!
+item.serp:exeggutor.name=Exeggutor, Yo te elijo!
+item.serp:cubone.name=Cubone, Yo te elijo!
+item.serp:marowak.name=Marowak, Yo te elijo!
+item.serp:hitmonlee.name=Hitmonlee, Yo te elijo!
+item.serp:hitmonchan.name=Hitmonchan, Yo te elijo!
+item.serp:lickitung.name=Lickitung, Yo te elijo!
+item.serp:koffing.name=Koffing, Yo te elijo!
+item.serp:weezing.name=Weezing, Yo te elijo!
+item.serp:rhyhorn.name=Rhyhorn, Yo te elijo!
+item.serp:rhydon.name=Rhydon, Yo te elijo!
+item.serp:chansey.name=Chansey, Yo te elijo!
+item.serp:tangela.name=Tangela, Yo te elijo!
+item.serp:kangaskhan.name=Kangaskhan, Yo te elijo!
+item.serp:horsea.name=Horsea, Yo te elijo!
+item.serp:seadra.name=Seadra, Yo te elijo!
+item.serp:goldeen.name=Goldeen, Yo te elijo!
+item.serp:seaking.name=Seaking, Yo te elijo!
+item.serp:staryu.name=Staryu, Yo te elijo!
+item.serp:starmie.name=Starmie, Yo te elijo!
+item.serp:mrmime.name=Mr. Mime, Yo te elijo!
+item.serp:scyther.name=Scyther, Yo te elijo!
+item.serp:jynx.name=Jynx, Yo te elijo!
+item.serp:electabuzz.name=Electabuzz, Yo te elijo!
+item.serp:magmar.name=Magmar, Yo te elijo!
+item.serp:pinsir.name=Pinsir, Yo te elijo!
+item.serp:tauros.name=Tauros, Yo te elijo!
+item.serp:magikarp.name=Magikarp, Yo te elijo!
+item.serp:gyarados.name=Gyarados, Yo te elijo!
+item.serp:lapras.name=Lapras, Yo te elijo!
+item.serp:ditto.name=Ditto, Yo te elijo!
+item.serp:eevee.name=Eevee, Yo te elijo!
+item.serp:vaporeon.name=Vaporeon, Yo te elijo!
+item.serp:jolteon.name=Jolteon, Yo te elijo!
+item.serp:flareon.name=Flareon, Yo te elijo!
+item.serp:porygon.name=Porygon, Yo te elijo!
+item.serp:omanyte.name=Omanyte, Yo te elijo!
+item.serp:omastar.name=Omastar, Yo te elijo!
+item.serp:kabuto.name=Kabuto, Yo te elijo!
+item.serp:kabutops.name=Kabutops, Yo te elijo!
+item.serp:aerodactyl.name=Aerodactyl, Yo te elijo!
+item.serp:snorlax.name=Snorlax, Yo te elijo!
+item.serp:articuno.name=Articuno, Yo te elijo!
+item.serp:zapdos.name=Zapdos, Yo te elijo!
+item.serp:moltres.name=Moltres, Yo te elijo!
+item.serp:dratini.name=Dratini, Yo te elijo!
+item.serp:dragonair.name=Dragonair, Yo te elijo!
+item.serp:dragonite.name=Dragonite, Yo te elijo!
+item.serp:mewtwo.name=Mewtwo, Yo te elijo!
+item.serp:shadow_mewtwo.name=Mewtwo Oscuro, Yo te elijo!
+item.serp:mew.name=Mew, Yo te elijo!
+
+//////////////////////////////////////////
+
+item.serp:bulbasaurs.name=Bulbasaur (Shiny), Yo te elijo!
+item.serp:ivysaurs.name=Ivysaur (Shiny), Yo te elijo!
+item.serp:venusaurs.name=Venusaur (Shiny), Yo te elijo!
+item.serp:charmanders.name=Charmander (Shiny), Yo te elijo!
+item.serp:charmeleons.name=Charmeleon (Shiny), Yo te elijo!
+item.serp:charizards.name=Charizard (Shiny), Yo te elijo!
+item.serp:squirtles.name=Squirtle (Shiny), Yo te elijo!
+item.serp:wartortles.name=Wartortle (Shiny), Yo te elijo!
+item.serp:blastoises.name=Blastoise (Shiny), Yo te elijo!
+item.serp:caterpies.name=Caterpie (Shiny), Yo te elijo!
+item.serp:metapods.name=Metapod (Shiny), Yo te elijo!
+item.serp:butterfrees.name=Butterfree (Shiny), Yo te elijo!
+item.serp:weedles.name=Weedle (Shiny), Yo te elijo!
+item.serp:kakunas.name=Kakuna (Shiny), Yo te elijo!
+item.serp:beedrills.name=Beedrill (Shiny), Yo te elijo!
+item.serp:pidgeys.name=Pidgey (Shiny), Yo te elijo!
+item.serp:pidgeottos.name=Pidgeotto (Shiny), Yo te elijo!
+item.serp:pidgeots.name=Pidgeot (Shiny), Yo te elijo!
+item.serp:rattatas.name=Rattata (Shiny), Yo te elijo!
+item.serp:raticates.name=Raticate (Shiny), Yo te elijo!
+item.serp:spearows.name=Spearow (Shiny), Yo te elijo!
+item.serp:fearows.name=Fearow (Shiny), Yo te elijo!
+item.serp:ekanss.name=Ekans (Shiny), Yo te elijo!
+item.serp:arboks.name=Arbok (Shiny), Yo te elijo!
+item.serp:pikachus.name=Pikachu (Shiny), Yo te elijo!
+item.serp:raichus.name=Raichu (Shiny), Yo te elijo!
+item.serp:sandshrews.name=Sandshrew (Shiny), Yo te elijo!
+item.serp:sandslashs.name=Sandslash (Shiny), Yo te elijo!
+item.serp:nidoranhs.name=Nidoran (hembra) (Shiny), Yo te elijo!
+item.serp:nidorinas.name=Nidorina (Shiny), Yo te elijo!
+item.serp:nidoqueens.name=Nidoqueen (Shiny), Yo te elijo!
+item.serp:nidoranms.name=Nidoran (macho) (Shiny), Yo te elijo!
+item.serp:nidorinos.name=Nidorino (Shiny), Yo te elijo!
+item.serp:nidokings.name=Nidoking (Shiny), Yo te elijo!
+item.serp:clefairys.name=Clefairy (Shiny), Yo te elijo!
+item.serp:clefables.name=Clefable (Shiny), Yo te elijo!
+item.serp:vulpixs.name=Vulpix (Shiny), Yo te elijo!
+item.serp:ninetaless.name=Ninetales (Shiny), Yo te elijo!
+item.serp:jigglypuffs.name=Jigglypuff (Shiny), Yo te elijo!
+item.serp:wigglytuffs.name=Wigglytuff (Shiny), Yo te elijo!
+item.serp:zubats.name=Zubat (Shiny), Yo te elijo!
+item.serp:golbats.name=Golbat (Shiny), Yo te elijo!
+item.serp:oddishs.name=Oddish (Shiny), Yo te elijo!
+item.serp:glooms.name=Gloom (Shiny), Yo te elijo!
+item.serp:vileplumes.name=Vileplume (Shiny), Yo te elijo!
+item.serp:parass.name=Paras (Shiny), Yo te elijo!
+item.serp:parasects.name=Parasect (Shiny), Yo te elijo!
+item.serp:venonats.name=Venonat (Shiny), Yo te elijo!
+item.serp:venomoths.name=Venomoth (Shiny), Yo te elijo!
+item.serp:digletts.name=Diglett (Shiny), Yo te elijo!
+item.serp:dugtrios.name=Dugtrio (Shiny), Yo te elijo!
+item.serp:meowths.name=Meowth (Shiny), Yo te elijo!
+item.serp:persians.name=Persian (Shiny), Yo te elijo!
+item.serp:psyducks.name=Psyduck (Shiny), Yo te elijo!
+item.serp:golducks.name=Golduck (Shiny), Yo te elijo!
+item.serp:mankeys.name=Mankey (Shiny), Yo te elijo!
+item.serp:primeapes.name=Primeape (Shiny), Yo te elijo!
+item.serp:growlithes.name=Growlithe (Shiny), Yo te elijo!
+item.serp:arcanines.name=Arcanine (Shiny), Yo te elijo!
+item.serp:poliwags.name=Poliwag (Shiny), Yo te elijo!
+item.serp:poliwhirls.name=Poliwhirl (Shiny), Yo te elijo!
+item.serp:poliwraths.name=Poliwrath (Shiny), Yo te elijo!
+item.serp:abras.name=Abra (Shiny), Yo te elijo!
+item.serp:kadabras.name=Kadabra (Shiny), Yo te elijo!
+item.serp:alakazams.name=Alakazam (Shiny), Yo te elijo!
+item.serp:machops.name=Machop (Shiny), Yo te elijo!
+item.serp:machokes.name=Machoke (Shiny), Yo te elijo!
+item.serp:machamps.name=Machamp (Shiny), Yo te elijo!
+item.serp:bellsprouts.name=Bellsprout (Shiny), Yo te elijo!
+item.serp:weepinbells.name=Weepinbell (Shiny), Yo te elijo!
+item.serp:victreebels.name=Victreebel (Shiny), Yo te elijo!
+item.serp:tentacools.name=Tentacool (Shiny), Yo te elijo!
+item.serp:tentacruels.name=Tentacruel (Shiny), Yo te elijo!
+item.serp:geodudes.name=Geodude (Shiny), Yo te elijo!
+item.serp:gravelers.name=Graveler (Shiny), Yo te elijo!
+item.serp:golems.name=Golem (Shiny), Yo te elijo!
+item.serp:ponytas.name=Ponyta (Shiny), Yo te elijo!
+item.serp:rapidashs.name=Rapidash (Shiny), Yo te elijo!
+item.serp:slowpokes.name=Slowpoke (Shiny), Yo te elijo!
+item.serp:slowbros.name=Slowbro (Shiny), Yo te elijo!
+item.serp:magnemites.name=Magnemite (Shiny), Yo te elijo!
+item.serp:magnetons.name=Magneton (Shiny), Yo te elijo!
+item.serp:farfetchds.name=Farfetch'd (Shiny), Yo te elijo!
+item.serp:doduos.name=Doduo (Shiny), Yo te elijo!
+item.serp:dodrios.name=Dodrio (Shiny), Yo te elijo!
+item.serp:seels.name=Seel (Shiny), Yo te elijo!
+item.serp:dewgongs.name=Dewgong (Shiny), Yo te elijo!
+item.serp:grimers.name=Grimer (Shiny), Yo te elijo!
+item.serp:muks.name=Muk (Shiny), Yo te elijo!
+item.serp:shellders.name=Shellder (Shiny), Yo te elijo!
+item.serp:cloysters.name=Cloyster (Shiny), Yo te elijo!
+item.serp:gastlys.name=Gastly (Shiny), Yo te elijo!
+item.serp:haunters.name=Haunter (Shiny), Yo te elijo!
+item.serp:gengars.name=Gengar (Shiny), Yo te elijo!
+item.serp:onixs.name=Onix (Shiny), Yo te elijo!
+item.serp:drowzees.name=Drowzee (Shiny), Yo te elijo!
+item.serp:hypnos.name=Hypno (Shiny), Yo te elijo!
+item.serp:krabbys.name=Krabby (Shiny), Yo te elijo!
+item.serp:kinglers.name=Kingler (Shiny), Yo te elijo!
+item.serp:voltorbs.name=Voltorb (Shiny), Yo te elijo!
+item.serp:electrodes.name=Electrode (Shiny), Yo te elijo!
+item.serp:exeggcutes.name=Exeggcute (Shiny), Yo te elijo!
+item.serp:exeggutors.name=Exeggutor (Shiny), Yo te elijo!
+item.serp:cubones.name=Cubone (Shiny), Yo te elijo!
+item.serp:marowaks.name=Marowak (Shiny), Yo te elijo!
+item.serp:hitmonlees.name=Hitmonlee (Shiny), Yo te elijo!
+item.serp:hitmonchans.name=Hitmonchan (Shiny), Yo te elijo!
+item.serp:lickitungs.name=Lickitung (Shiny), Yo te elijo!
+item.serp:koffings.name=Koffing (Shiny), Yo te elijo!
+item.serp:weezings.name=Weezing (Shiny), Yo te elijo!
+item.serp:rhyhorns.name=Rhyhorn (Shiny), Yo te elijo!
+item.serp:rhydons.name=Rhydon (Shiny), Yo te elijo!
+item.serp:chanseys.name=Chansey (Shiny), Yo te elijo!
+item.serp:tangelas.name=Tangela (Shiny), Yo te elijo!
+item.serp:kangaskhans.name=Kangaskhan (Shiny), Yo te elijo!
+item.serp:horseas.name=Horsea (Shiny), Yo te elijo!
+item.serp:seadras.name=Seadra (Shiny), Yo te elijo!
+item.serp:goldeens.name=Goldeen (Shiny), Yo te elijo!
+item.serp:seakings.name=Seaking (Shiny), Yo te elijo!
+item.serp:staryus.name=Staryu (Shiny), Yo te elijo!
+item.serp:starmies.name=Starmie (Shiny), Yo te elijo!
+item.serp:mrmimes.name=Mr. Mime (Shiny), Yo te elijo!
+item.serp:scythers.name=Scyther (Shiny), Yo te elijo!
+item.serp:jynxs.name=Jynx (Shiny), Yo te elijo!
+item.serp:electabuzzs.name=Electabuzz (Shiny), Yo te elijo!
+item.serp:magmars.name=Magmar (Shiny), Yo te elijo!
+item.serp:pinsirs.name=Pinsir (Shiny), Yo te elijo!
+item.serp:tauross.name=Tauros (Shiny), Yo te elijo!
+item.serp:magikarps.name=Magikarp (Shiny), Yo te elijo!
+item.serp:gyaradoss.name=Gyarados (Shiny), Yo te elijo!
+item.serp:laprass.name=Lapras (Shiny), Yo te elijo!
+item.serp:dittos.name=Ditto (Shiny), Yo te elijo!
+item.serp:eevees.name=Eevee (Shiny), Yo te elijo!
+item.serp:vaporeons.name=Vaporeon (Shiny), Yo te elijo!
+item.serp:jolteons.name=Jolteon (Shiny), Yo te elijo!
+item.serp:flareons.name=Flareon (Shiny), Yo te elijo!
+item.serp:porygons.name=Porygon (Shiny), Yo te elijo!
+item.serp:omanytes.name=Omanyte (Shiny), Yo te elijo!
+item.serp:omastars.name=Omastar (Shiny), Yo te elijo!
+item.serp:kabutos.name=Kabuto (Shiny), Yo te elijo!
+item.serp:kabutopss.name=Kabutops (Shiny), Yo te elijo!
+item.serp:aerodactyls.name=Aerodactyl (Shiny), Yo te elijo!
+item.serp:snorlaxs.name=Snorlax (Shiny), Yo te elijo!
+item.serp:articunos.name=Articuno (Shiny), Yo te elijo!
+item.serp:zapdoss.name=Zapdos (Shiny), Yo te elijo!
+item.serp:moltress.name=Moltres (Shiny), Yo te elijo!
+item.serp:dratinis.name=Dratini (Shiny), Yo te elijo!
+item.serp:dragonairs.name=Dragonair (Shiny), Yo te elijo!
+item.serp:dragonites.name=Dragonite (Shiny), Yo te elijo!
+item.serp:mewtwos.name=Mewtwo (Shiny), Yo te elijo!
+item.serp:shadow_mewtwos.name=Mewtwo Oscuro (Shiny), Yo te elijo!
+item.serp:mews.name=Mew (Shiny), Yo te elijo!
+
+//////////////////////////////////////////
+
+item.serp:bulbasaur_defeated.name=Bulbasaur §4Debilitado
+item.serp:ivysaur_defeated.name=Ivysaur §4Debilitado
+item.serp:venusaur_defeated.name=Venusaur §4Debilitado
+item.serp:charmander_defeated.name=Charmander §4Debilitado
+item.serp:charmeleon_defeated.name=Charmeleon §4Debilitado
+item.serp:charizard_defeated.name=Charizard §4Debilitado
+item.serp:squirtle_defeated.name=Squirtle §4Debilitado
+item.serp:wartortle_defeated.name=Wartortle §4Debilitado
+item.serp:blastoise_defeated.name=Blastoise §4Debilitado
+item.serp:caterpie_defeated.name=Caterpie §4Debilitado
+item.serp:metapod_defeated.name=Metapod §4Debilitado
+item.serp:butterfree_defeated.name=Butterfree §4Debilitado
+item.serp:weedle_defeated.name=Weedle §4Debilitado
+item.serp:kakuna_defeated.name=Kakuna §4Debilitado
+item.serp:beedrill_defeated.name=Beedrill §4Debilitado
+item.serp:pidgey_defeated.name=Pidgey §4Debilitado
+item.serp:pidgeotto_defeated.name=Pidgeotto §4Debilitado
+item.serp:pidgeot_defeated.name=Pidgeot §4Debilitado
+item.serp:rattata_defeated.name=Rattata §4Debilitado
+item.serp:raticate_defeated.name=Raticate §4Debilitado
+item.serp:spearow_defeated.name=Spearow §4Debilitado
+item.serp:fearow_defeated.name=Fearow §4Debilitado
+item.serp:ekans_defeated.name=Ekans §4Debilitado
+item.serp:arbok_defeated.name=Arbok §4Debilitado
+item.serp:pikachu_defeated.name=Pikachu §4Debilitado
+item.serp:raichu_defeated.name=Raichu §4Debilitado
+item.serp:sandshrew_defeated.name=Sandshrew §4Debilitado
+item.serp:sandslash_defeated.name=Sandslash §4Debilitado
+item.serp:nidoranh_defeated.name=Nidoran (hembra) §4Debilitado
+item.serp:nidorina_defeated.name=Nidorina §4Debilitado
+item.serp:nidoqueen_defeated.name=Nidoqueen §4Debilitado
+item.serp:nidoranm_defeated.name=Nidoran (macho) §4Debilitado
+item.serp:nidorino_defeated.name=Nidorino §4Debilitado
+item.serp:nidoking_defeated.name=Nidoking §4Debilitado
+item.serp:clefairy_defeated.name=Clefairy §4Debilitado
+item.serp:clefable_defeated.name=Clefable §4Debilitado
+item.serp:vulpix_defeated.name=Vulpix §4Debilitado
+item.serp:ninetales_defeated.name=Ninetales §4Debilitado
+item.serp:jigglypuff_defeated.name=Jigglypuff §4Debilitado
+item.serp:wigglytuff_defeated.name=Wigglytuff §4Debilitado
+item.serp:zubat_defeated.name=Zubat §4Debilitado
+item.serp:golbat_defeated.name=Golbat §4Debilitado
+item.serp:oddish_defeated.name=Oddish §4Debilitado
+item.serp:gloom_defeated.name=Gloom §4Debilitado
+item.serp:vileplume_defeated.name=Vileplume §4Debilitado
+item.serp:paras_defeated.name=Paras §4Debilitado
+item.serp:parasect_defeated.name=Parasect §4Debilitado
+item.serp:venonat_defeated.name=Venonat §4Debilitado
+item.serp:venomoth_defeated.name=Venomoth §4Debilitado
+item.serp:diglett_defeated.name=Diglett §4Debilitado
+item.serp:dugtrio_defeated.name=Dugtrio §4Debilitado
+item.serp:meowth_defeated.name=Meowth §4Debilitado
+item.serp:persian_defeated.name=Persian §4Debilitado
+item.serp:psyduck_defeated.name=Psyduck §4Debilitado
+item.serp:golduck_defeated.name=Golduck §4Debilitado
+item.serp:mankey_defeated.name=Mankey §4Debilitado
+item.serp:primeape_defeated.name=Primeape §4Debilitado
+item.serp:growlithe_defeated.name=Growlithe §4Debilitado
+item.serp:arcanine_defeated.name=Arcanine §4Debilitado
+item.serp:poliwag_defeated.name=Poliwag §4Debilitado
+item.serp:poliwhirl_defeated.name=Poliwhirl §4Debilitado
+item.serp:poliwrath_defeated.name=Poliwrath §4Debilitado
+item.serp:abra_defeated.name=Abra §4Debilitado
+item.serp:kadabra_defeated.name=Kadabra §4Debilitado
+item.serp:alakazam_defeated.name=Alakazam §4Debilitado
+item.serp:machop_defeated.name=Machop §4Debilitado
+item.serp:machoke_defeated.name=Machoke §4Debilitado
+item.serp:machamp_defeated.name=Machamp §4Debilitado
+item.serp:bellsprout_defeated.name=Bellsprout §4Debilitado
+item.serp:weepinbell_defeated.name=Weepinbell §4Debilitado
+item.serp:victreebel_defeated.name=Victreebel §4Debilitado
+item.serp:tentacool_defeated.name=Tentacool §4Debilitado
+item.serp:tentacruel_defeated.name=Tentacruel §4Debilitado
+item.serp:geodude_defeated.name=Geodude §4Debilitado
+item.serp:graveler_defeated.name=Graveler §4Debilitado
+item.serp:golem_defeated.name=Golem §4Debilitado
+item.serp:ponyta_defeated.name=Ponyta §4Debilitado
+item.serp:rapidash_defeated.name=Rapidash §4Debilitado
+item.serp:slowpoke_defeated.name=Slowpoke §4Debilitado
+item.serp:slowbro_defeated.name=Slowbro §4Debilitado
+item.serp:magnemite_defeated.name=Magnemite §4Debilitado
+item.serp:magneton_defeated.name=Magneton §4Debilitado
+item.serp:farfetchd_defeated.name=Farfetch'd §4Debilitado
+item.serp:doduo_defeated.name=Doduo §4Debilitado
+item.serp:dodrio_defeated.name=Dodrio §4Debilitado
+item.serp:seel_defeated.name=Seel §4Debilitado
+item.serp:dewgong_defeated.name=Dewgong §4Debilitado
+item.serp:grimer_defeated.name=Grimer §4Debilitado
+item.serp:muk_defeated.name=Muk §4Debilitado
+item.serp:shellder_defeated.name=Shellder §4Debilitado
+item.serp:cloyster_defeated.name=Cloyster §4Debilitado
+item.serp:gastly_defeated.name=Gastly §4Debilitado
+item.serp:haunter_defeated.name=Haunter §4Debilitado
+item.serp:gengar_defeated.name=Gengar §4Debilitado
+item.serp:onix_defeated.name=Onix §4Debilitado
+item.serp:drowzee_defeated.name=Drowzee §4Debilitado
+item.serp:hypno_defeated.name=Hypno §4Debilitado
+item.serp:krabby_defeated.name=Krabby §4Debilitado
+item.serp:kingler_defeated.name=Kingler §4Debilitado
+item.serp:voltorb_defeated.name=Voltorb §4Debilitado
+item.serp:electrode_defeated.name=Electrode §4Debilitado
+item.serp:exeggcute_defeated.name=Exeggcute §4Debilitado
+item.serp:exeggutor_defeated.name=Exeggutor §4Debilitado
+item.serp:cubone_defeated.name=Cubone §4Debilitado
+item.serp:marowak_defeated.name=Marowak §4Debilitado
+item.serp:hitmonlee_defeated.name=Hitmonlee §4Debilitado
+item.serp:hitmonchan_defeated.name=Hitmonchan §4Debilitado
+item.serp:lickitung_defeated.name=Lickitung §4Debilitado
+item.serp:koffing_defeated.name=Koffing §4Debilitado
+item.serp:weezing_defeated.name=Weezing §4Debilitado
+item.serp:rhyhorn_defeated.name=Rhyhorn §4Debilitado
+item.serp:rhydon_defeated.name=Rhydon §4Debilitado
+item.serp:chansey_defeated.name=Chansey §4Debilitado
+item.serp:tangela_defeated.name=Tangela §4Debilitado
+item.serp:kangaskhan_defeated.name=Kangaskhan §4Debilitado
+item.serp:horsea_defeated.name=Horsea §4Debilitado
+item.serp:seadra_defeated.name=Seadra §4Debilitado
+item.serp:goldeen_defeated.name=Goldeen §4Debilitado
+item.serp:seaking_defeated.name=Seaking §4Debilitado
+item.serp:staryu_defeated.name=Staryu §4Debilitado
+item.serp:starmie_defeated.name=Starmie §4Debilitado
+item.serp:mrmime_defeated.name=Mr. Mime §4Debilitado
+item.serp:scyther_defeated.name=Scyther §4Debilitado
+item.serp:jynx_defeated.name=Jynx §4Debilitado
+item.serp:electabuzz_defeated.name=Electabuzz §4Debilitado
+item.serp:magmar_defeated.name=Magmar §4Debilitado
+item.serp:pinsir_defeated.name=Pinsir §4Debilitado
+item.serp:tauros_defeated.name=Tauros §4Debilitado
+item.serp:magikarp_defeated.name=Magikarp §4Debilitado
+item.serp:gyarados_defeated.name=Gyarados §4Debilitado
+item.serp:lapras_defeated.name=Lapras §4Debilitado
+item.serp:ditto_defeated.name=Ditto §4Debilitado
+item.serp:eevee_defeated.name=Eevee §4Debilitado
+item.serp:vaporeon_defeated.name=Vaporeon §4Debilitado
+item.serp:jolteon_defeated.name=Jolteon §4Debilitado
+item.serp:flareon_defeated.name=Flareon §4Debilitado
+item.serp:porygon_defeated.name=Porygon §4Debilitado
+item.serp:omanyte_defeated.name=Omanyte §4Debilitado
+item.serp:omastar_defeated.name=Omastar §4Debilitado
+item.serp:kabuto_defeated.name=Kabuto §4Debilitado
+item.serp:kabutops_defeated.name=Kabutops §4Debilitado
+item.serp:aerodactyl_defeated.name=Aerodactyl §4Debilitado
+item.serp:snorlax_defeated.name=Snorlax §4Debilitado
+item.serp:articuno_defeated.name=Articuno §4Debilitado
+item.serp:zapdos_defeated.name=Zapdos §4Debilitado
+item.serp:moltres_defeated.name=Moltres §4Debilitado
+item.serp:dratini_defeated.name=Dratini §4Debilitado
+item.serp:dragonair_defeated.name=Dragonair §4Debilitado
+item.serp:dragonite_defeated.name=Dragonite §4Debilitado
+item.serp:mewtwo_defeated.name=Mewtwo §4Debilitado
+item.serp:shadow_mewtwo_defeated.name=Mewtwo Oscuro §4Debilitado
+item.serp:mew_defeated.name=Mew §4Debilitado
+
+//////////////////////////////////////////
+
+item.serp:bulbasaurs_defeated.name=Bulbasaur (Shiny) §4Debilitado
+item.serp:ivysaurs_defeated.name=Ivysaur (Shiny) §4Debilitado
+item.serp:venusaurs_defeated.name=Venusaur (Shiny) §4Debilitado
+item.serp:charmanders_defeated.name=Charmander (Shiny) §4Debilitado
+item.serp:charmeleons_defeated.name=Charmeleon (Shiny) §4Debilitado
+item.serp:charizards_defeated.name=Charizard (Shiny) §4Debilitado
+item.serp:squirtles_defeated.name=Squirtle (Shiny) §4Debilitado
+item.serp:wartortles_defeated.name=Wartortle (Shiny) §4Debilitado
+item.serp:blastoises_defeated.name=Blastoise (Shiny) §4Debilitado
+item.serp:caterpies_defeated.name=Caterpie (Shiny) §4Debilitado
+item.serp:metapods_defeated.name=Metapod (Shiny) §4Debilitado
+item.serp:butterfrees_defeated.name=Butterfree (Shiny) §4Debilitado
+item.serp:weedles_defeated.name=Weedle (Shiny) §4Debilitado
+item.serp:kakunas_defeated.name=Kakuna (Shiny) §4Debilitado
+item.serp:beedrills_defeated.name=Beedrill (Shiny) §4Debilitado
+item.serp:pidgeys_defeated.name=Pidgey (Shiny) §4Debilitado
+item.serp:pidgeottos_defeated.name=Pidgeotto (Shiny) §4Debilitado
+item.serp:pidgeots_defeated.name=Pidgeot (Shiny) §4Debilitado
+item.serp:rattatas_defeated.name=Rattata (Shiny) §4Debilitado
+item.serp:raticates_defeated.name=Raticate (Shiny) §4Debilitado
+item.serp:spearows_defeated.name=Spearow (Shiny) §4Debilitado
+item.serp:fearows_defeated.name=Fearow (Shiny) §4Debilitado
+item.serp:ekanss_defeated.name=Ekans (Shiny) §4Debilitado
+item.serp:arboks_defeated.name=Arbok (Shiny) §4Debilitado
+item.serp:pikachus_defeated.name=Pikachu (Shiny) §4Debilitado
+item.serp:raichus_defeated.name=Raichu (Shiny) §4Debilitado
+item.serp:sandshrews_defeated.name=Sandshrew (Shiny) §4Debilitado
+item.serp:sandslashs_defeated.name=Sandslash (Shiny) §4Debilitado
+item.serp:nidoranhs_defeated.name=Nidoran (hembra) (Shiny) §4Debilitado
+item.serp:nidorinas_defeated.name=Nidorina (Shiny) §4Debilitado
+item.serp:nidoqueens_defeated.name=Nidoqueen (Shiny) §4Debilitado
+item.serp:nidoranms_defeated.name=Nidoran (macho) (Shiny) §4Debilitado
+item.serp:nidorinos_defeated.name=Nidorino (Shiny) §4Debilitado
+item.serp:nidokings_defeated.name=Nidoking (Shiny) §4Debilitado
+item.serp:clefairys_defeated.name=Clefairy (Shiny) §4Debilitado
+item.serp:clefables_defeated.name=Clefable (Shiny) §4Debilitado
+item.serp:vulpixs_defeated.name=Vulpix (Shiny) §4Debilitado
+item.serp:ninetaless_defeated.name=Ninetales (Shiny) §4Debilitado
+item.serp:jigglypuffs_defeated.name=Jigglypuff (Shiny) §4Debilitado
+item.serp:wigglytuffs_defeated.name=Wigglytuff (Shiny) §4Debilitado
+item.serp:zubats_defeated.name=Zubat (Shiny) §4Debilitado
+item.serp:golbats_defeated.name=Golbat (Shiny) §4Debilitado
+item.serp:oddishs_defeated.name=Oddish (Shiny) §4Debilitado
+item.serp:glooms_defeated.name=Gloom (Shiny) §4Debilitado
+item.serp:vileplumes_defeated.name=Vileplume (Shiny) §4Debilitado
+item.serp:parass_defeated.name=Paras (Shiny) §4Debilitado
+item.serp:parasects_defeated.name=Parasect (Shiny) §4Debilitado
+item.serp:venonats_defeated.name=Venonat (Shiny) §4Debilitado
+item.serp:venomoths_defeated.name=Venomoth (Shiny) §4Debilitado
+item.serp:digletts_defeated.name=Diglett (Shiny) §4Debilitado
+item.serp:dugtrios_defeated.name=Dugtrio (Shiny) §4Debilitado
+item.serp:meowths_defeated.name=Meowth (Shiny) §4Debilitado
+item.serp:persians_defeated.name=Persian (Shiny) §4Debilitado
+item.serp:psyducks_defeated.name=Psyduck (Shiny) §4Debilitado
+item.serp:golducks_defeated.name=Golduck (Shiny) §4Debilitado
+item.serp:mankeys_defeated.name=Mankey (Shiny) §4Debilitado
+item.serp:primeapes_defeated.name=Primeape (Shiny) §4Debilitado
+item.serp:growlithes_defeated.name=Growlithe (Shiny) §4Debilitado
+item.serp:arcanines_defeated.name=Arcanine (Shiny) §4Debilitado
+item.serp:poliwags_defeated.name=Poliwag (Shiny) §4Debilitado
+item.serp:poliwhirls_defeated.name=Poliwhirl (Shiny) §4Debilitado
+item.serp:poliwraths_defeated.name=Poliwrath (Shiny) §4Debilitado
+item.serp:abras_defeated.name=Abra (Shiny) §4Debilitado
+item.serp:kadabras_defeated.name=Kadabra (Shiny) §4Debilitado
+item.serp:alakazams_defeated.name=Alakazam (Shiny) §4Debilitado
+item.serp:machops_defeated.name=Machop (Shiny) §4Debilitado
+item.serp:machokes_defeated.name=Machoke (Shiny) §4Debilitado
+item.serp:machamps_defeated.name=Machamp (Shiny) §4Debilitado
+item.serp:bellsprouts_defeated.name=Bellsprout (Shiny) §4Debilitado
+item.serp:weepinbells_defeated.name=Weepinbell (Shiny) §4Debilitado
+item.serp:victreebels_defeated.name=Victreebel (Shiny) §4Debilitado
+item.serp:tentacools_defeated.name=Tentacool (Shiny) §4Debilitado
+item.serp:tentacruels_defeated.name=Tentacruel (Shiny) §4Debilitado
+item.serp:geodudes_defeated.name=Geodude (Shiny) §4Debilitado
+item.serp:gravelers_defeated.name=Graveler (Shiny) §4Debilitado
+item.serp:golems_defeated.name=Golem (Shiny) §4Debilitado
+item.serp:ponytas_defeated.name=Ponyta (Shiny) §4Debilitado
+item.serp:rapidashs_defeated.name=Rapidash (Shiny) §4Debilitado
+item.serp:slowpokes_defeated.name=Slowpoke (Shiny) §4Debilitado
+item.serp:slowbros_defeated.name=Slowbro (Shiny) §4Debilitado
+item.serp:magnemites_defeated.name=Magnemite (Shiny) §4Debilitado
+item.serp:magnetons_defeated.name=Magneton (Shiny) §4Debilitado
+item.serp:farfetchds_defeated.name=Farfetch'd (Shiny) §4Debilitado
+item.serp:doduos_defeated.name=Doduo (Shiny) §4Debilitado
+item.serp:dodrios_defeated.name=Dodrio (Shiny) §4Debilitado
+item.serp:seels_defeated.name=Seel (Shiny) §4Debilitado
+item.serp:dewgongs_defeated.name=Dewgong (Shiny) §4Debilitado
+item.serp:grimers_defeated.name=Grimer (Shiny) §4Debilitado
+item.serp:muks_defeated.name=Muk (Shiny) §4Debilitado
+item.serp:shellders_defeated.name=Shellder (Shiny) §4Debilitado
+item.serp:cloysters_defeated.name=Cloyster (Shiny) §4Debilitado
+item.serp:gastlys_defeated.name=Gastly (Shiny) §4Debilitado
+item.serp:haunters_defeated.name=Haunter (Shiny) §4Debilitado
+item.serp:gengars_defeated.name=Gengar (Shiny) §4Debilitado
+item.serp:onixs_defeated.name=Onix (Shiny) §4Debilitado
+item.serp:drowzees_defeated.name=Drowzee (Shiny) §4Debilitado
+item.serp:hypnos_defeated.name=Hypno (Shiny) §4Debilitado
+item.serp:krabbys_defeated.name=Krabby (Shiny) §4Debilitado
+item.serp:kinglers_defeated.name=Kingler (Shiny) §4Debilitado
+item.serp:voltorbs_defeated.name=Voltorb (Shiny) §4Debilitado
+item.serp:electrodes_defeated.name=Electrode (Shiny) §4Debilitado
+item.serp:exeggcutes_defeated.name=Exeggcute (Shiny) §4Debilitado
+item.serp:exeggutors_defeated.name=Exeggutor (Shiny) §4Debilitado
+item.serp:cubones_defeated.name=Cubone (Shiny) §4Debilitado
+item.serp:marowaks_defeated.name=Marowak (Shiny) §4Debilitado
+item.serp:hitmonlees_defeated.name=Hitmonlee (Shiny) §4Debilitado
+item.serp:hitmonchans_defeated.name=Hitmonchan (Shiny) §4Debilitado
+item.serp:lickitungs_defeated.name=Lickitung (Shiny) §4Debilitado
+item.serp:koffings_defeated.name=Koffing (Shiny) §4Debilitado
+item.serp:weezings_defeated.name=Weezing (Shiny) §4Debilitado
+item.serp:rhyhorns_defeated.name=Rhyhorn (Shiny) §4Debilitado
+item.serp:rhydons_defeated.name=Rhydon (Shiny) §4Debilitado
+item.serp:chanseys_defeated.name=Chansey (Shiny) §4Debilitado
+item.serp:tangelas_defeated.name=Tangela (Shiny) §4Debilitado
+item.serp:kangaskhans_defeated.name=Kangaskhan (Shiny) §4Debilitado
+item.serp:horseas_defeated.name=Horsea (Shiny) §4Debilitado
+item.serp:seadras_defeated.name=Seadra (Shiny) §4Debilitado
+item.serp:goldeens_defeated.name=Goldeen (Shiny) §4Debilitado
+item.serp:seakings_defeated.name=Seaking (Shiny) §4Debilitado
+item.serp:staryus_defeated.name=Staryu (Shiny) §4Debilitado
+item.serp:starmies_defeated.name=Starmie (Shiny) §4Debilitado
+item.serp:mrmimes_defeated.name=Mr. Mime (Shiny) §4Debilitado
+item.serp:scythers_defeated.name=Scyther (Shiny) §4Debilitado
+item.serp:jynxs_defeated.name=Jynx (Shiny) §4Debilitado
+item.serp:electabuzzs_defeated.name=Electabuzz (Shiny) §4Debilitado
+item.serp:magmars_defeated.name=Magmar (Shiny) §4Debilitado
+item.serp:pinsirs_defeated.name=Pinsir (Shiny) §4Debilitado
+item.serp:tauross_defeated.name=Tauros (Shiny) §4Debilitado
+item.serp:magikarps_defeated.name=Magikarp (Shiny) §4Debilitado
+item.serp:gyaradoss_defeated.name=Gyarados (Shiny) §4Debilitado
+item.serp:laprass_defeated.name=Lapras (Shiny) §4Debilitado
+item.serp:dittos_defeated.name=Ditto (Shiny) §4Debilitado
+item.serp:eevees_defeated.name=Eevee (Shiny) §4Debilitado
+item.serp:vaporeons_defeated.name=Vaporeon (Shiny) §4Debilitado
+item.serp:jolteons_defeated.name=Jolteon (Shiny) §4Debilitado
+item.serp:flareons_defeated.name=Flareon (Shiny) §4Debilitado
+item.serp:porygons_defeated.name=Porygon (Shiny) §4Debilitado
+item.serp:omanytes_defeated.name=Omanyte (Shiny) §4Debilitado
+item.serp:omastars_defeated.name=Omastar (Shiny) §4Debilitado
+item.serp:kabutos_defeated.name=Kabuto (Shiny) §4Debilitado
+item.serp:kabutopss_defeated.name=Kabutops (Shiny) §4Debilitado
+item.serp:aerodactyls_defeated.name=Aerodactyl (Shiny) §4Debilitado
+item.serp:snorlaxs_defeated.name=Snorlax (Shiny) §4Debilitado
+item.serp:articunos_defeated.name=Articuno (Shiny) §4Debilitado
+item.serp:zapdoss_defeated.name=Zapdos (Shiny) §4Debilitado
+item.serp:moltress_defeated.name=Moltres (Shiny) §4Debilitado
+item.serp:dratinis_defeated.name=Dratini (Shiny) §4Debilitado
+item.serp:dragonairs_defeated.name=Dragonair (Shiny) §4Debilitado
+item.serp:dragonites_defeated.name=Dragonite (Shiny) §4Debilitado
+item.serp:mewtwos_defeated.name=Mewtwo (Shiny) §4Debilitado
+item.serp:shadow_mewtwos_defeated.name=Mewtwo Oscuro (Shiny) §4Debilitado
+item.serp:mews_defeated.name=Mew (Shiny) §4Debilitado
+
+//////////////////////////////////////////
+
+entity.serp:bulbasaur.name=Bulbasaur [Entrenado]
+entity.serp:ivysaur.name=Ivysaur [Entrenado]
+entity.serp:venusaur.name=Venusaur [Entrenado]
+entity.serp:charmander.name=Charmander [Entrenado]
+entity.serp:charmeleon.name=Charmeleon [Entrenado]
+entity.serp:charizard.name=Charizard [Entrenado]
+entity.serp:squirtle.name=Squirtle [Entrenado]
+entity.serp:wartortle.name=Wartortle [Entrenado]
+entity.serp:blastoise.name=Blastoise [Entrenado]
+entity.serp:caterpie.name=Caterpie [Entrenado]
+entity.serp:metapod.name=Metapod [Entrenado]
+entity.serp:butterfree.name=Butterfree [Entrenado]
+entity.serp:weedle.name=Weedle [Entrenado]
+entity.serp:kakuna.name=Kakuna [Entrenado]
+entity.serp:beedrill.name=Beedrill [Entrenado]
+entity.serp:pidgey.name=Pidgey [Entrenado]
+entity.serp:pidgeotto.name=Pidgeotto [Entrenado]
+entity.serp:pidgeot.name=Pidgeot [Entrenado]
+entity.serp:rattata.name=Rattata [Entrenado]
+entity.serp:raticate.name=Raticate [Entrenado]
+entity.serp:spearow.name=Spearow [Entrenado]
+entity.serp:fearow.name=Fearow [Entrenado]
+entity.serp:ekans.name=Ekans [Entrenado]
+entity.serp:arbok.name=Arbok [Entrenado]
+entity.serp:pikachu.name=Pikachu [Entrenado]
+entity.serp:raichu.name=Raichu [Entrenado]
+entity.serp:sandshrew.name=Sandshrew [Entrenado]
+entity.serp:sandslash.name=Sandslash [Entrenado]
+entity.serp:nidoranh.name=Nidoran (hembra) [Entrenado]
+entity.serp:nidorina.name=Nidorina [Entrenado]
+entity.serp:nidoqueen.name=Nidoqueen [Entrenado]
+entity.serp:nidoranm.name=Nidoran (macho) [Entrenado]
+entity.serp:nidorino.name=Nidorino [Entrenado]
+entity.serp:nidoking.name=Nidoking [Entrenado]
+entity.serp:clefairy.name=Clefairy [Entrenado]
+entity.serp:clefable.name=Clefable [Entrenado]
+entity.serp:vulpix.name=Vulpix [Entrenado]
+entity.serp:ninetales.name=Ninetales [Entrenado]
+entity.serp:jigglypuff.name=Jigglypuff [Entrenado]
+entity.serp:wigglytuff.name=Wigglytuff [Entrenado]
+entity.serp:zubat.name=Zubat [Entrenado]
+entity.serp:golbat.name=Golbat [Entrenado]
+entity.serp:oddish.name=Oddish [Entrenado]
+entity.serp:gloom.name=Gloom [Entrenado]
+entity.serp:vileplume.name=Vileplume [Entrenado]
+entity.serp:paras.name=Paras [Entrenado]
+entity.serp:parasect.name=Parasect [Entrenado]
+entity.serp:venonat.name=Venonat [Entrenado]
+entity.serp:venomoth.name=Venomoth [Entrenado]
+entity.serp:diglett.name=Diglett [Entrenado]
+entity.serp:dugtrio.name=Dugtrio [Entrenado]
+entity.serp:meowth.name=Meowth [Entrenado]
+entity.serp:persian.name=Persian [Entrenado]
+entity.serp:psyduck.name=Psyduck [Entrenado]
+entity.serp:golduck.name=Golduck [Entrenado]
+entity.serp:mankey.name=Mankey [Entrenado]
+entity.serp:primeape.name=Primeape [Entrenado]
+entity.serp:growlithe.name=Growlithe [Entrenado]
+entity.serp:arcanine.name=Arcanine [Entrenado]
+entity.serp:poliwag.name=Poliwag [Entrenado]
+entity.serp:poliwhirl.name=Poliwhirl [Entrenado]
+entity.serp:poliwrath.name=Poliwrath [Entrenado]
+entity.serp:abra.name=Abra [Entrenado]
+entity.serp:kadabra.name=Kadabra [Entrenado]
+entity.serp:alakazam.name=Alakazam [Entrenado]
+entity.serp:machop.name=Machop [Entrenado]
+entity.serp:machoke.name=Machoke [Entrenado]
+entity.serp:machamp.name=Machamp [Entrenado]
+entity.serp:bellsprout.name=Bellsprout [Entrenado]
+entity.serp:weepinbell.name=Weepinbell [Entrenado]
+entity.serp:victreebel.name=Victreebel [Entrenado]
+entity.serp:tentacool.name=Tentacool [Entrenado]
+entity.serp:tentacruel.name=Tentacruel [Entrenado]
+entity.serp:geodude.name=Geodude [Entrenado]
+entity.serp:graveler.name=Graveler [Entrenado]
+entity.serp:golem.name=Golem [Entrenado]
+entity.serp:ponyta.name=Ponyta [Entrenado]
+entity.serp:rapidash.name=Rapidash [Entrenado]
+entity.serp:slowpoke.name=Slowpoke [Entrenado]
+entity.serp:slowbro.name=Slowbro [Entrenado]
+entity.serp:magnemite.name=Magnemite [Entrenado]
+entity.serp:magneton.name=Magneton [Entrenado]
+entity.serp:farfetchd.name=Farfetch'd [Entrenado]
+entity.serp:doduo.name=Doduo [Entrenado]
+entity.serp:dodrio.name=Dodrio [Entrenado]
+entity.serp:seel.name=Seel [Entrenado]
+entity.serp:dewgong.name=Dewgong [Entrenado]
+entity.serp:grimer.name=Grimer [Entrenado]
+entity.serp:muk.name=Muk [Entrenado]
+entity.serp:shellder.name=Shellder [Entrenado]
+entity.serp:cloyster.name=Cloyster [Entrenado]
+entity.serp:gastly.name=Gastly [Entrenado]
+entity.serp:haunter.name=Haunter [Entrenado]
+entity.serp:gengar.name=Gengar [Entrenado]
+entity.serp:onix.name=Onix [Entrenado]
+entity.serp:drowzee.name=Drowzee [Entrenado]
+entity.serp:hypno.name=Hypno [Entrenado]
+entity.serp:krabby.name=Krabby [Entrenado]
+entity.serp:kingler.name=Kingler [Entrenado]
+entity.serp:voltorb.name=Voltorb [Entrenado]
+entity.serp:electrode.name=Electrode [Entrenado]
+entity.serp:exeggcute.name=Exeggcute [Entrenado]
+entity.serp:exeggutor.name=Exeggutor [Entrenado]
+entity.serp:cubone.name=Cubone [Entrenado]
+entity.serp:marowak.name=Marowak [Entrenado]
+entity.serp:hitmonlee.name=Hitmonlee [Entrenado]
+entity.serp:hitmonchan.name=Hitmonchan [Entrenado]
+entity.serp:lickitung.name=Lickitung [Entrenado]
+entity.serp:koffing.name=Koffing [Entrenado]
+entity.serp:weezing.name=Weezing [Entrenado]
+entity.serp:rhyhorn.name=Rhyhorn [Entrenado]
+entity.serp:rhydon.name=Rhydon [Entrenado]
+entity.serp:chansey.name=Chansey [Entrenado]
+entity.serp:tangela.name=Tangela [Entrenado]
+entity.serp:kangaskhan.name=Kangaskhan [Entrenado]
+entity.serp:horsea.name=Horsea [Entrenado]
+entity.serp:seadra.name=Seadra [Entrenado]
+entity.serp:goldeen.name=Goldeen [Entrenado]
+entity.serp:seaking.name=Seaking [Entrenado]
+entity.serp:staryu.name=Staryu [Entrenado]
+entity.serp:starmie.name=Starmie [Entrenado]
+entity.serp:mrmime.name=Mr. Mime [Entrenado]
+entity.serp:scyther.name=Scyther [Entrenado]
+entity.serp:jynx.name=Jynx [Entrenado]
+entity.serp:electabuzz.name=Electabuzz [Entrenado]
+entity.serp:magmar.name=Magmar [Entrenado]
+entity.serp:pinsir.name=Pinsir [Entrenado]
+entity.serp:tauros.name=Tauros [Entrenado]
+entity.serp:magikarp.name=Magikarp [Entrenado]
+entity.serp:gyarados.name=Gyarados [Entrenado]
+entity.serp:lapras.name=Lapras [Entrenado]
+entity.serp:ditto.name=Ditto [Entrenado]
+entity.serp:eevee.name=Eevee [Entrenado]
+entity.serp:vaporeon.name=Vaporeon [Entrenado]
+entity.serp:jolteon.name=Jolteon [Entrenado]
+entity.serp:flareon.name=Flareon [Entrenado]
+entity.serp:porygon.name=Porygon [Entrenado]
+entity.serp:omanyte.name=Omanyte [Entrenado]
+entity.serp:omastar.name=Omastar [Entrenado]
+entity.serp:kabuto.name=Kabuto [Entrenado]
+entity.serp:kabutops.name=Kabutops [Entrenado]
+entity.serp:aerodactyl.name=Aerodactyl [Entrenado]
+entity.serp:snorlax.name=Snorlax [Entrenado]
+entity.serp:articuno.name=Articuno [Entrenado]
+entity.serp:zapdos.name=Zapdos [Entrenado]
+entity.serp:moltres.name=Moltres [Entrenado]
+entity.serp:dratini.name=Dratini [Entrenado]
+entity.serp:dragonair.name=Dragonair [Entrenado]
+entity.serp:dragonite.name=Dragonite [Entrenado]
+entity.serp:mewtwo.name=Mewtwo [Entrenado]
+entity.serp:shadow_mewtwo.name=Mewtwo Oscuro [Entrenado]
+entity.serp:mew.name=Mew [Entrenado]
+
+//////////////////////////////////////////
+
+entity.serp:bulbasaurw.name=Bulbasaur
+entity.serp:ivysaurw.name=Ivysaur
+entity.serp:venusaurw.name=Venusaur
+entity.serp:charmanderw.name=Charmander
+entity.serp:charmeleonw.name=Charmeleon
+entity.serp:charizardw.name=Charizard
+entity.serp:squirtlew.name=Squirtle
+entity.serp:wartortlew.name=Wartortle
+entity.serp:blastoisew.name=Blastoise
+entity.serp:caterpiew.name=Caterpie
+entity.serp:metapodw.name=Metapod
+entity.serp:butterfreew.name=Butterfree
+entity.serp:weedlew.name=Weedle
+entity.serp:kakunaw.name=Kakuna
+entity.serp:beedrillw.name=Beedrill
+entity.serp:pidgeyw.name=Pidgey
+entity.serp:pidgeottow.name=Pidgeotto
+entity.serp:pidgeotw.name=Pidgeot
+entity.serp:rattataw.name=Rattata
+entity.serp:raticatew.name=Raticate
+entity.serp:spearoww.name=Spearow
+entity.serp:fearoww.name=Fearow
+entity.serp:ekansw.name=Ekans
+entity.serp:arbokw.name=Arbok
+entity.serp:pikachuw.name=Pikachu
+entity.serp:raichuw.name=Raichu
+entity.serp:sandshreww.name=Sandshrew
+entity.serp:sandslashw.name=Sandslash
+entity.serp:nidoranhw.name=Nidoran (hembra)
+entity.serp:nidorinaw.name=Nidorina
+entity.serp:nidoqueenw.name=Nidoqueen
+entity.serp:nidoranmw.name=Nidoran (macho)
+entity.serp:nidorinow.name=Nidorino
+entity.serp:nidokingw.name=Nidoking
+entity.serp:clefairyw.name=Clefairy
+entity.serp:clefablew.name=Clefable
+entity.serp:vulpixw.name=Vulpix
+entity.serp:ninetalesw.name=Ninetales
+entity.serp:jigglypuffw.name=Jigglypuff
+entity.serp:wigglytuffw.name=Wigglytuff
+entity.serp:zubatw.name=Zubat
+entity.serp:golbatw.name=Golbat
+entity.serp:oddishw.name=Oddish
+entity.serp:gloomw.name=Gloom
+entity.serp:vileplumew.name=Vileplume
+entity.serp:parasw.name=Paras
+entity.serp:parasectw.name=Parasect
+entity.serp:venonatw.name=Venonat
+entity.serp:venomothw.name=Venomoth
+entity.serp:diglettw.name=Diglett
+entity.serp:dugtriow.name=Dugtrio
+entity.serp:meowthw.name=Meowth
+entity.serp:persianw.name=Persian
+entity.serp:psyduckw.name=Psyduck
+entity.serp:golduckw.name=Golduck
+entity.serp:mankeyw.name=Mankey
+entity.serp:primeapew.name=Primeape
+entity.serp:growlithew.name=Growlithe
+entity.serp:arcaninew.name=Arcanine
+entity.serp:poliwagw.name=Poliwag
+entity.serp:poliwhirlw.name=Poliwhirl
+entity.serp:poliwrathw.name=Poliwrath
+entity.serp:abraw.name=Abra
+entity.serp:kadabraw.name=Kadabra
+entity.serp:alakazamw.name=Alakazam
+entity.serp:machopw.name=Machop
+entity.serp:machokew.name=Machoke
+entity.serp:machampw.name=Machamp
+entity.serp:bellsproutw.name=Bellsprout
+entity.serp:weepinbellw.name=Weepinbell
+entity.serp:victreebelw.name=Victreebel
+entity.serp:tentacoolw.name=Tentacool
+entity.serp:tentacruelw.name=Tentacruel
+entity.serp:geodudew.name=Geodude
+entity.serp:gravelerw.name=Graveler
+entity.serp:golemw.name=Golem
+entity.serp:ponytaw.name=Ponyta
+entity.serp:rapidashw.name=Rapidash
+entity.serp:slowpokew.name=Slowpoke
+entity.serp:slowbrow.name=Slowbro
+entity.serp:magnemitew.name=Magnemite
+entity.serp:magnetonw.name=Magneton
+entity.serp:farfetchdw.name=Farfetch'd
+entity.serp:doduow.name=Doduo
+entity.serp:dodriow.name=Dodrio
+entity.serp:seelw.name=Seel
+entity.serp:dewgongw.name=Dewgong
+entity.serp:grimerw.name=Grimer
+entity.serp:mukw.name=Muk
+entity.serp:shellderw.name=Shellder
+entity.serp:cloysterw.name=Cloyster
+entity.serp:gastlyw.name=Gastly
+entity.serp:haunterw.name=Haunter
+entity.serp:gengarw.name=Gengar
+entity.serp:onixw.name=Onix
+entity.serp:drowzeew.name=Drowzee
+entity.serp:hypnow.name=Hypno
+entity.serp:krabbyw.name=Krabby
+entity.serp:kinglerw.name=Kingler
+entity.serp:voltorbw.name=Voltorb
+entity.serp:electrodew.name=Electrode
+entity.serp:exeggcutew.name=Exeggcute
+entity.serp:exeggutorw.name=Exeggutor
+entity.serp:cubonew.name=Cubone
+entity.serp:marowakw.name=Marowak
+entity.serp:hitmonleew.name=Hitmonlee
+entity.serp:hitmonchanw.name=Hitmonchan
+entity.serp:lickitungw.name=Lickitung
+entity.serp:koffingw.name=Koffing
+entity.serp:weezingw.name=Weezing
+entity.serp:rhyhornw.name=Rhyhorn
+entity.serp:rhydonw.name=Rhydon
+entity.serp:chanseyw.name=Chansey
+entity.serp:tangelaw.name=Tangela
+entity.serp:kangaskhanw.name=Kangaskhan
+entity.serp:horseaw.name=Horsea
+entity.serp:seadraw.name=Seadra
+entity.serp:goldeenw.name=Goldeen
+entity.serp:seakingw.name=Seaking
+entity.serp:staryuw.name=Staryu
+entity.serp:starmiew.name=Starmie
+entity.serp:mrmimew.name=Mr. Mime
+entity.serp:scytherw.name=Scyther
+entity.serp:jynxw.name=Jynx
+entity.serp:electabuzzw.name=Electabuzz
+entity.serp:magmarw.name=Magmar
+entity.serp:pinsirw.name=Pinsir
+entity.serp:taurosw.name=Tauros
+entity.serp:magikarpw.name=Magikarp
+entity.serp:gyaradosw.name=Gyarados
+entity.serp:laprasw.name=Lapras
+entity.serp:dittow.name=Ditto
+entity.serp:eeveew.name=Eevee
+entity.serp:vaporeonw.name=Vaporeon
+entity.serp:jolteonw.name=Jolteon
+entity.serp:flareonw.name=Flareon
+entity.serp:porygonw.name=Porygon
+entity.serp:omanytew.name=Omanyte
+entity.serp:omastarw.name=Omastar
+entity.serp:kabutow.name=Kabuto
+entity.serp:kabutopsw.name=Kabutops
+entity.serp:aerodactylw.name=Aerodactyl
+entity.serp:snorlaxw.name=Snorlax
+entity.serp:articunow.name=Articuno
+entity.serp:zapdosw.name=Zapdos
+entity.serp:moltresw.name=Moltres
+entity.serp:dratiniw.name=Dratini
+entity.serp:dragonairw.name=Dragonair
+entity.serp:dragonitew.name=Dragonite
+entity.serp:mewtwow.name=Mewtwo
+entity.serp:shadow_mewtwow.name=Mewtwo Oscuro
+entity.serp:meww.name=Mew
+
+pokedex///////////////////////////////////
+
+bulbasaur.info=A Bulbasaur es fácil encontrar echándose una siesta a la luz del sol. La semilla de su lomo está llena de nutrientes y va creciendo cada vez que absorbe los rayos del sol.
+
+ivysaur.info=Ivysaur puede aumentar su fuerza con energía solar, si el capullo de su lomo comienza a oler dulce. Indica que su gran flor pronto florecerá.
+
+venusaur.info=Venusaur tiene una flor enorme en su espalda que recoge los rayos del sol y se transforma en energía. El aroma dulce de la flor tiene un efecto relajante en el ánimo de las personas.
+
+charmnader.info=Charmander prefiere los sitios cálidos, la llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado.
+
+charmeleon.info=Charmeleon es testarudo por naturaleza, siempre busca rivales para combatir. En la batalla esgrime su fiera cola, y araña con sus afiladas garras a sus enemigos.
+
+charizard.info=Charizard va volando en busca de rivales fuertes y echa fuego por la boca que es capaz de derretirlo todo. Se dice que el fuego de Charizard arde con más fuerza si ha vivido duras batallas.
+
+squirtle.info=El caparazón de Squirtle no sólo lo protege, su forma redondeada y sus hendiduras reducen su resistencia al agua que le permiten nadar más rápido.
+
+wartortle.info=Los Wartortle tienen una cola larga, cubierta de pelo y grueso que se torna oscuro con la edad. Utiliza sus peludas orejas, patas para mantener el equilibrio al nadar y los arañazos del caparazón muestran lo buen guerrero que es.
+
+blastoise.info=Blastoise lanza chorros de agua por los tubos que le salen del caparazón que tiene en la espalda, con gran precisión.  Deliberadamente se hace más pesado para contrarrestar la fuerza de los chorros de agua que dispara.
+
+caterpie.info=Caterpie tiene un apetito voraz, es capaz de devorar hojas que superen su tamaño. Sus patas tienen ventosas con las que se adhieren a cualquier sitio y escala árboles en busca de follaje.
+
+metapod.info=La capa que recubre su cuerpo es tan dura como una plancha de hierro. Metapod apenas se mueve, permanece inmóvil para que las vísceras evolucionen dentro de la coraza que le rodea.
+
+butterfree.info=Butterfree tiene una habilidad especial para encontrar delicioso polen en las flores. Pueden localizar, extraer y transportar polen de flores que estén floreciendo a 10 km de distancia de su nido.
+
+weedle.info=Weedle tiene un buen sentido del olfato que es capaz de distinguir las hojas que le gustan de las que no le gustan. Suelen habitar bosques, praderas tiene un afilado y venenoso aguijón de unos 5 cm encima de la cabeza.
+
+kakuna.info=Kakuna permanece prácticamente inmóvil al encaramarse a los árboles, aunque sea un capullo. Es capaz de moverse y extenderá su púa venenosa si es atacado.
+
+beedrill.info=Los Beedrill defienden su territorio a toda costa, no es conveniente acercarse a su colmena, por seguridad. Pueden vencer a cualquier rival con sus potentes aguijones venenosos.
+
+pidgey.info=Pidgey tiene un sentido de la orientación muy desarrollado, es común encontrarlo en zonas de hierba, bosques. Suelen ser muy dócil y ahuyenta a sus enemigos levantando arena.
+
+pidgeotto.info=Pidgeotto se apodera de una zona para hacer su territorio, la sobrevuela para controlarla, si lo invaden, no tendrá ningún reparo en castigarlo. Su visión es extraordinaria, aunque vuele muy alto, detectará todo movimiento de su presa.
+
+pidgeot.info=Aleteando sus alas con toda su fuerza, Pidgeot puede hacer una ráfaga de viento capaz de doblar árboles altos. Para intimidar a sus enemigos, extendiendo sus alas que poseen y pueden volar a una velocidad increíble.
+
+rattata.info=Rattata es muy cauteloso, cuando duerme mueve las orejas para oír todos los ruidos. No es nada delicado a la hora de elegir su hábitat y cualquier sitio es bueno para cavar su madriguera.
+
+raticate.info=A Raticate le crecen los colmillos firmes y fuertes, para mantenerlos afilados roe rocas, troncos. Gracias a las pequeñas membranas de las patas traseras, puede nadar por los ríos para atrapar presas.
+
+spearow.info=Spearow pía con tanta fuerza que se le puede oír a 1 km de distancia. Si el agudo chillido sigue una especie de eco, estaremos oyendo la respuesta de otros spearow que contestan ante el aviso de peligro.
+
+fearow.info=A fearow se le reconoce por tener un pescuezo, un pico largo que le permiten cazar en tierra y en el agua. Tiene una gran habilidad moviendo el fino pico para atrapar a sus presas.
+
+ekans.info=Ekans se enrosca para descansar, adoptando esta posición puede responder a cualquier amenaza que le aceche. Puede separar su mandíbula para engullir a grandes presas, aunque esto le dificulte el movimiento.
+
+arbok.info=Arbok se enrosca a su víctima, no hay forma de escapar de su asfixiante abrazo. Paralizando a su presa con los dibujos de su piel, apresa y envenena a la asustada víctima.
+
+pikachu.info=Cada vez que pikachu se encuentra algo nuevo, le lanza una sacudida eléctrica, Levanta su cola para vigilar los alrededores. Este inteligente Pokémon tuesta las duras bayas con electricidad para hacerlas más comestibles.
+
+raichu.info=Si las bolsas de los mofletes se le cargan demasiado, raichu planta la cola en el suelo para liberar electricidad. Es común encontrarlo en zonas chamuscadas cerca de la madriguera de este Pokémon.
+
+sandshrew.info=Sandshrew tiene una piel muy seca y extremadamente dura. Tiene la habilidad de hacerse una bola para evitar cualquier ataque, por las noches, escarba en la arena del desierto y se echa a descansar.
+
+sandslash.info=Sandslash se puede enroscar para convertirse en una bola de largas púas. En combate, hará lo posible por debilitar a su rival, le clavará las púas, se le acercará y le atacará con las afiladas garras.
+
+nidoranh.info=Nidoran tiene púas que segregan un veneno muy potente, las desarrolló como protección del cuerpo tan pequeño que tiene. Cuando se enfada, libera una horrible sustancia tóxica por el cuerno.
+
+nidorina.info=Cuando los nidorina están en familia, esconden las púas para evitar herirse unos a otros. Según parece, si se les separa de su grupo, se ponen muy nerviosos.
+
+nidoqueen.info=Nidoqueen tiene un cuerpo totalmente recubierto de escamas durísimas, lanzar por los aires a sus rivales de los violentos golpes que les propina. Cuando se trata de defender a sus crías, alcanza su nivel máximo de fuerza.
+
+nidoranm.info=El nidoran macho ha desarrollado músculos para mover las orejas para tener una mejor orientación, su cuerno está lleno de veneno. Primero embiste, y después lanza su venenosa cornada.
+
+nidorino.info=Nidorino tiene un cuerno de dureza superior a la del diamante. Si siente una presencia hostil, se le erizan las púas del lomo enseguida y desafía al enemigo con todas sus fuerzas.
+
+nidoking.info=La gruesa cola de nidoking encierra una fuerza realmente destructora. Si su enemigo queda atontado, le embiste con su robusto cuerpo.
+
+clefairy.info=Siempre que hay luna llena, salen en grupo para jugar, al amanecer, los clefairy, agotados, regresan a sus refugios de montaña para dormir acurrucados unos con otros.
+
+clefable.info=Clefable se mueve dando saltitos como si estuviera haciendo uso de las alas. Estos pequeños brincos le permiten caminar por el agua, es sabido que le encanta darse paseos por los lagos en tranquilas noches de luna llena.
+
+vulpix.info=En el interior del cuerpo de vulpix arde una llama que nunca se extingue. Durante el día, cuando suben las temperaturas, libera llamas por la boca para evitar recalentarse.
+
+ninetales.info=Ninetales emite una siniestra luz a través de los brillantes ojos que tiene, para conseguir controlar del todo la mente de su rival. Dicen que este Pokémon llega a vivir miles de años.
+
+jigglypuff.info=Jigglypuff tiene unas cuerdas vocales que ajustan sin problema la longitud de onda de su voz. Este Pokémon usa la habilidad que tiene para cantar con la longitud de onda necesaria para adormecer a su rival.
+
+wigglytuff.info=El cuerpo de Wigglytuff es muy flexible, su piel es tan suave que si dos de ellos se acurrucan juntos, no querrán separarse nunca. Ten cuidado de no enfadarle, o se inflará y golpeará con un golpe cuerpo.
+
+zubat.info=Zubat evita la luz del día porque le resulta perjudicial para la salud. Durante el día, permanece en cuevas o bajo los aleros de las casas viejas durmiendo colgado de las patas, cabeza abajo.
+
+golbat.info=Golbat derriba a sus víctimas mordiéndoles con los cuatro colmillos que tiene y chupándoles la sangre. Sólo entra en acción en las noches sin luna, revolotea en la oscuridad para atacar a Pokémon y personas.
+
+oddish.info=Oddish busca los suelos fértiles y ricos en nutrientes para plantarse en la tierra. Durante el día, se cree que le cambia la forma de los pies y se le empiezan a parecer a las raíces de los árboles.
+
+gloom.info=Gloom libera un fétido olor por los pistilos de la flor. Cuando está en peligro, el hedor se intensifica. Si está tranquilo y no se siente amenazado, no libera este desagradable olor.
+
+vileplume.info=El polen que contienen las esporas tóxicas de Vileplume causa unos ataques de alergia muy agudos. Una vez ha inmovilizado a las víctimas, las atrapa y las devora.
+
+paras.info=Lleva dos setas parásitas, llamadas tochukaso, está cubierto de esporas de seta al nacer, a medida que crece, las setas brotan de su lomo. Que se alimentan a partir de los nutrientes del propio Paras.
+
+parasect.info=Parasect es conocido por destruir en plaga grandes árboles, absorbiendo los nutrientes que tienen en la parte baja del tronco. Suelen vivir en lugares oscuros y húmedos, los preferidos, no del bicho, sino de la seta de su lomo.
+
+venonat.info=Los ojos del venonat funcionan como radares, rezuma veneno por todo su cuerpo. Atrapa y come pequeños bichos nocturnos atraídos por la luz.
+
+venomoth.info=Venomoth es nocturno, solo actúa en la oscuridad. Su alimento preferido son los pequeños insectos. Cuando ataca, agita sus largas alas violentamente para esparcir polvo venenoso a su alrededor.
+
+diglett.info=La mayoría de las granjas suelen criar Diglett por la razón de que, caven donde caven, dejan la tierra perfectamente labrada para sembrar. Roe las raíces de los árboles y solo Asomará la cabeza sólo cuando el sol no brille.
+
+dugtrio.info=Los Dugtrio son trillizos que se originaron a partir de un solo cuerpo, por eso piensan de la misma forma. A la hora de excavar, trabajan en equipo y sin descanso.
+
+meowth.info=Meowth saca las afiladas uñas de las zarpas para caminar a hurtadillas, dando sigilosos pasos para pasar inadvertido. No se sabe muy bien por qué, adora las monedas brillantes que resplandecen con la luz.
+
+persian.info=Persian tiene seis llamativos bigotes que le dan un aspecto feroz le sirven para detectar el movimiento del aire, delator de la presencia cercana de algún Pokémon. Si se le agarra por los bigotes, se vuelve dócil.
+
+psyduck.info=Los Psyduck tienen poderes místicos que no recuerda haber usado, por eso siempre parece desconcertado. Si su jaqueca crónica empeora, podría mostrar extraños poderes.
+
+golduck.info=Golduck Aparecen en ríos al anochecer, pueden usar poderes telequinéticos si su frente brilla misteriosamente. Nada con elegancia por las tranquilas aguas de ríos y lagos, donde se siente como pez en el agua.
+
+mankey.info=Cuando Mankey empieza a temblar, a respirar con más intensidad, seguro que va a enfadarse. Aunque prever su enfado no sirve de nada porque alcanza un estado de rabia, que no hay escapatoria.
+
+primeape.info=Cuando Primeape se enfada, se le acelera el ritmo cardíaco y se le fortalecen los músculos. Se pone furioso si nota que alguien le está mirando, Persigue a cualquiera que le vea enfadado.
+
+growlithe.info=Growlithe tiene un sentido del olfato excepcional es extremadamente fiel, ladrará sin temor a cualquier enemigo para defender a su entrenador. De naturaleza valiente, se enfrentara sin miedo a los enemigos.
+
+arcanine.info=Arcanine es conocido por lo veloz que es, es capaz de correr 10.000 km en 24 horas.Su magnífico ladrido transmite majestuosidad y todo el que lo escuche no podrá evitar adularlo.
+
+poliwag.info=Poliwag tiene una piel muy fina, tanto que es posible entrever a través de la misma las vísceras en espiral que posee. tiene la ventaja de ser flexible y hacer rebotar más de un zarpazo.
+
+poliwhirl.info=Poliwhirl, la gran parte de su piel es esponjosa, sin embargo, la piel de su espiral es muy suave. Aunque es hábil en tierra, prefiere vivir bajo el agua, pues hay menos peligros al acecho.
+
+poliwrath.info=Poliwrath tiene unos músculos fornidos , muy desarrollados que nunca se cansan por más que los use. Es tan fuerte e incansable que cruzar el océano Pacífico un par de veces no le supone ningún esfuerzo.
+
+abra.info=Abra necesita dormir 18 horas al día, si no pierde la habilidad que tiene de usar poderes de telequinesia. Si le atacan, Abra puede escapar usando teletransporte mientras duerme.
+
+kadabra.info=Kadabra lleva siempre una cuchara de plata en la mano, que usa para amplificar las ondas alfa de su cerebro. Dicen que sin la cuchara, sus poderes de telequinesia se reducen a la mitad.
+
+alakazam.info=El cerebro de Alakazam siempre está creciendo, el número de neuronas no deja de aumentar. Tiene un coeficiente intelectual de 5000 y tiene archivado en su memoria todo lo que ha ocurrido en el mundo.
+
+machop.info=Machop se entrena levantando a Graveler a modo de pesa. Algunos de estos Pokémon viajan por todo el mundo para aprender todo tipo de artes marciales.
+
+machoke.info=Machoke realiza sesiones de culturismo todo el día de entrenamiento le sirven también las veces que ayuda a la gente en tareas de esfuerzo físico. En sus días libres, van a la montaña para hacer más ejercicio.
+
+machamp.info=Machamp es conocido que domina todas las artes marciales. Si agarra a su rival con los cuatro brazos que tiene, su enemigo no tendrá nada que hacer.
+
+bellsprout.info=Bellsprout tiene un cuerpo delgado, flexible que le permite inclinarse, balancearse para esquivar los ataques. escupe por la boca un fluido corrosivo capaz de hacer que se derrita hasta el hierro.
+
+weepinbell.info=Weepinbell tiene un gancho a modo de extremidad superior trasera, que usa por la noche para colgarse de una rama para descansar. Si se mueve mientras duerme, puede acabar en el suelo.
+
+victreebel.info=Victreebel tiene una enredadera que le sale de la cabeza, atrae a su presa con miel aromática para derretirla luego en su boca. Al ingerir algo, incluso el objeto más duro se disolverá al instante.
+
+tentacool.info=Tentacool está compuesto en su mayor parte por agua, Si lo sacas del mar, se secará, quedará acartonado. Si llega a deshidratar, hay que ponerlo inmediatamente de vuelta en el mar.
+
+tentacruel.info=Tentacruel tiene unos tentáculos que puede alargar o acortar. Los usa para atrapar a su presa y debilitarla mediante una sustancia muy tóxica. Puede llegar a atrapar hasta a 80 presas a la vez.
+
+geodude.info=Cuanto más larga es la vida de Geodude, mayor es el desgaste que sufre, más redondeada la forma que va adquiriendo. Sin embargo, el corazón permanece siempre duro, rocoso y tosco.
+
+graveler.info=Las piedras son la comida preferida de Graveler. Sube a la cima de las montañas devorando todas las rocas que va encontrando a su paso, una vez que alcanza la cumbre, se baja rodando.
+
+golem.info=Golem vive en las montañas. Si se produce un gran terremoto, estos Pokémon descienden rodando en masa por las laderas.
+
+ponyta.info=Al nacer, Ponyta es muy débil, apenas puede ponerse en pie. Con todo, se va haciendo más fuerte al tropezarse y caerse en su intento por seguir a sus progenitores.
+
+rapidash.info=A Rapidash se le suele ver trotando sin rumbo fijo por los campos. Cuando tiene que ir a algún sitio en concreto, se le aviva el fuego de las melenas y emprende el galope llameante llegando a los 240 km/h.
+
+slowpoke.info=Slowpoke usa la cola para atrapar a sus presas metiéndola bajo el agua en las riberas de los ríos. Descansa ocioso junto al agua, si algo muerde su cola, no lo notará en todo el día.
+
+slowbro.info=Slowbro lleva en la cola un Shellder enganchado, sujeto por los dientes. Como Slowbro no puede usar la cola para pescar, se mete en el agua de mala gana en busca de sus presas.
+
+magnemite.info=Magnemite flota en el aire emitiendo ondas electromagnéticas a través de las unidades de las extremidades, que bloquean la gravedad. Si se agota su suministro de electricidad interno, es incapaz de mantenerse flotando.
+
+magneton.info=Magneton emite una fuerte energía magnética, fatal para los instrumentos electrónicos de precisión. Éste es el motivo por el que, dicen, mucha gente mantiene a este Pokémon en Poké ball.
+
+farfetchd.info=Farfetch'd lleva siempre una especie de palo de algún tipo de planta. Según parece, los hay mejores o peores y Tiene fama de haber luchado contra otros Pokémon con distintos palos.
+
+doduo.info=Las dos cabezas de Doduo duermen de forma independiente, por turnos. Mientras una duerme la otra hace de centinela por si aparecen enemigos.
+
+dodrio.info=Hay que tener cuidado cuando las tres cabezas de Dodrio miran cada una para un lado, pues están en guardia. No te acerques, cuando está vigilando porque puede darte un picotazo.
+
+seel.info=Seel busca a sus presas en aguas heladas, bajo las capas de hielo.
+Aunque torpe en tierra,es un hábil nadador Y lo que más le gusta es nadar en mares helados.
+
+dewgong.info=A dewgong le encanta quedarse medio dormido sobre la frialdad del hielo. Adora los mares helados con témpanos y usa su larga cola para cambiar de rumbo al nadar.r de rumbo al nadar.
+
+grimer.info=Grimer emergió del lodo que se formó en una zona contaminada en el fondo del mar. Le encanta todo lo que sea suciedad, Emana continuamente y por todo el cuerpo un horrible fluido contaminado de bacterias.
+
+muk.info=Le encanta comer cosas repulsivas. En ciudades sucias en las que la gente tira la basura por la calle, los Muk tienen sin duda su punto de encuentro.
+
+shellder.info=Por la noche, usa la ancha lengua que tiene para hacer un agujero en el fondo del mar para echarse a dormir. Mientras duerme, Shellder cierra la concha, pero deja la lengua por fuera.
+
+cloyster.info=Cloyster es capaz de nadar por el mar, su técnica consiste en tragar agua para expulsarla por el conducto que tiene en la parte trasera. Este mismo sistema es el que usa para lanzar los pinchos que tiene alrededor de la concha.
+
+gastly.info=Gastly está compuesto en gran medida de materia gaseosa, cuando hay viento el aire arrastra parte de esta materia. Suelen agruparse bajo los aleros de las casas para resguardarse del viento.
+
+haunter.info=Haunter es un Pokémon peligroso, Si en la oscuridad ves a uno flotando,haciéndote señas, no te acerques. Este intentará darte lametazos para robarte la energía.
+
+gengar.info=Esa mirada fija que flota en la oscuridad es de algún Gengar que disfruta maldiciendo a la gente. Para quitar la vida a su presa, se desliza en su sombra y espera su oportunidad en silencio.
+
+onix.info=Onix tiene un imán en el cerebro, que actúa como una brújula para no perder la orientación cuando está cavando túneles. A medida que crece, se le redondea y suaviza el cuerpo.
+
+drowzee.info=Si te pica la nariz mientras duermes, seguro que es porque tienes a un Drowzee cerca de la almohada intentando sacarte los sueños por la nariz para comérselos.
+
+hypno.info=Hypno lleva un péndulo en la mano,balanceo y este brillo que tiene sumen al rival en un estado de hipnosis profundo. Mientras busca a su presa, saca brillo al péndulo.
+
+kraby.info=Krabby vive en la playa, enterrado en agujeros en la arena. Cuando en las playas de arena fina escasea la comida, es común ver a estos Pokémon echando un pulso panza contra panza en defensa de su territorio.
+
+kingler.info=Kingler tiene una pinza enorme, descomunal que usa agitándola en el aire para comunicarse con otros. Lo malo es que, al pesarle tanto, se cansa enseguida.
+
+voltorb.info=Voltorb fue visto por primera vez en una empresa encargada de comercializar Poke Balls. Es muy sensible a la más mínima sacudida puede explotar, cuentan que se creó cuando alguien expuso una Poké Ball a una gran descarga eléctrica.
+
+electrode.info=Una de las características de Electrode es la atracción que siente hacia la electricidad. Son problemáticos que suelen agruparse cerca de centrales eléctricas para nutrirse de la energía recién generada.
+
+exeggcute.info=Está compuesto de seis huevos que forman una tupida piña que va girando. Cuando se empiezan a resquebrajar las cáscaras, no hay duda de que Exeggcute está a punto de evolucionar.
+
+exeggutor.info=Exeggutor es originario del trópico, cuando se expone a un sol intenso, le empiezan a crecer las cabezas. Hay quien dice que, cuando las cabezas caen al suelo, se unen para formar un Exeggcute.
+
+cubone.info=A Cubone le ahoga la pena porque no volverá a ver jamás a su madre, La luna le recuerda a veces a ella, se pone a chillar. Los churretes que tiene en el cráneo que lleva puesto, son debidos a las lágrimas que derrama.
+
+marowak.info=Marowak es más fuerte porque ha superado la pena por la pérdida de su madre. El ánimo de este Pokémon, ya curtido y fortalecido, no es muy fácil de alterar.
+
+hitmonlee.info=Hitmonlee tiene la facilidad de encoger , estirar las patas, con extremidades tan flexibles, propina unas patadas demoledoras. Tras la lucha, se masajea las piernas y relaja los músculos para descansar.
+
+hitmonchan.info=Dicen que Hitmonchan tiene el alma de un boxeador que estuvo entrenándose para un campeonato mundial. Tiene un espíritu indomable que nunca se doblega ante la adversidad.
+
+lickitung.info=Cada vez que Lickitung se encuentra con algo que no conoce, le da un lametazo. Es la forma que tiene de memorizar las cosas, por la textura y el sabor, no tolera los sabores ácidos.
+
+koffing.info=Koffing contiene sustancias tóxicas que mezcla con desperdicios para provocar una reacción química que libera un gas tremendamente venenoso. A mayor temperatura, mayor será la cantidad de gas.
+
+weezing.info=Weezing reduce, agranda el doble cuerpo que tiene para mezclar los gases tóxicos que contiene. Cuantos más gases mezcle, mayor serán la toxicidad y el nivel de putrefacción.
+
+rhyhorn.info=Rhyhorn corre en línea recta arrasando todo lo que encuentra en su camino, estrellándose de cabeza contra un bloque de acero, no se vería afectado. Bueno, como mucho notaría algo de dolor al día siguiente.
+
+rhydon.info=Rhydon tiene un cuerno anillado que le sirve de taladro, le resulta muy útil para perforar rocas, piedras. A veces, se queda atrapado en corrientes de magma, pero la tosca piel que tiene impide que sienta el calor.
+
+chansey.info=Chansey pone a diario huevos con un valor nutritivo altísimo. Camina con cuidado para que no se rompa su huevo, es muy rápido escapando, se dice que trae la felicidad al que los captura.
+
+tangela.info=A Tangela se le desprenden los tentáculos con facilidad en cuanto se los agarras, no le duele, sino que le resulta muy útil para escapar rápido. Además, al día siguiente le crecen otros.
+
+kangaskhan.info=No es recomendable molestar ni intentar atrapar a crías de Kangaskhan mientras estén jugando. Ya que seguro que su madre anda cerca, reaccionará con enfado y violencia.
+
+horsea.info=Si Horsea siente peligro, echará por la boca una densa tinta negra inconscientemente e intentará huir. Nada muy bien batiendo las aletas que tiene en el lomo.
+
+seadra.info=Seadra gira sobre sí mismo, crea unos remolinos lo suficientemente fuertes como para engullir barcos de pesca. Aprovecha las corrientes que crea para debilitar a su presa y tragársela de una vez.
+
+goldeen.info=A Goldeen le encanta nadar libremente , a su aire en ríos , estanques. Si pones a uno de estos en un acuario, usará el cuerno que tiene para romper las paredes, independientemente del grosor del cristal y escapar.
+
+seaking.info=Durante la puesta acuden Seaking de todas partes, coloreando los ríos de un rojo brillante. Cava con su cuerno un nido en las piedras del lecho del río para que sus huevos no sean arrastrados.
+
+staryu.info=Staryu parece comunicarse por la noche con las estrellas haciendo brillar el núcleo rojo de su cuerpo. Si sufre algún daño en alguna zona de su cuerpo, la regenerará sin problema.
+
+starmie.info=Starmie nada por el agua haciendo girar su cuerpo estrellado a modo de hélice. El núcleo de este Pokémon brilla y llega a tornarse de siete colores.
+
+mrmime.info=Mr. Mime es un hábil mimo desde que nace. Tiene una rara habilidad, puede solidificar el aire con los dedos y crear un muro invisible.
+
+scyther.info=Es espectacular ver lo rápido que es Scyther, su increíble velocidad refuerza el efecto de su par de guadañas que tiene en los brazos. Ya que rebanan gruesos troncos de un tajo.
+
+jynx.info=Jynx camina con ritmo, moviendo las caderas como si estuviera bailando. Realiza unos movimientos tan vistosos y atractivos que no hay quien pueda resistirse a mover las caderas.
+
+electabuzz.info=Al desatarse una tormenta, bandadas de Electabuzz se enfrentan para ver quién alcanza antes un sitio alto donde caen rayos. Su cuerpo descarga electricidad y si te acercas te pondrá los pelos de punta.
+
+magmar.info=Al luchar, Magmar expulsa violentas llamas por todo el cuerpo para intimidar a su rival. Estos estallidos de fuego crean ondas de calor que abrasan la hierba y los árboles más cercanas.
+
+pinsir.info=Pinsir tiene un par de cuernos imponentes recubiertos de pinchos, que se clavan en el cuerpo del rival. Una vez los ha clavado, no hay quien escape de su abrazo.
+
+tauros.info=No está contento a menos que esté continuamente de aquí para allá. Si no hay rival que luche contra Tauros, se estampa contra árboles grandes para calmarse y los embiste para echarlos abajo.
+
+magikarp.info=Magikarp es prácticamente inútil en combate, solo sirve para salpicar, se le considera muy débil. Salta y chapotea sin razón alguna. Es una presa fácil para Pidgeotto, que lo atrapa en pleno salto.
+
+gyarados.info=Dicen que en guerras pasadas, Gyarados aparecía dejando a su paso la ruina tambien el caos. Cuando aparece lo destroza todo y No deja de estar furioso hasta que lo destruye todo.
+
+lapras.info=Por culpa de la gente, Lapras está casi en extinción. Al anochecer, se pone a cantar quejicoso mientras busca a los miembros de su especie que puedan quedar.
+
+ditto.info=Ditto reorganiza la estructura de sus células para adoptar otras formas. Pero como intenta transformarse en algo guiándose por los datos que tenga almacenados en la memoria, habrá detalles que se le escapen.
+
+eevee.info=La genética de Eevee le permite mutar para adaptarse enseguida a cualquier medio en el que viva. La evolución de este Pokémon es posible gracias a las radiaciones emitidas por varias piedras.
+
+vaporeon.info=Vaporeon sufrió una mutación repentina pudo desarrollar aletas, branquias que le permiten vivir abajo del agua. Asimismo, tiene la habilidad de controlar las aguas.
+
+jolteon.info=Las células de Jolteon generan un nivel bajo de electricidad, cuya intensidad aumenta con la electricidad estática que acumula por un pelaje formado por agujas cargadas de electricidad. Esta característica le permite lanzar rayos.
+
+flareon.info=La suavidad del pelaje de Flareon tiene una función clara, libera calor para que no se asfixie. La temperatura corporal puede alcanzar los 900 grados centígrados.
+
+porygon.info=Creado por el hombre tras muchas investigaciones, sus habilidades son básicas. Porygon es capaz de convertirse en datos informáticos y de entrar en el ciberespacio. 
+
+omanyte.info=Omanyte es uno de esos Pokémon ancestrales que Vivía hace dos millones de años. La gente ha recuperado a partir de fósiles, si un enemigo le ataca, se esconderá dentro de la dura concha que tiene.
+
+omastar.info=Omastar usa los tentáculos para atrapar a su presa, Se cree que el motivo de su extinción fue el tamaño y el peso que llegó a alcanzar. La concha que lleva a cuestas, lo que le entorpeció y ralentizó los movimientos.
+
+kabuto.info=Kabuto es un Pokémon regenerado a partir de un fósil, en raras ocasiones, se han encontrado casos de ejemplares vivos. En sus 300 millones de años, este Pokémon no ha cambiado en nada.
+
+kabutops.info=Hace mucho tiempo kabutops buceaba para atrapar a su presa, parece que ha evolucionado, tambien ha cambiado su hábitat, del agua a pasado a la tierra. El cambio que se aprecia en las patas y branquias así lo confirma.
+
+aerodactyl.info=Los orígenes de aerodactyl datan de la era de los dinosaurios. Se regeneró a partir de material genético contenido en ámbar. Se supone que fue el amo de los cielos en aquellas épocas pasadas.
+
+snorlax.info=Un día cualquiera en la vida de Snorlax consiste nada más, nada menos que en comer y dormir. Es un Pokémon tan dócil que es fácil ver niños usando la gran panza que tiene como lugar de juegos.
+
+articuno.indo=Articuno es un legendario pájaro Pokémon que puede controlar el hielo. El batir de sus alas congela el aire y dicen que consigue hacer que nieve cuando vuela.
+
+zapdos.info=Zapdos es un legendario pájaro Pokémon que tiene la habilidad de controlar la electricidad. Suele vivir en nubarrones y gana mucha fuerza si le alcanzan los rayos.
+
+moltres.info=Moltres es un legendario pájaro Pokémon que tiene la habilidad de controlar el fuego. Dicen que, si resulta herido, se sumerge en el líquido magma de un volcán para arder y curarse.
+
+dratini.info=Dratini muda, se despoja de la vieja piel constantemente. Es algo que necesita hacer porque la energía que tiene en su interior no para de alcanzar niveles incontrolables.
+
+dragonair.info=Dragonair acumula grandes cantidades de energía dentro de sí. Dicen que altera el clima de la zona en la que está, descargando energía a través de las esferas de cristal que tiene en el cuello y en la cola.
+
+dragonite.info=Dragonite es capaz de dar la vuelta al mundo en solo 16 horas. Es de buen corazón que guía hasta tierra a barcos que se encuentran perdidos en plena tormenta y a punto de zozobrar.
+
+mewtwo.info=Mewtwo fue creado por manipulación genética. Pero, a pesar de que el hombre creó su cuerpo, dotar a Mewtwo de un corazón compasivo quedó en el olvido.
+
+mew.info=Dicen que Mew posee el mapa genético de todos los Pokémon. Puede hacerse invisible cuando quiere y así que pasa desapercibido cada vez que se le acerca alguien.
