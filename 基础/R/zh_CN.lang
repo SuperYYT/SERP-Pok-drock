@@ -321,10 +321,10 @@ item.serp:trading_graveleras.name=我将用阿罗拉-隆隆石进行交换
 
 Pokedex####################################
 
-serp.height=§lHeight:§r
-serp.weight=§lWeight:§r
-serp.type=§lType(s):§r
-serp.biome=§lLocation(s):§r
+serp.height=§l身高:§r
+serp.weight=§l重量:§r
+serp.type=§l类型(s):§r
+serp.biome=§l分布地(s):§r
 serp.getting=§lGetting:§r
 serp.bug=Bug
 serp.dark=Dark
