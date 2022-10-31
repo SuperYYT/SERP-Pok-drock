@@ -142,18 +142,18 @@ item.serp:clothing_ticket.name=服装折扣卷
 
 Suits######################################
 
-item.serp:ash_helmet.name=Ash's Cap
-item.serp:ash_chestplate.name=Ash's Jacket
-item.serp:ash_leggings.name=Ash's Pants
-item.serp:ash_boots.name=Ash's Sneakers
-item.serp:red_helmet.name=Red's Cap
-item.serp:red_chestplate.name=Red's Jacket
-item.serp:red_leggings.name=Red's Pants
-item.serp:red_boots.name=Red's Sneakers
-item.serp:green_helmet.name=Green's Hat
-item.serp:green_chestplate.name=Green's Blouse
-item.serp:green_leggings.name=Green's Skirt
-item.serp:green_boots.name=Green's Shoes
+item.serp:ash_helmet.name=小智的帽子
+item.serp:ash_chestplate.name=小智的夹克
+item.serp:ash_leggings.name=小智的裤子
+item.serp:ash_boots.name=小智的鞋
+item.serp:red_helmet.name=红色的帽子
+item.serp:red_chestplate.name=红色的夹克
+item.serp:red_leggings.name=红色的裤子
+item.serp:red_boots.name=红色的鞋
+item.serp:green_helmet.name=绿色的帽子
+item.serp:green_chestplate.name=绿色的衬衫
+item.serp:green_leggings.name=绿色的短裙
+item.serp:green_boots.name=绿色的鞋
 item.serp:rocket_helmet.name=Rocket grunt Cap
 item.serp:rocket_chestplate.name=Rocket grunt Suit
 item.serp:rocketm_leggings.name=Rocket grunt Pants
