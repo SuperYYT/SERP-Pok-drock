@@ -1,19 +1,19 @@
-pack.description=§fHave fun capturing, breeding and fighting alongside Pokémon with this addon for Minecraft bedrock!  §2created by Zacek el Serpentín, §cNo Play store application or any page other than Mcpedl and www.serpzacek.com have permission to distribute this project, do not encourage piracy. The names of the species and those of various objects are the property of the Pokémon company and this project is not related to the Pokémon video game saga
+pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享受捕捉、培育和战斗的乐趣！ §2由 Zacek el Serpentín 创作， §c除 MCPEDL 、 www.serpzacek.com 和 MineBBS 之外，没有任何商店或页面有权分发此项目，请勿鼓励盗版。物种名称和各种物体的名称是 Pokémon 公司的资产，本项目与 Pokémon 游戏无关
 
-dialogs///////////////////////////////////
+对话///////////////////////////////////
 
-rocket.1=So you want to fight a member of Team Rocket? You don't know the mistake you just made!
-rocket.2=Pokémon, Attack!
-rocket.3=Tsk... You just got lucky.
-rocket.4=Come collect your reward, even the greatest villains have our code of honor...
-rocket.5=What do you see? I no longer have Pokémon to continue fighting!
-rocket.6=ha! I warned you child!
-trainer.1=A Pokemon battle? Go ahead, I won't lose!
-trainer.2=Pokemon, go ahead!
-trainer.3=NOOO, this won't stay like this!
-trainer.4=Great fight! Come collect your reward, you've earned it.
-trainer.5=I don't have any more Pokémon to battle, I'll go to the Pokémon center...
-trainer.6=Let's go! me and my Pokemon are invincible!
+rocket.1=敢和火箭队员作对？ 你很快就会后悔的！
+rocket.2=宝可梦，攻击！
+rocket.3=切……算你运气好！
+rocket.4=来领取你的奖励吧，即使是最伟大的恶棍，我们也有荣誉守则......
+rocket.5=你在看什么？ 我已经没有宝可梦可以继续战斗了！
+rocket.6=哈！我警告过你小子！
+trainer.1=宝可梦对战？加油吧，我不可能输的！
+trainer.2=上吧！宝可梦！
+trainer.3=不！不会一直这样的！
+trainer.4=漂亮的战斗！来领取你的奖励吧，你已经得到它了。
+trainer.5=我没有宝可梦可以战斗了，我得去宝可梦中心……
+trainer.6=走吧！我和我的宝可梦是无敌的！
 
 //////////////////////////////////////////
 
