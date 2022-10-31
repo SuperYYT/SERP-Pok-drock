@@ -31,10 +31,10 @@ item.serp:pre_squirtle.name=杰尼龟，§b水§f系的小龟宝可梦？
 
 //////////////////////////////////////////
 
-item.serp:badge.name=Battle Badge
-item.serp:battle_permission.name=Battle Permission
-item.serp:slowpoke_tail.name=Slowpoke Tail
-item.serp:cooked_slowpoke_tail.name=Cooked Slowpoke tail
+item.serp:badge.name=对战徽章
+item.serp:battle_permission.name=对战许可证
+item.serp:slowpoke_tail.name=呆呆兽的尾巴
+item.serp:cooked_slowpoke_tail.name=煮熟的呆呆兽的尾巴
 item.serp:shellder_shell.name=Shellder Shell
 item.serp:cooked_magikarp.name=Cooked Magikarp
 item.serp:fossil_helix.name=Hélix fossil
