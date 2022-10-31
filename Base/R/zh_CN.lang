@@ -162,22 +162,22 @@ item.serp:rocket_boots.name=Rocket grunt Boots
 
 Balls######################################
 
-item.serp:pokeball.name=Poké ball
-item.serp:greatball.name=Great ball
-item.serp:ultraball.name=Ultra ball
-item.serp:masterball.name=Máster ball
-item.serp:diveball.name=Dive ball
-item.serp:duskball.name=Dusk ball
-item.serp:fastball.name=Fast ball
-item.serp:heavyball.name=Heavy ball
-item.serp:lureball.name=Lure ball
-item.serp:moonball.name=Moon ball
-item.serp:nestball.name=Nest ball
-item.serp:netball.name=Net ball
-item.serp:parkball.name=Park ball
-item.serp:premierball.name=Premiere ball
-item.serp:safariball.name=Safari ball
-item.serp:timerball.name=Timer ball
+item.serp:pokeball.name=精灵球
+item.serp:greatball.name=超级球
+item.serp:ultraball.name=高级球
+item.serp:masterball.name=大师球
+item.serp:diveball.name=潜水球
+item.serp:duskball.name=黑暗球
+item.serp:fastball.name=速度球
+item.serp:heavyball.name=沉重球
+item.serp:lureball.name=诱饵球
+item.serp:moonball.name=月亮球
+item.serp:nestball.name=巢穴球
+item.serp:netball.name=捕网球
+item.serp:parkball.name=公园球
+item.serp:premierball.name=纪念球
+item.serp:safariball.name=狩猎球
+item.serp:timerball.name=计时球
 
 Ball Parts#################################
 
