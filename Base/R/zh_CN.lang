@@ -1,4 +1,4 @@
-pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享受捕捉、培育和战斗的乐趣！ §2由 Zacek el Serpentín 创作， §c除 MCPEDL 、 www.serpzacek.com 和 MineBBS 之外，没有任何商店或页面有权分发此项目，请勿鼓励盗版。物种名称和各种物体的名称是 Pokémon 公司的资产，本项目与 Pokémon 游戏无关
+pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享受捕捉、培育和战斗的乐趣！ §2由 Zacek el Serpentín 创作，MineBBS 汉化， §c除 MCPEDL 、 www.serpzacek.com 和 MineBBS 之外，没有任何商店或页面有权分发此项目，请勿鼓励盗版。物种名称和各种物体的名称是 Pokémon 公司的资产，本项目与 Pokémon 游戏无关。
 
 介绍######################################
 
@@ -21,7 +21,7 @@ serp.choosing_poke=¿ 你会选择哪个精灵作为你最初的伙伴？
 serp.choosed_poke=不错的选择！
 serp.intro5=我会给你所选的初始宝可梦和一份初始工具包
 serp.intro6=关于宝可梦的许多冒险等着你！
-serp.intro7=本模组由Zacek el Serpentín制作
+serp.intro7=本模组由 Zacek el Serpentín 制作，MineBBS 汉化
 joy.1=欢迎来到宝可梦中心！在这里，您和您的宝可梦可以休息，直到它们恢复！
 joy.2=你可以用我旁边的机器治愈你被击败的宝可梦，它是免费的！
 joy.3=当你旅行时，你可以找到其他像这样的宝可梦中心，如果你走得太远，不要担心！
@@ -80,7 +80,7 @@ entity.serp:rotomarket_stuff.name=¡嗨！洛托姆！你想要一些东西吗�
 entity.serp:rotomarket_suits.name=¡嗨！洛托姆！你会买衣服吗？？
 entity.pokedrock.pilot.name=让我看看，你今天给我什么？
 
-Apricorn###################################
+球果###################################
 
 item.serp:apricorn_red.name=红球果
 item.serp:apricorn_blue.name=蓝球果
@@ -105,7 +105,7 @@ tile.serp:apricorn_red_block.name=球果红
 tile.serp:apricorn_white_block.name=球果白
 tile.serp:apricorn_yellow_block.name=球果黄
 
-Items######################################
+物品######################################
 
 item.serp:dynamax_band.name=极巨腕带
 item.serp:revive.name=活力碎片
@@ -140,7 +140,7 @@ item.serp:bike_pass.name=自行车通行证
 item.serp:ride_pass.name=骑乘通行证
 item.serp:clothing_ticket.name=服装折扣卷
 
-Suits######################################
+服装######################################
 
 item.serp:ash_helmet.name=小智的帽子
 item.serp:ash_chestplate.name=小智的夹克
@@ -160,7 +160,7 @@ item.serp:rocketm_leggings.name=火箭队队员制服-裤子
 item.serp:rocketf_leggings.name=火箭队队员制服-裙子
 item.serp:rocket_boots.name=火箭队队员制服-鞋子
 
-Balls######################################
+精灵球######################################
 
 item.serp:pokeball.name=精灵球
 item.serp:greatball.name=超级球
@@ -179,7 +179,7 @@ item.serp:premierball.name=纪念球
 item.serp:safariball.name=狩猎球
 item.serp:timerball.name=计时球
 
-Ball Parts#################################
+精灵球零件#################################
 
 item.serp:down_part.name=精灵球底座(未组装)
 item.serp:pokeball_up.name=精灵球盖子(未组装)
@@ -233,7 +233,7 @@ item.serp:fresh_water.name=美味之水
 item.serp:lemonade.name=果汁牛奶
 item.serp:soda_pop.name=劲爽汽水
 
-Actions####################################
+行为####################################
 
 action.interact.rotochange=更换分类
 action.interact.take_pokemon=捕捉宝可梦
@@ -246,7 +246,7 @@ action.interact.bet=¡下注！
 action.interact.store=商店
 action.interact.activate=¡启动！
 
-Spawn Eggs#################################
+刷怪蛋#################################
 
 item.spawn_egg.entity.serp:bike.name=自行车
 item.spawn_egg.entity.serp:poke_stop.name=宝可补给站(TCG)
@@ -262,7 +262,7 @@ item.spawn_egg.entity.serp:jenny.name=君莎(NPC)
 item.spawn_egg.entity.serp:store.name=商店店员(NPC)
 item.spawn_egg.entity.serp:communicator_spawn.name=洛托姆通讯器
 
-Trade//////////////////////////////////////
+交易//////////////////////////////////////
 
 item.serp:trading_kadabra.name=我将用勇基拉进行交换
 item.serp:trading_kadabras.name=我将用闪光勇基拉进行交换
@@ -319,7 +319,7 @@ item.serp:trading_pumpkaboos.name=我将用闪光南瓜精进行交换
 item.serp:trading_gravelera.name=我将用阿罗拉-隆隆石进行交换
 item.serp:trading_graveleras.name=我将用闪光阿罗拉-隆隆石进行交换
 
-Pokedex####################################
+宝可梦图鉴####################################
 
 serp.height=§l身高：§r
 serp.weight=§l重量：§r
