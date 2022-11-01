@@ -3,7 +3,7 @@ pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享
 介绍######################################
 
 item.serp:button_a.name=按键A
-ball.catch=漂亮！我抓到了这只宝可梦！
+ball.catch=漂亮！我抓住了这只宝可梦！
 ball.free=哦不！我差一点就抓住了！
 skill.1=技能 1
 skill.2=技能 2
@@ -14,10 +14,10 @@ attack.bold=奋力进攻
 serp.intro1=嗨，你好！欢迎来到宝可梦的世界！
 serp.intro2=这个世界生活着被称为宝可梦的生物！
 serp.intro3=对于有的人来说，宝可梦是宠物。更多人则利用它们进行战斗
-serp.intro4=现在，让我们看看，你的名字是
+serp.intro4=现在，让我们看看，你的名字是……
 serp.intro4.1=，对吗？
 serp.choosing_gen=你会选择哪一世代？
-serp.choosing_poke=¿ 你会选择哪个精灵作为你最初的伙伴？
+serp.choosing_poke=你会选择哪个精灵作为你最初的伙伴？
 serp.choosed_poke=不错的选择！
 serp.intro5=我会给你所选的初始宝可梦和一份初始工具包
 serp.intro6=关于宝可梦的许多冒险等着你！
@@ -44,18 +44,18 @@ store.ride=这是……骑行通行证？？ 给你了，保重！
 
 任务####################################
 
-communicator.on=欢迎来到 洛托姆-通讯器！ 蹲下并互动以切换联系人。
-trainer.mission=你好！ 发生这种情况，我需要一颗许愿星、一颗钥石或一个稀有糖果碗。 如果你帮助我，我会给你我背包里的东西！
-trainer.thanks=非常感谢！ 这是你的奖励。
-prof.mission=你好！ 你需要我检查什么吗？
-prof.mega=哦，钥石！ 好的，这个设备将帮助你正确使用你的能量。 它被称为超级戒指！
-prof.dynamax=这是……许愿星？！ 极好的！ 使用此设备，您将能够释放神奇宝贝的极巨化能量，它被称为极巨腕带！
-prof.egg=一个蛋……虽然它坏了，但我仍然可以把它拿回去。 拿着！ 把它带到私人实验室孵化！
+communicator.on=欢迎来到洛托姆-通讯器！下蹲并互动以切换联系人。
+trainer.mission=你好！发生这种情况，我需要一颗许愿星、一颗钥石或一个稀有糖果碗。如果你帮助我，我会给你我背包里的东西！
+trainer.thanks=非常感谢！这是你的奖励。
+prof.mission=你好！你需要我检查什么吗？
+prof.mega=哦，钥石！好的，这个设备将帮助你正确使用你的能量。它被称为超级环！
+prof.dynamax=这是……许愿星？！极好的！使用此设备，您将能够释放神奇宝贝的极巨化能量，它被称为极巨腕带！
+prof.egg=一个蛋……虽然它损坏了，但我仍然可以把它拿回去。拿着！把它带到私人实验室孵化！
 mission.legendary=向我展示你作为宝可梦训练师的技能，我会给你证明传奇的宝可梦存在的证据！
-goh.mission=你好！ 你有任何与传奇的宝可梦有关的物品吗？ 如果有，请给我看看，我会给你必要的工具来召唤他们！
-goh.articuno=哇，冰羽！ 有了这个，我可以检查急冻鸟之类的......走吧！如果你把它给予胡帕戒指，急冻鸟肯定会出现！
-goh.zapdos=哇，电羽！ 有了这个，我可以检查闪电鸟之类的......来吧！如果你把它给予胡帕戒指，闪电鸟肯定会出现！
-goh.moltres=哇，火羽！ 有了这个，我可以检查火焰鸟的口味什么的......走吧！如果你把它给予胡帕戒指，火焰鸟肯定会出现！
+goh.mission=你好！你有任何与传奇的宝可梦有关的物品吗？如果有，请给我看看，我会给你必要的工具来召唤他们！
+goh.articuno=哇，冰羽！有了这个，我可以检查急冻鸟之类的……走吧！如果你把它给予胡帕戒指，急冻鸟肯定会出现！
+goh.zapdos=哇，电羽！有了这个，我可以检查闪电鸟之类的……来吧！如果你把它给予胡帕戒指，闪电鸟肯定会出现！
+goh.moltres=哇，火羽！有了这个，我可以检查火焰鸟的口味什么的……走吧！如果你把它给予胡帕戒指，火焰鸟肯定会出现！
 
 对战#####################################
 
@@ -72,12 +72,12 @@ combat.critic=暴击！
 
 轮播对话################################
 
-entity.serp:pc_description.name=¡欢迎在线 Poké 市场！
-entity.serp:rotomarket_buy.name=¡嗨！洛托姆！你给我带来了什么？？
-entity.serp:rotomarket_potions.name=¡嗨！洛托姆！你想要一些消耗品吗？
-entity.serp:rotomarket_pokeballs.name=¡嗨！洛托姆！你想买精灵球吗？？
-entity.serp:rotomarket_stuff.name=¡嗨！洛托姆！你想要一些东西吗？
-entity.serp:rotomarket_suits.name=¡嗨！洛托姆！你会买衣服吗？？
+entity.serp:pc_description.name=欢迎在线 Poké 市场！
+entity.serp:rotomarket_buy.name=嗨！洛托姆！你给我带来了什么？？
+entity.serp:rotomarket_potions.name=嗨！洛托姆！你想要一些消耗品吗？
+entity.serp:rotomarket_pokeballs.name=嗨！洛托姆！你想买精灵球吗？？
+entity.serp:rotomarket_stuff.name=嗨！洛托姆！你想要一些东西吗？
+entity.serp:rotomarket_suits.name=嗨！洛托姆！你会买衣服吗？？
 entity.pokedrock.pilot.name=让我看看，你今天给我什么？
 
 球果###################################
@@ -88,22 +88,22 @@ item.serp:apricorn_white.name=白球果
 item.serp:apricorn_yellow.name=黄球果
 item.serp:apricorn_black.name=黑球果
 item.serp:apricorn_green.name=绿球果
-item.serp:apricorn_cyan.name=蓝球果
+item.serp:apricorn_cyan.name=青球果
 item.serp:apricorn_pink.name=粉球果
 item.serp:apricorn_orange.name=橙球果
-tile.serp:berry_top.name=浆果树顶
-tile.serp:berry_leaves_dark.name=浆果树叶(dark)
-tile.serp:berry_leaves_light.name=浆果树叶(light)
+tile.serp:berry_top.name=浆果树冠
+tile.serp:berry_leaves_dark.name=深色浆果叶
+tile.serp:berry_leaves_light.name=浅色浆果叶
 tile.serp:berry_log.name=浆果树原木
 tile.serp:apricorn_stem.name=球果茎
-tile.serp:apricorn_black_block.name=球果黑
-tile.serp:apricorn_blue_block.name=球果蓝
-tile.serp:apricorn_cyan_block.name=球果蓝绿
-tile.serp:apricorn_green_block.name=球果绿
-tile.serp:apricorn_orange_block.name=球果橙
-tile.serp:apricorn_red_block.name=球果红
-tile.serp:apricorn_white_block.name=球果白
-tile.serp:apricorn_yellow_block.name=球果黄
+tile.serp:apricorn_black_block.name=黑球果
+tile.serp:apricorn_blue_block.name=蓝球果
+tile.serp:apricorn_cyan_block.name=青球果
+tile.serp:apricorn_green_block.name=绿球果
+tile.serp:apricorn_orange_block.name=橙球果
+tile.serp:apricorn_red_block.name=红球果
+tile.serp:apricorn_white_block.name=白球果
+tile.serp:apricorn_yellow_block.name=黄球果
 
 物品######################################
 
@@ -116,7 +116,7 @@ item.serp:candy_bowl.name=稀有糖果碗
 item.serp:vs_seeker.name=对战搜寻器
 item.serp:poke_ride.name=骑行装置
 item.serp:rare_candy.name=稀有糖果
-item.serp:poke.name=宝可元
+item.serp:poke.name=宝可币
 item.serp:fluffy_tail.name=向尾喵的尾巴
 item.serp:poke_toy.name=宝可尾草
 item.serp:key_shard_natural.name=天然的巨型碎片
@@ -125,20 +125,20 @@ item.serp:x_factor.name=x元素
 item.serp:y_factor.name=y元素
 item.serp:key_stone.name=钥石
 item.serp:mega_ring.name=超级环
-item.serp:mega_ring_empty.name=超级环空
+item.serp:mega_ring_empty.name=超级环
 item.serp:mega_ring_x.name=超级环X
-item.serp:mega_ring_y.name=超级环空Y
+item.serp:mega_ring_y.name=超级环Y
 item.serp:berry_seeds.name=浆果种子
 item.serp:apricorn_seed.name=球果种子
 item.serp:poke_ore.name=月之石矿
 item.serp:key_ore.name=巨型碎片矿
 item.serp:wish_ore.name=许愿星矿
 item.serp:wishing_star.name=许愿星
-item.serp:bad_egg.name=坏蛋
+item.serp:bad_egg.name=损坏的蛋
 item.serp:pokemon_egg.name=宝可梦的蛋
-item.serp:bike_pass.name=自行车通行证
-item.serp:ride_pass.name=骑乘通行证
-item.serp:clothing_ticket.name=服装折扣卷
+item.serp:bike_pass.name=自行车兑换券
+item.serp:ride_pass.name=骑乘许可证
+item.serp:clothing_ticket.name=服装兑换券
 
 服装######################################
 
@@ -181,22 +181,22 @@ item.serp:timerball.name=计时球
 
 精灵球零件#################################
 
-item.serp:down_part.name=精灵球底座(未组装)
-item.serp:pokeball_up.name=精灵球盖子(未组装)
-item.serp:greatball_up.name=超级球盖子(未组装)
-item.serp:ultraball_up.name=高级球盖子(未组装)
-item.serp:diveball_up.name=潜水球盖子(未组装)
-item.serp:duskball_up.name=黑暗球盖子(未组装)
-item.serp:fastball_up.name=速度球盖子(未组装)
-item.serp:heavyball_up.name=沉重球盖子(未组装)
-item.serp:lureball_up.name=诱饵球盖子(未组装)
-item.serp:moonball_up.name=月亮球盖子(未组装)
-item.serp:nestball_up.name=巢穴球盖子(未组装)
-item.serp:netball_up.name=捕网球盖子(未组装)
-item.serp:parkball_up.name=公园球盖子(未组装)
-item.serp:premierball_up.name=纪念球盖子(未组装)
-item.serp:safariball_up.name=狩猎球盖子(未组装)
-item.serp:timerball_up.name=计时球盖子(未组装)
+item.serp:down_part.name=精灵球底座
+item.serp:pokeball_up.name=精灵球盖
+item.serp:greatball_up.name=超级球盖
+item.serp:ultraball_up.name=高级球盖
+item.serp:diveball_up.name=潜水球盖
+item.serp:duskball_up.name=黑暗球盖
+item.serp:fastball_up.name=速度球盖
+item.serp:heavyball_up.name=沉重球盖
+item.serp:lureball_up.name=诱饵球盖
+item.serp:moonball_up.name=月亮球盖
+item.serp:nestball_up.name=巢穴球盖
+item.serp:netball_up.name=捕网球盖
+item.serp:parkball_up.name=公园球盖
+item.serp:premierball_up.name=纪念球盖
+item.serp:safariball_up.name=狩猎球盖
+item.serp:timerball_up.name=计时球盖
 
 进化之石#####################################
 
@@ -242,9 +242,9 @@ action.interact.fossil_revive=复活化石
 action.interact.amber_revive=提取DNA
 action.interact.grow=使用肥料
 action.interact.take_apricorn=取得浆果
-action.interact.bet=¡下注！
+action.interact.bet=下注！
 action.interact.store=商店
-action.interact.activate=¡启动！
+action.interact.activate=启动！
 
 刷怪蛋#################################
 

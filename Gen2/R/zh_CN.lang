@@ -23,22 +23,22 @@ item.serp:pre_cyndaquil.name=火球术，§c火§f属性的火鼠宝可梦？
 item.serp:pre_totodile.name=小锯鳄，§b水§f系的大颚宝可梦？
 item.serp:badge.name=战斗徽章
 item.serp:battle_permission.name=战斗许可
-item.serp:pichu_plush.name=皮丘毛绒（Pichu plush）
+item.serp:pichu_plush.name=皮丘玩偶
 item.serp:metal_coat.name=金属膜
 
 //////////////////////////////////////////
 
 action.interact.next=下一步
 action.interact.serp_other=查看其它初始宝可梦
-action.interact.mega=¡超级进化！
-action.interact.max=¡极巨化！
+action.interact.mega=超级进化！
+action.interact.max=极巨化！
 action.interact.pokedex=查看宝可梦图鉴的记录
-action.interact.evolve=¡进化！
+action.interact.evolve=进化！
 action.interact.pokeride=Put Poke Ride
 action.interact.unride=Remove Poke Ride
-action.interact.ride.pokemon=¡Use Poke Ride!
-action.interact.return=¡回来吧，宝可梦！
-action.interact.to_fight=¡去战斗！
+action.interact.ride.pokemon=Use Poke Ride!
+action.interact.return=回来吧，宝可梦！
+action.interact.to_fight=去战斗！
 action.interact.stop_fight=停止战斗
 
 //////////////////////////////////////////
