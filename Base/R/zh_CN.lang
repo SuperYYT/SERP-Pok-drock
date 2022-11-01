@@ -154,11 +154,11 @@ item.serp:green_helmet.name=绿色的帽子
 item.serp:green_chestplate.name=绿色的衬衫
 item.serp:green_leggings.name=绿色的短裙
 item.serp:green_boots.name=绿色的鞋
-item.serp:rocket_helmet.name=火箭队队员制服-帽子
-item.serp:rocket_chestplate.name=火箭队队员制服-上衣
-item.serp:rocketm_leggings.name=火箭队队员制服-裤子
-item.serp:rocketf_leggings.name=火箭队队员制服-裙子
-item.serp:rocket_boots.name=火箭队队员制服-鞋子
+item.serp:rocket_helmet.name=火箭队员制服-帽子
+item.serp:rocket_chestplate.name=火箭队员制服-上衣
+item.serp:rocketm_leggings.name=火箭队员制服-裤子
+item.serp:rocketf_leggings.name=火箭队员制服-裙子
+item.serp:rocket_boots.name=火箭队员制服-鞋子
 
 精灵球######################################
 
