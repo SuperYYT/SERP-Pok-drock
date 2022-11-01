@@ -43,34 +43,34 @@ action.interact.stop_fight=停止战斗
 
 //////////////////////////////////////////
 
-action.hint.exit.serp:meganium=潜行以离开大兰葵
-action.hint.exit.serp:meganiums=潜行以离开闪光大兰葵
-action.hint.exit.serp:typhlosion=潜行以离开火暴兽
-action.hint.exit.serp:typhlosions=潜行以离开闪光火暴兽
-action.hint.exit.serp:feraligatr=潜行以离开大力鳄
-action.hint.exit.serp:feraligatrs=潜行以离开闪光大力鳄
-action.hint.exit.serp:xatu=潜行以离开天然鸟
-action.hint.exit.serp:xatus=潜行以离开闪光天然鸟
-action.hint.exit.serp:skarmory=潜行以离开盔甲鸟
-action.hint.exit.serp:skarmorys=潜行以离开闪光盔甲鸟
-action.hint.exit.serp:kingdra=潜行以离开刺龙王
-action.hint.exit.serp:kingdras=潜行以离开闪光刺龙王
-action.hint.exit.serp:entei=潜行以离开炎帝
-action.hint.exit.serp:enteis=潜行以离开闪光炎帝
-action.hint.exit.serp:raikou=潜行以离开雷公
-action.hint.exit.serp:raikous=潜行以离开闪光雷公
-action.hint.exit.serp:suicune=潜行以离开水君
-action.hint.exit.serp:suicunes=潜行以离开闪光水君
-action.hint.exit.serp:hooh=潜行以离开凤王
-action.hint.exit.serp:hoohs=潜行以离开闪光凤王
-action.hint.exit.serp:lugia=潜行以离开洛奇亚
-action.hint.exit.serp:lugias=潜行以离开闪光洛奇亚
+action.hint.exit.serp:meganium=按潜行离开大兰葵
+action.hint.exit.serp:meganiums=按潜行离开闪光大兰葵
+action.hint.exit.serp:typhlosion=按潜行离开火暴兽
+action.hint.exit.serp:typhlosions=按潜行离开闪光火暴兽
+action.hint.exit.serp:feraligatr=按潜行离开大力鳄
+action.hint.exit.serp:feraligatrs=按潜行离开闪光大力鳄
+action.hint.exit.serp:xatu=按潜行离开天然鸟
+action.hint.exit.serp:xatus=按潜行离开闪光天然鸟
+action.hint.exit.serp:skarmory=按潜行离开盔甲鸟
+action.hint.exit.serp:skarmorys=按潜行离开闪光盔甲鸟
+action.hint.exit.serp:kingdra=按潜行离开刺龙王
+action.hint.exit.serp:kingdras=按潜行离开闪光刺龙王
+action.hint.exit.serp:entei=按潜行离开炎帝
+action.hint.exit.serp:enteis=按潜行离开闪光炎帝
+action.hint.exit.serp:raikou=按潜行离开雷公
+action.hint.exit.serp:raikous=按潜行离开闪光雷公
+action.hint.exit.serp:suicune=按潜行离开水君
+action.hint.exit.serp:suicunes=按潜行离开闪光水君
+action.hint.exit.serp:hooh=按潜行离开凤王
+action.hint.exit.serp:hoohs=按潜行离开闪光凤王
+action.hint.exit.serp:lugia=按潜行离开洛奇亚
+action.hint.exit.serp:lugias=按潜行离开闪光洛奇亚
 
 //////////////////////////////////////////
 
 item.spawn_egg.entity.serp:elm.name=空木博士
 item.spawn_egg.entity.serp:neo_rocket.name=新火箭队
-item.spawn_egg.entity.serp:trainer2.name=第二世代的训练师
+item.spawn_egg.entity.serp:trainer2.name=第二世代训练师
 
 //////////////////////////////////////////
 
