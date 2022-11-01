@@ -93,9 +93,11 @@ action.hint.exit.serp:zapdos=按潜行离开闪电鸟
 action.hint.exit.serp:zapdoss=按潜行离开闪光闪电鸟
 action.hint.exit.serp:moltres=按潜行离开火焰鸟
 action.hint.exit.serp:moltress=按潜行离开闪光火焰鸟
+action.hint.exit.serp:bike=按潜行离开自行车
 
 //////////////////////////////////////////
 
+item.spawn_egg.entity.serp:profs.name=大木博士
 item.spawn_egg.entity.serp:rocket.name=火箭队
 item.spawn_egg.entity.serp:trainer.name=第一世代训练师
 
