@@ -2,7 +2,7 @@ pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享
 
 介绍######################################
 
-item.serp:button_a.name=Button A
+item.serp:button_a.name=按键A
 ball.catch=漂亮！我抓到了一宝可梦！
 ball.free=哦不！我差一点就抓住了！
 skill.1=技能 1
@@ -12,16 +12,16 @@ attack.main=主攻
 attack.secondary=反击/二次进攻
 attack.bold=Bold Attack
 serp.intro1=嗨，你好！欢迎来到宝可梦的世界！
-serp.intro2=这个世界居住着被称为宝可梦的生物！
-serp.intro3=对于某些人来说，宝可梦是宠物。其他人则使用它们进行战斗
+serp.intro2=这个世界生活着被称为宝可梦的生物！
+serp.intro3=对于有的人来说，宝可梦是宠物。更多人则利用它们进行战斗
 serp.intro4=现在，让我们看看，你的名字是
 serp.intro4.1=，对吗？
 serp.choosing_gen=你会选择哪一世代？
 serp.choosing_poke=¿ 你会选择哪个精灵作为你最初的伙伴？
 serp.choosed_poke=不错的选择！
-serp.intro5=我会给你初始宝可梦和一份初始工具包
+serp.intro5=我会给你所选的初始宝可梦和一份初始工具包
 serp.intro6=关于宝可梦的许多冒险等着你！
-serp.intro7=这个addon是由Zacek el Serpentín制作
+serp.intro7=本模组由Zacek el Serpentín制作
 joy.1=欢迎来到宝可梦中心！在这里，您和您的宝可梦可以休息，直到它们恢复！
 joy.2=你可以用我旁边的机器治愈你被击败的宝可梦，它是免费的！
 joy.3=当你旅行时，你可以找到其他像这样的宝可梦中心，如果你走得太远，不要担心！
@@ -44,7 +44,7 @@ store.ride=这是……骑行通行证？？ 给你了，保重！
 
 任务####################################
 
-communicator.on=欢迎来到 罗托姆-通讯器！ 蹲下并互动以切换联系人。
+communicator.on=欢迎来到 洛托姆-通讯器！ 蹲下并互动以切换联系人。
 trainer.mission=你好！ 发生这种情况，我需要一颗许愿星、一颗钥石或一个稀有糖果碗。 如果你帮助我，我会给你我背包里的东西！
 trainer.thanks=非常感谢！ 这是你的奖励。
 prof.mission=你好！ 你需要我检查什么吗？
@@ -110,7 +110,7 @@ Items######################################
 item.serp:dynamax_band.name=极巨腕带
 item.serp:revive.name=活力碎片
 item.compass.name=宝可梦图鉴
-item.lodestonecompass.name=Lodestone Pokédex
+item.lodestonecompass.name=磁石宝可梦图鉴
 item.serp:mulch.name=湿湿肥
 item.serp:candy_bowl.name=稀有糖果碗
 item.serp:vs_seeker.name=对战搜寻器
@@ -235,22 +235,22 @@ item.serp:soda_pop.name=劲爽汽水
 
 Actions####################################
 
-action.interact.rotochange=Change Category
-action.interact.take_pokemon=Take Pokémon
-action.interact.destroy=Disarm
-action.interact.fossil_revive=Fossil Revive
-action.interact.amber_revive=Extract DNA
-action.interact.grow=Use Mulch
-action.interact.take_apricorn=Take Apricorn
+action.interact.rotochange=更换分类
+action.interact.take_pokemon=捕捉宝可梦
+action.interact.destroy=解除武装
+action.interact.fossil_revive=复活化石
+action.interact.amber_revive=提取DNA
+action.interact.grow=使用肥料
+action.interact.take_apricorn=取得浆果
 action.interact.bet=¡Bet!
-action.interact.store=Store
-action.interact.activate=¡Activate!
+action.interact.store=商店
+action.interact.activate=¡启动！
 
 Spawn Eggs#################################
 
 item.spawn_egg.entity.serp:bike.name=自行车
 item.spawn_egg.entity.serp:poke_stop.name=宝可补给站(TCG)
-item.spawn_egg.entity.serp:key_spawn.name=Table to Disassemble
+item.spawn_egg.entity.serp:key_spawn.name=拆卸台
 item.spawn_egg.entity.serp:slot_spawn.name=老虎机
 item.spawn_egg.entity.serp:healer_spawn.name=宝可梦治疗机
 item.spawn_egg.entity.serp:pc_box_spawn.name=宝可梦电脑(PC)
@@ -321,44 +321,44 @@ item.serp:trading_graveleras.name=我将用阿罗拉-隆隆石(闪光)进行交�
 
 Pokedex####################################
 
-serp.height=§l身高:§r
-serp.weight=§l重量:§r
-serp.type=§l类型(s):§r
-serp.biome=§l分布地(s):§r
-serp.getting=§lGetting:§r
-serp.bug=Bug
-serp.dark=Dark
-serp.dragon=Dragon
-serp.electric=Electric
-serp.fairy=Fairy
-serp.fight=Fight
-serp.fire=Fire
-serp.flying=Flying
-serp.ghost=Ghost
-serp.grass=Plant
-serp.ground=Ground
-serp.ice=Ice
-serp.normal=Normal
-serp.poison=Poison
-serp.psychic=Psychic
-serp.rock=Rock
-serp.steel=Steel
-serp.water=Water
-serp.evolve=Evolve
-serp.unknown=Unknown
-serp.mission=Mission
-serp.any=Everywhere
-serp.cave=Caves
-serp.night=At night
-serp.desert=Desert
-serp.ocean=Ocean
-serp.frozen_ocean=Frozen Ocean
-serp.river=River
-serp.plains=Plains
-serp.forest=Forests
-serp.birch=Birch Forest
-serp.dark_f=Dark Forest
-serp.mesa=Mesa
-serp.beach=Beach
-serp.savanna=Savanna
-serp.sunflower=Sunflower Plains 
+serp.height=§l身高：§r
+serp.weight=§l重量：§r
+serp.type=§l类型：§r
+serp.biome=§l分布地：§r
+serp.getting=§l获取：§r
+serp.bug=虫
+serp.dark=恶
+serp.dragon=龙
+serp.electric=电
+serp.fairy=妖精
+serp.fight=格斗
+serp.fire=火
+serp.flying=飞行
+serp.ghost=幽灵
+serp.grass=草
+serp.ground=地面
+serp.ice=冰
+serp.normal=一般
+serp.poison=毒
+serp.psychic=超能力
+serp.rock=岩石
+serp.steel=钢
+serp.water=水
+serp.evolve=进化
+serp.unknown=未知
+serp.mission=任务
+serp.any=任何地方
+serp.cave=山洞
+serp.night=夜间
+serp.desert=沙漠
+serp.ocean=海洋
+serp.frozen_ocean=冻洋
+serp.river=河流
+serp.plains=平原
+serp.forest=森林
+serp.birch=桦木林
+serp.dark_f=黑森林
+serp.mesa=恶地
+serp.beach=沙滩
+serp.savanna=热带草原
+serp.sunflower=向日葵平原
