@@ -242,7 +242,7 @@ action.interact.fossil_revive=复活化石
 action.interact.amber_revive=提取DNA
 action.interact.grow=使用肥料
 action.interact.take_apricorn=取得浆果
-action.interact.bet=¡Bet!
+action.interact.bet=¡下注！
 action.interact.store=商店
 action.interact.activate=¡启动！
 
@@ -323,8 +323,8 @@ Pokedex####################################
 
 serp.height=§l身高：§r
 serp.weight=§l重量：§r
-serp.type=§l类型：§r
-serp.biome=§l分布地：§r
+serp.type=§l属性：§r
+serp.biome=§l分布：§r
 serp.getting=§l获取：§r
 serp.bug=虫
 serp.dark=恶
