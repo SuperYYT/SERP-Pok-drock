@@ -45,13 +45,13 @@ store.ride=这是……骑乘许可证？？给你了，保重！
 任务####################################
 
 communicator.on=欢迎来到洛托姆-通讯器！下蹲并互动以切换联系人。
-trainer.mission=你好！发生这种情况，我需要一颗许愿星、一颗钥石或一个稀有糖果碗。如果你帮助我，我会给你我背包里的东西！
+trainer.mission=你好！发生这种情况，我需要一颗许愿星、一颗钥石或一个神奇糖果碗。如果你帮助我，我会给你我背包里的东西！
 trainer.thanks=非常感谢！这是你的奖励。
 prof.mission=你好！你需要我检查什么吗？
 prof.mega=哦，钥石！好的，这个设备将帮助你正确使用你的能量。它被称为超级环！
-prof.dynamax=这是……许愿星？！极好的！使用此设备，您将能够释放神奇宝贝的极巨化能量，它被称为极巨腕带！
+prof.dynamax=这是……许愿星？！非常好！通过这个设备，你就能释放神奇宝贝的极巨化能量，它被称为极巨腕带！
 prof.egg=一个蛋……虽然它损坏了，但我仍然可以把它拿回去。拿着！把它带到私人实验室孵化！
-mission.legendary=向我展示你作为宝可梦训练师的技能，我会给你证明传奇的宝可梦存在的证据！
+mission.legendary=向我展示你作为宝可梦训练师的技能，我会给你传奇的宝可梦存在的证据！
 goh.mission=你好！你有任何与传奇的宝可梦有关的物品吗？如果有，请给我看看，我会给你必要的工具来召唤他们！
 goh.articuno=哇，冰羽！有了这个，我可以检查急冻鸟之类的……走吧！如果你把它给予胡帕戒指，急冻鸟肯定会出现！
 goh.zapdos=哇，电羽！有了这个，我可以检查闪电鸟之类的……来吧！如果你把它给予胡帕戒指，闪电鸟肯定会出现！
@@ -72,12 +72,12 @@ combat.critic=暴击！
 
 轮播对话################################
 
-entity.serp:pc_description.name=欢迎在线 Poké 市场！
-entity.serp:rotomarket_buy.name=嗨！洛托姆！你给我带来了什么？？
-entity.serp:rotomarket_potions.name=嗨！洛托姆！你想要一些消耗品吗？
-entity.serp:rotomarket_pokeballs.name=嗨！洛托姆！你想买精灵球吗？？
-entity.serp:rotomarket_stuff.name=嗨！洛托姆！你想要一些东西吗？
-entity.serp:rotomarket_suits.name=嗨！洛托姆！你会买衣服吗？？
+entity.serp:pc_description.name=欢迎线上宝可梦商城！
+entity.serp:rotomarket_buy.name=你好！洛托姆！你给我带来了什么？？
+entity.serp:rotomarket_potions.name=你好！洛托姆！你想要一些伤药吗？
+entity.serp:rotomarket_pokeballs.name=你好！洛托姆！你想买精灵球吗？？
+entity.serp:rotomarket_stuff.name=你好！洛托姆！你想要一些东西吗？
+entity.serp:rotomarket_suits.name=你好！洛托姆！你会买衣服吗？？
 entity.pokedrock.pilot.name=让我看看，你今天给我什么？
 
 球果###################################
@@ -112,10 +112,10 @@ item.serp:revive.name=活力碎片
 item.compass.name=宝可梦图鉴
 item.lodestonecompass.name=磁石宝可梦图鉴
 item.serp:mulch.name=湿湿肥
-item.serp:candy_bowl.name=稀有糖果碗
+item.serp:candy_bowl.name=神奇糖果碗
 item.serp:vs_seeker.name=对战搜寻器
 item.serp:poke_ride.name=骑行装置
-item.serp:rare_candy.name=稀有糖果
+item.serp:rare_candy.name=神奇糖果
 item.serp:poke.name=宝可币
 item.serp:fluffy_tail.name=向尾喵的尾巴
 item.serp:poke_toy.name=宝可尾草
