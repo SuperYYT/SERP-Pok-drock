@@ -33,44 +33,44 @@ action.interact.serp_other=查看其它初始宝可梦
 action.interact.mega=¡超级进化！
 action.interact.max=¡极巨化！
 action.interact.pokedex=查看宝可梦图鉴的记录
-action.interact.evolve=¡Evolve!
+action.interact.evolve=¡进化！
 action.interact.pokeride=Put Poke Ride
 action.interact.unride=Remove Poke Ride
 action.interact.ride.pokemon=¡Use Poke Ride!
-action.interact.return=¡Return, Pokémon!
-action.interact.to_fight=¡To fight!
-action.interact.stop_fight=Stop fight
+action.interact.return=¡回来吧，宝可梦！
+action.interact.to_fight=¡去战斗！
+action.interact.stop_fight=停止战斗
 
 //////////////////////////////////////////
 
-action.hint.exit.serp:meganium=蹲下离开大兰葵
-action.hint.exit.serp:meganiums=蹲下离开大兰葵
-action.hint.exit.serp:typhlosion=蹲下离开火暴兽
-action.hint.exit.serp:typhlosions=duck down to get off Typhlosion
-action.hint.exit.serp:feraligatr=duck down to get off Feraligatr
-action.hint.exit.serp:feraligatrs=duck down to get off Feraligatr
-action.hint.exit.serp:xatu=duck down to get off Xatu
-action.hint.exit.serp:xatus=duck down to get off Xatu
-action.hint.exit.serp:skarmory=duck down to get off Skarmory
-action.hint.exit.serp:skarmorys=duck down to get off Skarmory
-action.hint.exit.serp:kingdra=duck down to get off Kingdra
-action.hint.exit.serp:kingdras=duck down to get off Kingdra
-action.hint.exit.serp:entei=duck down to get off Entei
-action.hint.exit.serp:enteis=duck down to get off Entei
-action.hint.exit.serp:raikou=duck down to get off Raikou
-action.hint.exit.serp:raikous=duck down to get off Raikou
-action.hint.exit.serp:suicune=duck down to get off Suicune
-action.hint.exit.serp:suicunes=duck down to get off Suicune
-action.hint.exit.serp:hooh=duck down to get off Ho-oh
-action.hint.exit.serp:hoohs=duck down to get off Ho-oh
-action.hint.exit.serp:lugia=duck down to get off Lugia
-action.hint.exit.serp:lugias=duck down to get off Lugia
+action.hint.exit.serp:meganium=潜行以离开大兰葵
+action.hint.exit.serp:meganiums=潜行以离开大兰葵(闪光)
+action.hint.exit.serp:typhlosion=潜行以离开火暴兽
+action.hint.exit.serp:typhlosions=潜行以离开火暴兽(闪光)
+action.hint.exit.serp:feraligatr=潜行以离开大力鳄
+action.hint.exit.serp:feraligatrs=潜行以离开大力鳄(闪光)
+action.hint.exit.serp:xatu=潜行以离开天然鸟
+action.hint.exit.serp:xatus=潜行以离开天然鸟(闪光)
+action.hint.exit.serp:skarmory=潜行以离开盔甲鸟
+action.hint.exit.serp:skarmorys=潜行以离开盔甲鸟(闪光)
+action.hint.exit.serp:kingdra=潜行以离开刺龙王
+action.hint.exit.serp:kingdras=潜行以离开刺龙王(闪光)
+action.hint.exit.serp:entei=潜行以离开炎帝
+action.hint.exit.serp:enteis=潜行以离开炎帝(闪光)
+action.hint.exit.serp:raikou=潜行以离开雷公
+action.hint.exit.serp:raikous=潜行以离开雷公(闪光)
+action.hint.exit.serp:suicune=潜行以离开水君
+action.hint.exit.serp:suicunes=潜行以离开水君(闪光)
+action.hint.exit.serp:hooh=潜行以离开凤王
+action.hint.exit.serp:hoohs=潜行以离开凤王(闪光)
+action.hint.exit.serp:lugia=潜行以离开洛奇亚
+action.hint.exit.serp:lugias=潜行以离开洛奇亚(闪光)
 
 //////////////////////////////////////////
 
-item.spawn_egg.entity.serp:elm.name=Professor Elm
-item.spawn_egg.entity.serp:neo_rocket.name=Neo Rocket team
-item.spawn_egg.entity.serp:trainer2.name=Trainers from gen 2
+item.spawn_egg.entity.serp:elm.name=空木博士
+item.spawn_egg.entity.serp:neo_rocket.name=新火箭队
+item.spawn_egg.entity.serp:trainer2.name=第二世代的训练师
 
 //////////////////////////////////////////
 
@@ -486,106 +486,106 @@ item.serp:celebis_defeated.name=时拉比(闪光) §4[濒死]
 
 //////////////////////////////////////////
 
-entity.serp:chikorita.name=Chikorita [Trained]
-entity.serp:bayleef.name=Bayleef [Trained]
-entity.serp:meganium.name=Meganium [Trained]
-entity.serp:cyndaquil.name=Cyndaquil [Trained]
-entity.serp:quilava.name=Quilava [Trained]
-entity.serp:typhlosion.name=Typhlosion [Trained]
-entity.serp:totodile.name=Totodile [Trained]
-entity.serp:croconaw.name=Croconaw [Trained]
-entity.serp:feraligatr.name=Feraligatr [Trained]
-entity.serp:sentret.name=Sentret [Trained]
-entity.serp:furret.name=Furret [Trained]
-entity.serp:hoothoot.name=Hoothoot [Trained]
-entity.serp:noctowl.name=Noctowl [Trained]
-entity.serp:ledyba.name=Ledyba [Trained]
-entity.serp:ledian.name=Ledian [Trained]
-entity.serp:spinarak.name=Spinarak [Trained]
-entity.serp:ariados.name=Ariados [Trained]
-entity.serp:crobat.name=Crobat [Trained]
-entity.serp:chinchou.name=Chinchou [Trained]
-entity.serp:lanturn.name=Lanturn [Trained]
-entity.serp:pichu.name=Pichu [Trained]
-entity.serp:cleffa.name=Cleffa [Trained]
-entity.serp:igglybuff.name=Igglybuff [Trained]
-entity.serp:togepi.name=Togepi [Trained]
-entity.serp:togetic.name=Togetic [Trained]
-entity.serp:natu.name=Natu [Trained]
-entity.serp:xatu.name=Xatu [Trained]
-entity.serp:mareep.name=Mareep [Trained]
-entity.serp:flaaffy.name=Flaaffy [Trained]
-entity.serp:ampharos.name=Ampharos [Trained]
-entity.serp:bellossom.name=Bellossom [Trained]
-entity.serp:marill.name=Marill [Trained]
-entity.serp:azumarill.name=Azularill [Trained]
-entity.serp:sudowoodo.name=Sudowoodo [Trained]
-entity.serp:politoed.name=Politoed [Trained]
-entity.serp:hoppip.name=Hoppip [Trained]
-entity.serp:skiploom.name=Skiploom [Trained]
-entity.serp:jumpluff.name=Jumpluff [Trained]
-entity.serp:aipom.name=Aipom [Trained]
-entity.serp:sunkern.name=Sunkern [Trained]
-entity.serp:sunflora.name=Sunflora [Trained]
-entity.serp:yanma.name=Yanma [Trained]
-entity.serp:wooper.name=Wooper [Trained]
-entity.serp:quagsire.name=Quagsire [Trained]
-entity.serp:espeon.name=Espeon [Trained]
-entity.serp:umbreon.name=Umbreon [Trained]
-entity.serp:murkrow.name=Murkrow [Trained]
-entity.serp:slowking.name=Slowking [Trained]
-entity.serp:misdreavus.name=Misdreavus [Trained]
-entity.serp:unoun.name=Unoun [Trained]
-entity.serp:wobbuffet.name=Wobbuffet [Trained]
-entity.serp:girafarig.name=Girafarig [Trained]
-entity.serp:pineco.name=Pineco [Trained]
-entity.serp:forretress.name=Forretress [Trained]
-entity.serp:dunsparce.name=Dunsparce [Trained]
-entity.serp:gligar.name=Gligar [Trained]
-entity.serp:steelix.name=Steelix [Trained]
-entity.serp:snubbull.name=Snubbull [Trained]
-entity.serp:granbull.name=Granbull [Trained]
-entity.serp:qwilfish.name=Qwilfish [Trained]
-entity.serp:scizor.name=Scizor [Trained]
-entity.serp:shuckle.name=Shucle [Trained]
-entity.serp:heracross.name=Heracross [Trained]
-entity.serp:sneasel.name=Sneasel [Trained]
-entity.serp:teddiursa.name=Teddiursa [Trained]
-entity.serp:ursaring.name=Ursaring [Trained]
-entity.serp:slugma.name=Slugma [Trained]
-entity.serp:magcargo.name=Magcargo [Trained]
-entity.serp:swinub.name=Swinub [Trained]
-entity.serp:piloswine.name=Piloswine [Trained]
-entity.serp:corsola.name=Corsola [Trained]
-entity.serp:remoraid.name=Remoraid [Trained]
-entity.serp:octillery.name=Octillery [Trained]
-entity.serp:delibird.name=Delibird [Trained]
-entity.serp:mantine.name=Mantine [Trained]
-entity.serp:skarmory.name=Skarmory [Trained]
-entity.serp:houndour.name=Houndour [Trained]
-entity.serp:houndoom.name=Houndoom [Trained]
-entity.serp:kingdra.name=Kingdra [Trained]
-entity.serp:phanpy.name=Phanpy [Trained]
-entity.serp:donphan.name=Donphan [Trained]
-entity.serp:porygon2.name=Porygon2 [Trained]
-entity.serp:stantler.name=Stantler [Trained]
-entity.serp:smeargle.name=Smeargle [Trained]
-entity.serp:tyrogue.name=Tyrogue [Trained]
-entity.serp:hitmontop.name=Hitmontop [Trained]
-entity.serp:smoochum.name=Smoochum [Trained]
-entity.serp:elekid.name=Elekid [Trained]
-entity.serp:magby.name=Magby [Trained]
-entity.serp:miltank.name=Miltank [Trained]
-entity.serp:blissey.name=Blissey [Trained]
-entity.serp:raikou.name=Raikou [Trained]
-entity.serp:entei.name=Entei [Trained]
-entity.serp:suicune.name=Suicune [Trained]
-entity.serp:larvitar.name=Larvitar [Trained]
-entity.serp:pupitar.name=Pupitar [Trained]
-entity.serp:tyranitar.name=Tyranitar [Trained]
-entity.serp:lugia.name=Lugia [Trained]
-entity.serp:hooh.name=Ho-oh [Trained]
-entity.serp:celebi.name=Celebi [Trained]
+entity.serp:chikorita.name=菊叶草 [训练完成]
+entity.serp:bayleef.name=Bayleef [训练完成]
+entity.serp:meganium.name=Meganium [训练完成]
+entity.serp:cyndaquil.name=Cyndaquil [训练完成]
+entity.serp:quilava.name=Quilava [训练完成]
+entity.serp:typhlosion.name=Typhlosion [训练完成]
+entity.serp:totodile.name=Totodile [训练完成]
+entity.serp:croconaw.name=Croconaw [训练完成]
+entity.serp:feraligatr.name=大力鳄 [训练完成]
+entity.serp:sentret.name=Sentret [训练完成]
+entity.serp:furret.name=Furret [训练完成]
+entity.serp:hoothoot.name=Hoothoot [训练完成]
+entity.serp:noctowl.name=Noctowl [训练完成]
+entity.serp:ledyba.name=Ledyba [训练完成]
+entity.serp:ledian.name=Ledian [训练完成]
+entity.serp:spinarak.name=Spinarak [训练完成]
+entity.serp:ariados.name=Ariados [训练完成]
+entity.serp:crobat.name=Crobat [训练完成]
+entity.serp:chinchou.name=Chinchou [训练完成]
+entity.serp:lanturn.name=Lanturn [训练完成]
+entity.serp:pichu.name=Pichu [训练完成]
+entity.serp:cleffa.name=Cleffa [训练完成]
+entity.serp:igglybuff.name=Igglybuff [训练完成]
+entity.serp:togepi.name=Togepi [训练完成]
+entity.serp:togetic.name=Togetic [训练完成]
+entity.serp:natu.name=天然雀 [训练完成]
+entity.serp:xatu.name=天然鸟 [训练完成]
+entity.serp:mareep.name=Mareep [训练完成]
+entity.serp:flaaffy.name=Flaaffy [训练完成]
+entity.serp:ampharos.name=Ampharos [训练完成]
+entity.serp:bellossom.name=Bellossom [训练完成]
+entity.serp:marill.name=Marill [训练完成]
+entity.serp:azumarill.name=Azularill [训练完成]
+entity.serp:sudowoodo.name=Sudowoodo [训练完成]
+entity.serp:politoed.name=Politoed [训练完成]
+entity.serp:hoppip.name=Hoppip [训练完成]
+entity.serp:skiploom.name=Skiploom [训练完成]
+entity.serp:jumpluff.name=Jumpluff [训练完成]
+entity.serp:aipom.name=Aipom [训练完成]
+entity.serp:sunkern.name=Sunkern [训练完成]
+entity.serp:sunflora.name=Sunflora [训练完成]
+entity.serp:yanma.name=Yanma [训练完成]
+entity.serp:wooper.name=Wooper [训练完成]
+entity.serp:quagsire.name=Quagsire [训练完成]
+entity.serp:espeon.name=Espeon [训练完成]
+entity.serp:umbreon.name=Umbreon [训练完成]
+entity.serp:murkrow.name=Murkrow [训练完成]
+entity.serp:slowking.name=Slowking [训练完成]
+entity.serp:misdreavus.name=Misdreavus [训练完成]
+entity.serp:unoun.name=Unoun [训练完成]
+entity.serp:wobbuffet.name=Wobbuffet [训练完成]
+entity.serp:girafarig.name=Girafarig [训练完成]
+entity.serp:pineco.name=Pineco [训练完成]
+entity.serp:forretress.name=Forretress [训练完成]
+entity.serp:dunsparce.name=Dunsparce [训练完成]
+entity.serp:gligar.name=Gligar [训练完成]
+entity.serp:steelix.name=Steelix [训练完成]
+entity.serp:snubbull.name=Snubbull [训练完成]
+entity.serp:granbull.name=Granbull [训练完成]
+entity.serp:qwilfish.name=Qwilfish [训练完成]
+entity.serp:scizor.name=Scizor [训练完成]
+entity.serp:shuckle.name=Shucle [训练完成]
+entity.serp:heracross.name=Heracross [训练完成]
+entity.serp:sneasel.name=Sneasel [训练完成]
+entity.serp:teddiursa.name=Teddiursa [训练完成]
+entity.serp:ursaring.name=Ursaring [训练完成]
+entity.serp:slugma.name=Slugma [训练完成]
+entity.serp:magcargo.name=Magcargo [训练完成]
+entity.serp:swinub.name=Swinub [训练完成]
+entity.serp:piloswine.name=Piloswine [训练完成]
+entity.serp:corsola.name=Corsola [训练完成]
+entity.serp:remoraid.name=Remoraid [训练完成]
+entity.serp:octillery.name=Octillery [训练完成]
+entity.serp:delibird.name=Delibird [训练完成]
+entity.serp:mantine.name=Mantine [训练完成]
+entity.serp:skarmory.name=盔甲鸟 [训练完成]
+entity.serp:houndour.name=Houndour [训练完成]
+entity.serp:houndoom.name=Houndoom [训练完成]
+entity.serp:kingdra.name=刺龙王 [训练完成]
+entity.serp:phanpy.name=Phanpy [训练完成]
+entity.serp:donphan.name=Donphan [训练完成]
+entity.serp:porygon2.name=Porygon2 [训练完成]
+entity.serp:stantler.name=Stantler [训练完成]
+entity.serp:smeargle.name=Smeargle [训练完成]
+entity.serp:tyrogue.name=Tyrogue [训练完成]
+entity.serp:hitmontop.name=Hitmontop [训练完成]
+entity.serp:smoochum.name=Smoochum [训练完成]
+entity.serp:elekid.name=Elekid [训练完成]
+entity.serp:magby.name=Magby [训练完成]
+entity.serp:miltank.name=Miltank [训练完成]
+entity.serp:blissey.name=Blissey [训练完成]
+entity.serp:raikou.name=雷公 [训练完成]
+entity.serp:entei.name=炎帝 [训练完成]
+entity.serp:suicune.name=水君 [训练完成]
+entity.serp:larvitar.name=Larvitar [训练完成]
+entity.serp:pupitar.name=Pupitar [训练完成]
+entity.serp:tyranitar.name=Tyranitar [训练完成]
+entity.serp:lugia.name=洛奇亚 [训练完成]
+entity.serp:hooh.name=凤王 [训练完成]
+entity.serp:celebi.name=Celebi [训练完成]
 
 //////////////////////////////////////////
 
@@ -597,7 +597,7 @@ entity.serp:quilavaw.name=Quilava
 entity.serp:typhlosionw.name=Typhlosion
 entity.serp:totodilew.name=Totodile
 entity.serp:croconaww.name=Croconaw
-entity.serp:feraligatrw.name=Feraligatr
+entity.serp:feraligatrw.name=大力鳄
 entity.serp:sentretw.name=Sentret
 entity.serp:furretw.name=Furret
 entity.serp:hoothootw.name=Hoothoot
@@ -614,8 +614,8 @@ entity.serp:cleffaw.name=Cleffa
 entity.serp:igglybuffw.name=Igglybuff
 entity.serp:togepiw.name=Togepi
 entity.serp:togeticw.name=Togetic
-entity.serp:natuw.name=Natu
-entity.serp:xatuw.name=Xatu
+entity.serp:natuw.name=天然雀
+entity.serp:xatuw.name=天然鸟
 entity.serp:mareepw.name=Mareep
 entity.serp:flaaffyw.name=Flaaffy
 entity.serp:ampharosw.name=Ampharos
@@ -664,10 +664,10 @@ entity.serp:remoraidw.name=Remoraid
 entity.serp:octilleryw.name=Octillery
 entity.serp:delibirdw.name=Delibird
 entity.serp:mantinew.name=Mantine
-entity.serp:skarmoryw.name=Skarmory
+entity.serp:skarmoryw.name=盔甲鸟
 entity.serp:houndourw.name=Houndour
 entity.serp:houndoomw.name=Houndoom
-entity.serp:kingdraw.name=Kingdra
+entity.serp:kingdraw.name=刺龙王
 entity.serp:phanpyw.name=Phanpy
 entity.serp:donphanw.name=Donphan
 entity.serp:porygon2w.name=Porygon2
@@ -680,19 +680,19 @@ entity.serp:elekidw.name=Elekid
 entity.serp:magbyw.name=Magby
 entity.serp:miltankw.name=Miltank
 entity.serp:blisseyw.name=Blissey
-entity.serp:raikouw.name=Raikou
-entity.serp:enteiw.name=Entei
-entity.serp:suicunew.name=Suicune
+entity.serp:raikouw.name=雷公
+entity.serp:enteiw.name=炎帝
+entity.serp:suicunew.name=水君
 entity.serp:larvitarw.name=Larvitar
 entity.serp:pupitarw.name=Pupitar
 entity.serp:tyranitarw.name=Tyranitar
-entity.serp:lugiaw.name=Lugia
-entity.serp:hoohw.name=Ho-oh
+entity.serp:lugiaw.name=洛奇亚
+entity.serp:hoohw.name=凤王
 entity.serp:celebiw.name=Celebi
 
 //////////////////////////////////////////
 
-chikorita.info=While fighting, Chikorita waves her blade to keep her opponent at bay. But, at the same time, it releases a soft fragrance that soothes the meeting and creates a pleasant and friendly atmosphere.
+chikorita.info=While fighting, 菊叶草 waves her blade to keep her opponent at bay. But, at the same time, it releases a soft fragrance that soothes the meeting and creates a pleasant and friendly atmosphere.
 
 bayleef.info=Bayleef has a necklace of leaves around her neck and a tree bud on each of them. The fragrance given off by these buds cheers people up.
 
@@ -742,9 +742,9 @@ cleffa.info=When there is a shower of stars the Cleffa can be seen dancing in ci
 
 igglybuff.info=Igglybuff is soft and tender, it looks like a meringue. It gives off a sweet and pleasant aroma that is used to calm the spirits of its opponents in combat.
 
-natu.info=Natu has tremendously developed the ability to jump. It flutters and jumps up the high branches where no one can reach to get hold of the new shoots of the trees.
+natu.info=天然雀 has tremendously developed the ability to jump. It flutters and jumps up the high branches where no one can reach to get hold of the new shoots of the trees.
 
-xatu.info=Xatu is known for his habit of staying all day looking at the sun. There are many people who worship it as a mystical Pokémon, believing that it has the power to predict the future.
+xatu.info=天然鸟 is known for his habit of staying all day looking at the sun. There are many people who worship it as a mystical Pokémon, believing that it has the power to predict the future.
 
 mareep.info=Mareep, the wool Pokémon. Mareep store static electricity in their wool, avoid combat, and have a mild disposition.
 
@@ -842,13 +842,13 @@ delibird.info=Delibird uses its tail as a sack to carry its food. It has a habit
 
 mantine.info=On sunny days, it is possible to see groups of Mantine gracefully jumping on the waves of the sea. This Pokemon doesn't mind being hit by a Remoraid.
 
-skarmory.info=The body also has steel wings, long ago people used the feathers that fell from Skarmory to forge swords or knives. He wears an iron armor that completely covers his body and flies at more than 300 km per hour.
+skarmory.info=The body also has steel wings, long ago people used the feathers that fell from 盔甲鸟 to forge swords or knives. He wears an iron armor that completely covers his body and flies at more than 300 km per hour.
 
 houndour.info=Houndour goes hunting with the rest of the pack with coordination. They communicate with each other using a series of howls to corner their prey.
 
 houndoom.info=In the Houndoom pack, the one with the specially backward-facing horns is the leader. To choose the boss, these Pokémon face each other.
 
-kingdra.info=Kingdra lives deep in the ocean, where no other species inhabit. It has always been thought that his yawn caused the eddy currents that occur in the ocean.
+kingdra.info=刺龙王 lives deep in the ocean, where no other species inhabit. It has always been thought that his yawn caused the eddy currents that occur in the ocean.
 
 phanpy.info=Phanpy uses his long trunk to take a shower. While others gather around them, they dedicate themselves to pouring water on each other and it is very easy to see them drying themselves near the water.
 
@@ -874,11 +874,11 @@ miltank.info=Miltank gives 20 liters of sweet milk a day that is loved by adults
 
 blissey.info=Blissey is able to feel sadness through the silky fur. If it detects that someone is embarrassed, it will go to where they are and share an egg of happiness to smile back.
 
-rakiou.info=Raikou has lightning speed. The roars that emit shock waves that spread vibrating through the air and shake the ground like real lightning bolts.
+rakiou.info=雷公 has lightning speed. The roars that emit shock waves that spread vibrating through the air and shake the ground like real lightning bolts.
 
-entei.info=Entei contains the glow of magma within it. It is believed that it was born from the eruption of a volcano, it also spits numerous bursts of fire that devour and reduce to ashes everything they touch.
+entei.info=炎帝 contains the glow of magma within it. It is believed that it was born from the eruption of a volcano, it also spits numerous bursts of fire that devour and reduce to ashes everything they touch.
 
-suicune.info=Suicune, the aurora pokemon. He travels around the world and purifies the water wherever he goes sailing the north winds.
+suicune.info=水君, the aurora pokemon. He travels around the world and purifies the water wherever he goes sailing the north winds.
 
 larvitar.info=Larvitar is born deep underground. To get to the surface, he must eat what he finds in his way to make his way and until he is up, he will not be able to see his parents.
 
@@ -886,7 +886,7 @@ pupitar.info=Pupitar creates a gas inside it, which it compresses and expels vio
 
 tyranitar.info=Tyranitar has an imposing force, it is able to bring down a mountain to make its nest. It usually prowls the mountain areas in search of new rivals to fight against.
 
-lugia.info=Lugia's wing strength is devastating, when nothing is capable of bringing down entire buildings. For this reason, he prefers to live where there is no one and in the depths of the sea.
+lugia.info=洛奇亚's wing strength is devastating, when nothing is capable of bringing down entire buildings. For this reason, he prefers to live where there is no one and in the depths of the sea.
 
 hooh.info=Ho-Oh's plumage contains seven colors that can be seen depending on the angle from which the light strikes them. They say that its feathers bring happiness to those who wear them and it also lives at the foot of the rainbow.
 
