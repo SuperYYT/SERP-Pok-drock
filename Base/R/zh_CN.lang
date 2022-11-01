@@ -92,8 +92,8 @@ item.serp:apricorn_cyan.name=蓝球果
 item.serp:apricorn_pink.name=粉球果
 item.serp:apricorn_orange.name=橙球果
 tile.serp:berry_top.name=浆果树顶
-tile.serp:berry_leaves_dark.name=浆果树叶（dark）
-tile.serp:berry_leaves_light.name=浆果树叶（light）
+tile.serp:berry_leaves_dark.name=浆果树叶(dark)
+tile.serp:berry_leaves_light.name=浆果树叶(light)
 tile.serp:berry_log.name=浆果树原木
 tile.serp:apricorn_stem.name=球果茎
 tile.serp:apricorn_black_block.name=球果黑
@@ -198,7 +198,7 @@ item.serp:premierball_up.name=纪念球盖子(未组装)
 item.serp:safariball_up.name=狩猎球盖子(未组装)
 item.serp:timerball_up.name=计时球盖子(未组装)
 
-Stones#####################################
+进化之石#####################################
 
 item.serp:fire_stone.name=火之石
 item.serp:leaf_stone.name=叶之石
@@ -206,7 +206,7 @@ item.serp:water_stone.name=冰之石
 item.serp:thunder_stone.name=雷之石
 item.serp:moon_stone.name=月之石
 
-Berries####################################
+树果####################################
 
 item.serp:oran_berry.name=蓝橘果
 item.serp:sitrus_berry.name=文柚果
@@ -223,7 +223,7 @@ item.serp:rindo_berry.name=罗子果
 item.serp:pinap_berry.name=凰梨果
 item.serp:tamato_berry.name=茄番果
 
-Potions####################################
+药水####################################
 
 item.serp:potion.name=伤药
 item.serp:super_potion.name=好伤药
@@ -265,59 +265,59 @@ item.spawn_egg.entity.serp:communicator_spawn.name=洛托姆通讯器
 Trade//////////////////////////////////////
 
 item.serp:trading_kadabra.name=我将用勇基拉进行交换
-item.serp:trading_kadabras.name=我将用勇基拉(闪光)进行交换
+item.serp:trading_kadabras.name=我将用闪光勇基拉进行交换
 item.serp:trading_machoke.name=我将用豪力进行交换
-item.serp:trading_machokes.name=我将用豪力(闪光)进行交换
+item.serp:trading_machokes.name=我将用闪光豪力进行交换
 item.serp:trading_graveler.name=我将用隆隆石进行交换
-item.serp:trading_gravelers.name=我将用隆隆石(闪光)进行交换
+item.serp:trading_gravelers.name=我将用闪光隆隆石进行交换
 item.serp:trading_haunter.name=我将用鬼斯通进行交换
-item.serp:trading_haunters.name=我将用鬼斯通(闪光)进行交换
+item.serp:trading_haunters.name=我将用闪光鬼斯通进行交换
 item.serp:trading_onix.name=我将用大岩蛇进行交换
-item.serp:trading_onixs.name=我将用大岩蛇(闪光)进行交换
+item.serp:trading_onixs.name=我将用闪光大岩蛇进行交换
 item.serp:trading_seadra.name=我将用海刺龙进行交换
-item.serp:trading_seadras.name=我将用海刺龙(闪光)进行交换
+item.serp:trading_seadras.name=我将用闪光海刺龙进行交换
 item.serp:trading_scyther.name=我将用飞天螳螂进行交换
-item.serp:trading_scythers.name=我将用飞天螳螂(闪光)进行交换
+item.serp:trading_scythers.name=我将用闪光飞天螳螂进行交换
 item.serp:trading_poliwhirl.name=我将用蚊香君进行交换
-item.serp:trading_poliwhirls.name=我将用蚊香君(闪光)进行交换
+item.serp:trading_poliwhirls.name=我将用闪光蚊香君进行交换
 item.serp:trading_slowpoke.name=我将用呆呆兽进行交换
-item.serp:trading_slowpokes.name=我将用呆呆兽(闪光)进行交换
+item.serp:trading_slowpokes.name=我将用闪光呆呆兽进行交换
 item.serp:trading_porygon.name=我将用多边兽进行交换
-item.serp:trading_porygons.name=我将用多边兽(闪光)进行交换
+item.serp:trading_porygons.name=我将用闪光多边兽进行交换
 item.serp:trading_clamperl1.name=我将用珍珠贝1进行交换
-item.serp:trading_clamperl1s.name=我将用珍珠贝1(闪光)进行交换
+item.serp:trading_clamperl1s.name=我将用闪光珍珠贝1进行交换
 item.serp:trading_clamperl2.name=我将用珍珠贝2进行交换
-item.serp:trading_clamperl2s.name=我将用珍珠贝2(闪光)进行交换
+item.serp:trading_clamperl2s.name=我将用闪光珍珠贝2进行交换
 item.serp:trading_rhydon.name=我将用钻角犀兽进行交换
-item.serp:trading_rhydons.name=我将用钻角犀兽(闪光)进行交换
+item.serp:trading_rhydons.name=我将用闪光钻角犀兽进行交换
 item.serp:trading_porygon2.name=我将用多边兽2进行交换
-item.serp:trading_porygon2s.name=我将用多边兽2(闪光)进行交换
+item.serp:trading_porygon2s.name=我将用闪光多边兽2进行交换
 item.serp:trading_dusclops.name=我将用彷徨夜灵进行交换
-item.serp:trading_dusclopss.name=我将用彷徨夜灵(闪光)进行交换
+item.serp:trading_dusclopss.name=我将用闪光彷徨夜灵进行交换
 item.serp:trading_magmar.name=我将用鸭嘴火兽进行交换
-item.serp:trading_magmars.name=我将用鸭嘴火兽(闪光)进行交换
+item.serp:trading_magmars.name=我将用闪光鸭嘴火兽进行交换
 item.serp:trading_electabuzz.name=我将用电击兽进行交换
-item.serp:trading_electabuzzs.name=我将用电击兽(闪光)进行交换
+item.serp:trading_electabuzzs.name=我将用闪光电击兽进行交换
 item.serp:trading_feebas.name=我将用丑丑鱼进行交换
-item.serp:trading_feebass.name=我将用丑丑鱼(闪光)进行交换
+item.serp:trading_feebass.name=我将用闪光丑丑鱼进行交换
 item.serp:trading_boldore.name=我将用地幔岩进行交换
-item.serp:trading_boldores.name=我将用地幔岩(闪光)进行交换
+item.serp:trading_boldores.name=我将用闪光地幔岩进行交换
 item.serp:trading_gurdurr.name=我将用铁骨土人进行交换
-item.serp:trading_gurdurrs.name=我将用铁骨土人(闪光)进行交换
+item.serp:trading_gurdurrs.name=我将用闪光铁骨土人进行交换
 item.serp:trading_karrablast.name=我将用盖盖虫进行交换
-item.serp:trading_karrablasts.name=我将用盖盖虫(闪光)进行交换
+item.serp:trading_karrablasts.name=我将用闪光盖盖虫进行交换
 item.serp:trading_shellmet.name=我将用敏捷虫进行交换
-item.serp:trading_shellmets.name=我将用敏捷虫(闪光)进行交换
+item.serp:trading_shellmets.name=我将用闪光敏捷虫进行交换
 item.serp:trading_spritzee.name=我将用粉香香进行交换
-item.serp:trading_spritzees.name=我将用粉香香(闪光)进行交换
+item.serp:trading_spritzees.name=我将用闪光粉香香进行交换
 item.serp:trading_swirlix.name=我将用绵绵泡芙进行交换
-item.serp:trading_swirlixs.name=我将用绵绵泡芙(闪光)进行交换
+item.serp:trading_swirlixs.name=我将用闪光绵绵泡芙进行交换
 item.serp:trading_phantump.name=我将用小木灵进行交换
-item.serp:trading_phantumps.name=我将用小木灵(闪光)进行交换
+item.serp:trading_phantumps.name=我将用闪光小木灵进行交换
 item.serp:trading_pumpkaboo.name=我将用南瓜精进行交换
-item.serp:trading_pumpkaboos.name=我将用南瓜精(闪光)进行交换
+item.serp:trading_pumpkaboos.name=我将用闪光南瓜精进行交换
 item.serp:trading_gravelera.name=我将用阿罗拉-隆隆石进行交换
-item.serp:trading_graveleras.name=我将用阿罗拉-隆隆石(闪光)进行交换
+item.serp:trading_graveleras.name=我将用闪光阿罗拉-隆隆石进行交换
 
 Pokedex####################################
 
