@@ -108,7 +108,11 @@ tile.serp:apricorn_yellow_block.name=Bonguri Yellow
 Items######################################
 
 item.serp:dynamax_band.name=Dynamax Band
-item.serp:revive.name=Revivir
+item.serp:revive.name=Revive
+item.serp:max_revive.name=Max revive
+item.serp:repel.name=Repel
+item.serp:super_repel.name=Super repel
+item.serp:max_repel.name=Max repel
 item.compass.name=Pokédex
 item.lodestonecompass.name=Lodestone Pokédex
 item.serp:mulch.name=Mulch

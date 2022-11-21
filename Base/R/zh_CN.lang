@@ -109,6 +109,10 @@ tile.serp:apricorn_yellow_block.name=黄球果
 
 item.serp:dynamax_band.name=极巨腕带
 item.serp:revive.name=活力碎片
+item.serp:max_revive.name=活力块
+item.serp:repel.name=喷雾
+item.serp:super_repel.name=白银喷雾
+item.serp:max_repel.name=黄金喷雾
 item.compass.name=宝可梦图鉴
 item.lodestonecompass.name=磁石宝可梦图鉴
 item.serp:mulch.name=湿湿肥

@@ -109,6 +109,10 @@ Items######################################
 
 item.serp:dynamax_band.name=Maximuñequera
 item.serp:revive.name=Revivir
+item.serp:max_revive.name=Revivir Máximo
+item.serp:repel.name=Repelente
+item.serp:super_repel.name=Superrepelente
+item.serp:max_repel.name=Repelente Máximo
 item.compass.name=Pokédex
 item.lodestonecompass.name=Pokédex Magneto
 item.serp:mulch.name=Abono
