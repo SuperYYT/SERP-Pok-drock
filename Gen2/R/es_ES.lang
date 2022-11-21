@@ -71,6 +71,8 @@ action.hint.exit.serp:lugias=Agáchate para bajar de Lugia
 item.spawn_egg.entity.serp:elm.name=Profesor Elm
 item.spawn_egg.entity.serp:neo_rocket.name=Equipo Neo Rocket
 item.spawn_egg.entity.serp:trainer2.name=Entrenadores de la segunda Generación
+item.serp:sun_stone.name=Piedra Solar
+item.serp:kings_rock.name=Roca del Rey
 
 //////////////////////////////////////////
 

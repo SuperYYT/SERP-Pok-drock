@@ -71,6 +71,8 @@ action.hint.exit.serp:lugias=duck down to get off Lugia
 item.spawn_egg.entity.serp:elm.name=Professor Elm
 item.spawn_egg.entity.serp:neo_rocket.name=Neo Rocket team
 item.spawn_egg.entity.serp:trainer2.name=Trainers from gen 2
+item.serp:sun_stone.name=Sun Stone
+item.serp:kings_rock.name=King's Rock
 
 //////////////////////////////////////////
 
