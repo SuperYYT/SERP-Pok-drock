@@ -4,7 +4,7 @@ pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享
 
 item.serp:button_a.name=按键A
 ball.catch=漂亮！我抓住了这只宝可梦！
-ball.free=哦不！我差一点就抓住了！
+ball.free=哦不！我差点就抓住了！
 skill.1=技能 1
 skill.2=技能 2
 skill.3=技能 3
@@ -13,18 +13,18 @@ attack.secondary=反击/二次进攻
 attack.bold=奋力进攻
 serp.intro1=嗨，你好！欢迎来到宝可梦的世界！
 serp.intro2=这个世界生活着被称为宝可梦的生物！
-serp.intro3=对于有的人来说，宝可梦是宠物。更多人则利用它们进行战斗
+serp.intro3=对于有些人来说，宝可梦是宠物。更多人则利用它们进行战斗
 serp.intro4=现在，让我们看看，你的名字是……
 serp.intro4.1=，对吗？
-serp.choosing_gen=你会选择哪一世代？
-serp.choosing_poke=你会选择哪个精灵作为你最初的伙伴？
+serp.choosing_gen=你会选择哪一个世代的初始宝可梦？
+serp.choosing_poke=你会选择哪个小家伙作为你最初的伙伴？
 serp.choosed_poke=不错的选择！
-serp.intro5=我会给你所选的初始宝可梦和一份初始工具包
+serp.intro5=我会给予你所选的初始宝可梦和一份初始工具包
 serp.intro6=关于宝可梦的许多冒险等着你！
 serp.intro7=本模组由 Zacek el Serpentín 制作，MineBBS 汉化
 joy.1=欢迎来到宝可梦中心！在这里，您和您的宝可梦可以休息，直到它们恢复！
 joy.2=你可以用我旁边的机器治愈你被击败的宝可梦，它是免费的！
-joy.3=当你旅行时，你可以找到其他像这样的宝可梦中心，如果你走得太远，不要担心！
+joy.3=在你的旅途中，也会有其他这样的宝可梦中心，所以走多远都不用担心！
 joy.4=每个宝可梦中心都会有和我一样的护士，别怕，我们是一家人 uWu
 joy.5=如果你附近没有宝可梦中心，你可以制作自己的治疗机器！
 jenny.1=失物招领处，你认得吗？
@@ -44,7 +44,7 @@ store.ride=这是……骑乘许可证？？给你了，保重！
 
 任务####################################
 
-communicator.on=欢迎来到洛托姆-通讯器！下蹲并互动以切换联系人。
+communicator.on=欢迎来到洛托姆-通讯器！潜行并互动以切换联系人。
 trainer.mission=你好！发生这种情况，我需要一颗许愿星、一颗钥石或一个神奇糖果碗。如果你帮助我，我会给你我背包里的东西！
 trainer.thanks=非常感谢！这是你的奖励。
 prof.mission=你好！你需要我检查什么吗？
