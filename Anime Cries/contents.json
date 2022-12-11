@@ -1,0 +1,791 @@
+{
+   "content" : [
+      {
+         "path" : "sounds/sound_definitions.json"
+      },
+      {
+         "path" : "sounds/serp/poke/239.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/222.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/217.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/215.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/245.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/225.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/243.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/236.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/233.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/223.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/221.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/220.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/249.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/218.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/216.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/214.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/213.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/224.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/212.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/242.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/211.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/210.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/209.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/207.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/206.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/234.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/205.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/204.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/203.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/202.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/199.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/200.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/198.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/196.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/193.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/192.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/191.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/078.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/187.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/229.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/184.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/072.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/185.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/183.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/131.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/182.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/181.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/132.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/180.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/179.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/176.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/100.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/172.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/165.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/106.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/164.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/163.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/162.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/161.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/160.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/158.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/227.ogg"
+      },
+      {
+         "path" : "texts/pt_BR.lang"
+      },
+      {
+         "path" : "sounds/serp/poke/157.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/141.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/156.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/145.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/155.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/098.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/089.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/041.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/037.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/097.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/121.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/170.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/135.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/109.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/060.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/108.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/079.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/031.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/231.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/035.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/051.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/087.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/148.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/085.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/021.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/067.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/059.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/028.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/077.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/042.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/110.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/012.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/125.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/105.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/086.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/250.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/194.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/174.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/112.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/244.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/099.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/029.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/052.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/166.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/034.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/066.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/123.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/149.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/177.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/147.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/068.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/189.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/088.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/115.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/153.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/074.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/045.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/150.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/119.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/093.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/241.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/104.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/016.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/081.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/076.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/054.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/133.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/237.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/178.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/092.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/090.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/040.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/096.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/201.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/124.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/056.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/130.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/186.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/128.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/073.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/167.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/103.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/010.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/114.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/107.ogg"
+      },
+      {
+         "path" : "texts/pt_PT.lang"
+      },
+      {
+         "path" : "sounds/serp/poke/095.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/094.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/018.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/246.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/226.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/070.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/122.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/248.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/120.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/238.ogg"
+      },
+      {
+         "path" : "pack_icon.png"
+      },
+      {
+         "path" : "sounds/serp/poke/063.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/175.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/084.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/117.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/071.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/195.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/022.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/055.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/101.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/001.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/091.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/007.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/208.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/113.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/065.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/169.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/116.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/240.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/050.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/111.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/075.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/009.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/053.ogg"
+      },
+      {
+         "path" : "texts/languages.json"
+      },
+      {
+         "path" : "sounds/serp/poke/251.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/062.ogg"
+      },
+      {
+         "path" : "manifest.json"
+      },
+      {
+         "path" : "sounds/serp/poke/024.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/005.ogg"
+      },
+      {
+         "path" : "sounds.json"
+      },
+      {
+         "path" : "sounds/serp/poke/138.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/069.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/137.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/228.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/033.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/064.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/126.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/032.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/129.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/127.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/235.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/154.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/140.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/083.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/136.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/102.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/197.ogg"
+      },
+      {
+         "path" : "texts/en_US.lang"
+      },
+      {
+         "path" : "sounds/serp/poke/230.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/015.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/004.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/044.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/232.ogg"
+      },
+      {
+         "path" : "contents.json"
+      },
+      {
+         "path" : "sounds/serp/poke/134.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/190.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/139.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/159.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/057.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/046.ogg"
+      },
+      {
+         "path" : "texts/en_GB.lang"
+      },
+      {
+         "path" : "sounds/serp/poke/061.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/008.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/171.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/118.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/049.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/026.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/168.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/027.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/011.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/013.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/002.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/038.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/082.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/017.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/219.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/142.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/039.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/043.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/146.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/020.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/014.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/030.ogg"
+      },
+      {
+         "path" : "texts/es_ES.lang"
+      },
+      {
+         "path" : "sounds/serp/poke/247.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/006.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/173.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/188.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/023.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/048.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/080.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/058.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/003.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/047.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/151.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/143.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/144.ogg"
+      },
+      {
+         "path" : "texts/es_MX.lang"
+      },
+      {
+         "path" : "sounds/serp/poke/152.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/036.ogg"
+      },
+      {
+         "path" : "sounds/serp/poke/019.ogg"
+      }
+   ],
+   "version" : 1
+}

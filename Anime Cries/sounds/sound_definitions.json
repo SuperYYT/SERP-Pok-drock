@@ -1,0 +1,1329 @@
+{
+  "serp.slot.clap": {
+    "category": "neutral",
+    "sounds": [{"name":"sounds/serp/effects/slot_clap","volume": 0.1,"load_on_low_memory":true}]},
+
+  "mob.oak_lab.idle": {
+    "category": "neutral",
+    "min_distance": 8.0,
+    "max_distance": 8.0,
+    "sounds": [{"name":"sounds/serp/effects/welcome","stream": true,"volume":1,"load_on_low_memory": true}]
+  },
+  "mob.center.idle": {
+    "category": "neutral",
+    "min_distance": 0,
+    "max_distance": 10.5,
+"sounds": [{"name":"sounds/serp/effects/center","stream": true,"volume":0.5,"load_on_low_memory": true}]},
+
+  "mob.zombie.remedy":{"category":"neutral", "min_distance":8.0,"max_distance":8.0, "sounds":[{"name":"sounds/serp/effects/heal", "volume": 0.4,"load_on_low_memory": true}]},
+
+  "serp.market.trade":{"category": "neutral", "min_distance":8.0,"max_distance":8.0, "sounds":[{"name":"sounds/serp/rotomarket/market_trading","volume":1,"load_on_low_memory": true}]},
+
+  "serp.market.say":{"category": "neutral", "min_distance":8.0,"max_distance":8.0, "sounds":[{"name":"sounds/serp/rotomarket/say","volume":0.2,"load_on_low_memory": true}]},
+
+  "serp.market.spawn":{"category": "neutral", "min_distance":8.0,"max_distance":8.0, "sounds":[{"name":"sounds/serp/rotomarket/spawn","volume":1,"load_on_low_memory": true}]},
+
+  "serp.market.store":{"category": "neutral", "min_distance":8.0,"max_distance":8.0, "sounds":[{"name":"sounds/serp/rotomarket/store","volume":1,"load_on_low_memory": true}]},
+
+  "serp.apricorn.wiggle":{"category": "neutral", "sounds":[{"name":"sounds/serp/effects/apricorn_wiggle","volume":1, "load_on_low_memory": true}]},
+
+  "serp.tree.shake":{"category": "neutral", "sounds":[{"name":"sounds/serp/effects/berry_tree_shake","volume":1.2, "load_on_low_memory": true}]},
+
+  "serp.pokedex":{"category": "neutral", "min_distance":8.0,"max_distance":8.0,"sounds":[{"name":"sounds/serp/effects/pokedex", "volume":2.5,"load_on_low_memory": true}]},
+
+  "serp.open":{"category":"neutral", "min_distance":8.0,"max_distance":8.0, "sounds":[{"name":"sounds/serp/effects/open", "volume": 1,"load_on_low_memory":true}]},
+
+  "serp.bike_bell":{"category":"neutral", "min_distance":8.0,"max_distance":8.0, "sounds":[{"name":"sounds/serp/effects/bike_bell","volume": 1.2,"load_on_low_memory":true}]},
+
+  "mob.bike.wheel":{"category":"neutral", "sounds":[{"name":"sounds/serp/effects/bike_wheel","volume": 0.3, "load_on_low_memory":true}]},
+ 
+  "camera.take_picture":{"category": "neutral","min_distance":8.0,"max_distance":8.0,"sounds":[{"name":"sounds/serp/ball/defeat","volume":0.8,"load_on_low_memory":true}]},
+
+  "serp.pokeball.throw":{"category": "neutral","sounds":[{"name": "sounds/serp/ball/throw","volume":0.25,"pitch": 1}]},
+ 
+  "serp.pokeball.pop":{"category": "neutral","sounds":[{"name": "sounds/serp/ball/pop","volume":0.4,"pitch": 0.5}]},
+  
+  "serp.pokeball.wiggle":{"category": "neutral","sounds":[{"name":"sounds/serp/ball/wiggle","volume":0.4,"load_on_low_memory": true}]},
+  
+  "serp.pokeball.catch":{"category":"neutral","sounds":[{"name":"sounds/serp/ball/catch","pitch":1.5,"load_on_low_memory":true}]},
+
+  "serp.pokeball.free":{"category": "neutral","sounds":[{"name": "sounds/serp/ball/free","volume":1.3,"pitch": 1}]},
+
+  "serp.pokeball.enter":{"category": "neutral","sounds":[{"name": "sounds/serp/ball/enter","volume":1.3,"pitch": 1}]},
+
+
+  "serp.pokeball.capture":{"category": "neutral","min_distance":8.0,"max_distance": 8.0,"sounds": [{"name":"sounds/serp/ball/capture","volume": 0.6,"load_on_low_memory": true}]},
+  
+  "mob.pc.boot_on": {"category": "neutral","sounds": ["sounds/serp/poke/boot_on"]},
+  
+  "mob.pc.boot_off":{"category": "neutral","sounds":["sounds/serp/poke/boot_off"]},
+  
+  "serp.lab.working":{"category": "neutral","volume": 0.3,"sounds": ["sounds/step/ladder1","sounds/step/ladder2","sounds/step/ladder3","sounds/step/ladder4"]},
+
+  "mob.berry_tree.item":{"category": "neutral","min_distance":8.0,"max_distance":8.0,"sounds":[{"name":"sounds/serp/poke/find_item","volume": 0.3,"load_on_low_memory":true}]},
+
+  "mob.pokemon.hurt": {"category": "neutral","sounds": ["sounds/serp/effects/hurt"]},
+  
+  "mob.serp.evolve":{"category":"neutral","min_distance": 8.0,"max_distance": 8.0,    "sounds": [{"name":"sounds/serp/effects/evolve","stream": true,"volume":1,"load_on_low_memory": true}]},
+
+  "mob.bulbasaur.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/001"]
+  },
+  "mob.ivysaur.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/002"]
+  },
+  "mob.venusaur.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/003"]
+  },
+  "mob.charmander.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/004"]
+  },
+  "mob.charmeleon.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/005"]
+  },
+  "mob.charizard.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/006"]
+  },
+  "mob.squirtle.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/007"]
+  },
+  "mob.wartortle.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/008"]
+  },
+  "mob.blastoise.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/009"]
+  },
+  "mob.caterpie.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/010"]
+  },
+  "mob.metapod.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/011"]
+  },
+  "mob.butterfree.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/012"]
+  },
+  "mob.weedle.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/013"]
+  },
+  "mob.kakuna.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/014"]
+  },
+  "mob.beedrill.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/015"]
+  },
+  "mob.pidgey.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/016"]
+  },
+  "mob.pidgeotto.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/017"]
+  },
+  "mob.pidgeot.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/018"]
+  },
+  "mob.ratata.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/019"]
+  },
+  "mob.raticate.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/020"]
+  },
+  "mob.spearow.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/021"]
+  },
+  "mob.fearow.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/022"]
+  },
+  "mob.ekans.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/023"]
+  },
+  "mob.arbok.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/024"]
+  },
+  "mob.pikachu.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/025-1","sounds/serp/poke/025-2","sounds/serp/poke/025-3"]
+  },
+  "mob.pikachu.defeat": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/025-defeat"]
+  },
+  "mob.raichu.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/026"]
+  },
+  "mob.sandshrew.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/027"]
+  },
+  "mob.sandslash.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/028"]
+  },
+  "mob.nidoranh.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/029"]
+  },
+  "mob.nidorina.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/030"]
+  },
+  "mob.nidoqueen.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/031"]
+  },
+  "mob.nidoranm.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/032"]
+  },
+  "mob.nidorino.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/033"]
+  },
+  "mob.nidoking.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/034"]
+  },
+  "mob.clefairy.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/035"]
+  },
+  "mob.clefable.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/036"]
+  },
+  "mob.vulpix.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/037"]
+  },
+  "mob.ninetales.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/038"]
+  },
+  "mob.jigglypuff.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/039"]
+  },
+  "mob.wigglytuff.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/040"]
+  },
+  "mob.zubat.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/041"]
+  },
+  "mob.golbat.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/042"]
+  },
+  "mob.oddish.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/043"]
+  },
+  "mob.gloom.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/044"]
+  },
+  "mob.vileplume.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/045"]
+  },
+  "mob.paras.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/046"]
+  },
+  "mob.parasect.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/047"]
+  },
+  "mob.venonat.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/048"]
+  },
+  "mob.venomoth.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/049"]
+  },
+  "mob.diglett.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/050"]
+  },
+  "mob.dugtrio.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/051"]
+  },
+  "mob.meowth.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/052"]
+  },
+  "mob.persian.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/053"]
+  },
+  "mob.psyduck.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/054"]
+  },
+  "mob.golduck.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/055"]
+  },
+  "mob.mankey.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/056"]
+  },
+  "mob.primeape.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/057"]
+  },
+  "mob.growlithe.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/058"]
+  },
+  "mob.arcanine.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/059"]
+  },
+  "mob.poliwag.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/060"]
+  },
+  "mob.poliwhirl.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/061"]
+  },
+  "mob.poliwrath.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/062"]
+  },
+  "mob.abra.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/063"]
+  },
+  "mob.kadabra.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/064"]
+  },
+  "mob.alakazam.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/065"]
+  },
+  "mob.machop.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/066"]
+  },
+  "mob.machoke.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/067"]
+  },
+  "mob.machamp.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/068"]
+  },
+  "mob.bellsprout.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/069"]
+  },
+  "mob.weepinbell.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/070"]
+  },
+  "mob.victreebel.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/071"]
+  },
+  "mob.tentacool.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/072"]
+  },
+  "mob.tentacruel.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/073"]
+  },
+  "mob.geodude.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/074"]
+  },
+  "mob.graveler.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/075"]
+  },
+  "mob.golem.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/076"]
+  },
+  "mob.ponyta.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/077"]
+  },
+  "mob.rapidash.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/078"]
+  },
+  "mob.slowpoke.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/079"]
+  },
+  "mob.slowbro.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/080"]
+  },
+  "mob.magnemite.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/081"]
+  },
+  "mob.magneton.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/082"]
+  },
+  "mob.farfetchd.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/083"]
+  },
+  "mob.doduo.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/084"]
+  },
+  "mob.dodrio.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/085"]
+  },
+  "mob.seel.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/086"]
+  },
+  "mob.dewgong.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/087"]
+  },
+  "mob.grimer.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/088"]
+  },
+  "mob.muk.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/089"]
+  },
+  "mob.shellder.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/090"]
+  },
+  "mob.cloyster.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/091"]
+  },
+  "mob.gastly.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/092"]
+  },
+  "mob.haunter.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/093"]
+  },
+  "mob.gengar.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/094"]
+  },
+  "mob.onix.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/095"]
+  },
+  "mob.drowzee.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/096"]
+  },
+  "mob.hypno.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/097"]
+  },
+  "mob.krabby.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/098"]
+  },
+  "mob.kingler.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/099"]
+  },
+  "mob.voltorb.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/100"]
+  },
+  "mob.electrode.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/101"]
+  },
+  "mob.exeggcute.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/102"]
+  },
+  "mob.exeggutor.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/103"]
+  },
+  "mob.cubone.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/104"]
+  },
+  "mob.marowak.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/105"]
+  },
+  "mob.hitmonlee.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/106"]
+  },
+  "mob.hitmonchan.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/107"]
+  },
+  "mob.lickitung.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/108"]
+  },
+  "mob.koffing.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/109"]
+  },
+  "mob.weezing.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/110"]
+  },
+  "mob.rhyhorn.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/111"]
+  },
+  "mob.rhydon.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/112"]
+  },
+  "mob.chansey.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/113"]
+  },
+  "mob.tangela.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/114"]
+  },
+  "mob.kangaskhan.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/115"]
+  },
+  "mob.horsea.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/116"]
+  },
+  "mob.seadra.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/117"]
+  },
+  "mob.goldeen.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/118"]
+  },
+  "mob.seaking.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/119"]
+  },
+  "mob.staryu.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/120"]
+  },
+  "mob.starmie.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/121"]
+  },
+  "mob.mrmime.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/122"]
+  },
+  "mob.scyther.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/123"]
+  },
+  "mob.jynx.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/124"]
+  },
+  "mob.electabuzz.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/125"]
+  },
+  "mob.magmar.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/126"]
+  },
+  "mob.pinsir.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/127"]
+  },
+  "mob.tauros.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/128"]
+  },
+  "mob.magikarp.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/129"]
+  },
+  "mob.gyarados.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/130"]
+  },
+  "mob.lapras.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/131"]
+  },
+  "mob.ditto.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/132"]
+  },
+  "mob.eevee.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/133"]
+  },
+  "mob.vaporeon.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/134"]
+  },
+  "mob.jolteon.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/135"]
+  },
+  "mob.flareon.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/136"]
+  },
+  "mob.porygon.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/137"]
+  },
+  "mob.omanyte.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/138"]
+  },
+  "mob.omastar.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/139"]
+  },
+  "mob.kabuto.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/140"]
+  },
+  "mob.kabutops.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/141"]
+  },
+  "mob.aerodactyl.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/142"]
+  },
+  "mob.snorlax.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/143"]
+  },
+  "mob.articuno.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/144"]
+  },
+  "mob.zapdos.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/145"]
+  },
+  "mob.moltres.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/146"]
+  },
+  "mob.dratini.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/147"]
+  },
+  "mob.dragonair.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/148"]
+  },
+  "mob.dragonite.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/149"]
+  },
+  "mob.mewtwo.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/150"]
+  },
+  "mob.mew.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/151"]
+  },
+  "mob.chikorita.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/152"]
+  },
+  "mob.bayleef.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/153"]
+  },
+  "mob.meganium.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/154"]
+  },
+  "mob.cyndaquil.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/155"]
+  },
+  "mob.quilava.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/156"]
+  },
+  "mob.typhlosion.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/157"]
+  },
+  "mob.totodile.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/158"]
+  },
+  "mob.croconaw.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/159"]
+  },
+  "mob.feraligatr.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/160"]
+  },
+  "mob.sentret.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/161"]
+  },
+  "mob.furret.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/162"]
+  },
+  "mob.hoothoot.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/163"]
+  },
+  "mob.noctowl.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/164"]
+  },
+  "mob.ledyba.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/165"]
+  },
+  "mob.ledian.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/166"]
+  },
+  "mob.spinarak.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/167"]
+  },
+  "mob.ariados.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/168"]
+  },
+  "mob.crobat.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/169"]
+  },
+  "mob.chinchou.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/170"]
+  },
+  "mob.lanturn.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/171"]
+  },
+  "mob.pichu.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/172"]
+  },
+  "mob.cleffa.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/173"]
+  },
+  "mob.igglybuff.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/174"]
+  },
+  "mob.togepi.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/175"]
+  },
+  "mob.togetic.defeat": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/176"]
+  },
+  "mob.natu.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/177"]
+  },
+  "mob.xatu.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/178"]
+  },
+  "mob.mareep.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/179"]
+  },
+  "mob.flaaffy.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/180"]
+  },
+  "mob.ampharos.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/181"]
+  },
+  "mob.bellossom.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/182"]
+  },
+  "mob.marill.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/183"]
+  },
+  "mob.azumarill.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/184"]
+  },
+  "mob.sudowoodo.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/185"]
+  },
+  "mob.politoed.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/186"]
+  },
+  "mob.hoppip.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/187"]
+  },
+  "mob.skiploom.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/188"]
+  },
+  "mob.jumpluff.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/189"]
+  },
+  "mob.aipom.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/190"]
+  },
+  "mob.sunkern.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/191"]
+  },
+  "mob.sunflora.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/192"]
+  },
+  "mob.yanma.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/193"]
+  },
+  "mob.wooper.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/194"]
+  },
+  "mob.quagsire.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/195"]
+  },
+  "mob.espeon.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/196"]
+  },
+  "mob.umbreon.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/197"]
+  },
+  "mob.murkrow.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/198"]
+  },
+  "mob.slowking.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/199"]
+  },
+  "mob.misdreavus.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/200"]
+  },
+  "mob.unoun.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/201"]
+  },
+  "mob.wobbuffet.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/202"]
+  },
+  "mob.girafarig.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/203"]
+  },
+  "mob.pineco.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/204"]
+  },
+  "mob.forretress.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/205"]
+  },
+  "mob.dunsparce.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/206"]
+  },
+  "mob.gligar.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/207"]
+  },
+  "mob.steelix.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/208"]
+  },
+  "mob.snubbull.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/209"]
+  },
+  "mob.granbull.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/210"]
+  },
+  "mob.qwilfish.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/211"]
+  },
+  "mob.scizor.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/212"]
+  },
+  "mob.shuckle.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/213"]
+  },
+  "mob.heracross.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/214"]
+  },
+  "mob.sneasel.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/215"]
+  },
+  "mob.teddiursa.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/216"]
+  },
+  "mob.ursaring.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/217"]
+  },
+  "mob.slugma.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/218"]
+  },
+  "mob.magcargo.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/219"]
+  },
+  "mob.swinub.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/220"]
+  },
+  "mob.piloswine.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/221"]
+  },
+  "mob.corsola.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/222"]
+  },
+  "mob.remoraid.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/223"]
+  },
+  "mob.octillery.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/224"]
+  },
+  "mob.delibird.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/225"]
+  },
+  "mob.mantine.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/226"]
+  },
+  "mob.skarmory.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/227"]
+  },
+  "mob.houndour.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/228"]
+  },
+  "mob.houndoom.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/229"]
+  },
+  "mob.kingdra.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/230"]
+  },
+  "mob.phanpy.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/231"]
+  },
+  "mob.donphan.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/232"]
+  },
+  "mob.porygon2.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/233"]
+  },
+  "mob.stantler.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/234"]
+  },
+  "mob.smeargle.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/235"]
+  },
+  "mob.tyrogue.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/236"]
+  },
+  "mob.hitmontop.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/237"]
+  },
+  "mob.smoochum.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/238"]
+  },
+  "mob.elekid.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/239"]
+  },
+  "mob.magby.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/240"]
+  },
+  "mob.miltank.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/241"]
+  },
+  "mob.blissey.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/242"]
+  },
+  "mob.raikou.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/243"]
+  },
+  "mob.entei.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/244"]
+  },
+  "mob.suicune.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/245"]
+  },
+  "mob.larvitar.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/246"]
+  },
+  "mob.pupitar.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/247"]
+  },
+  "mob.tyranitar.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/248"]
+  },
+  "mob.lugia.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/249"]
+  },
+  "mob.hooh.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/250"]
+  },
+  "mob.celebi.idle": {
+    "category": "neutral",
+    "max_distance": 8.0,
+    "sounds": ["sounds/serp/poke/251"]
+  }
+}

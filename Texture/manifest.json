@@ -1,0 +1,39 @@
+{
+    "format_version":2,
+    "header":{
+"name":"§2SERP §ePokédrock §fTexture Pack",
+"description":"pack.description",
+"version":[1,0,5], 
+"min_engine_version":[1,14,0],
+        "uuid":"58ba820b-b512-4a00-b11c-b4c3bf50bd19"}, 
+        "modules":[
+            {
+"description":"pack.description",
+            "version":[1,0,5],
+            "type":"resources",
+            "uuid":"68ba820b-b512-4a00-b11c-b4c3bf50bd19"  
+        }
+    ],
+            "subpacks": [
+    	{
+   	"folder_name": "no SERP male",
+    	"name": "Texture pack Male",
+    	"memory_tier": 1
+    	},
+    	{
+   	"folder_name": "no SERP female",
+    	"name": "Texture pack Female",
+    	"memory_tier": 1
+    	},
+    	{
+   	"folder_name": "SERP male",
+    	"name": "SERP Pokédrock Male",
+    	"memory_tier": 1
+    	},
+    	{
+   	"folder_name": "SERP female",
+    	"name": "SERP Pokédrock Female",
+    	"memory_tier": 1
+    	}
+    ]
+}

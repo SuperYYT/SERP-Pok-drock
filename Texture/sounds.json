@@ -1,0 +1,266 @@
+{
+  "block.dispenser.dispense": {
+	"replace": true,
+		"sounds": [
+      "custom/dispenser"
+    ]
+  },
+  "block.dispenser.launch": {
+	"replace": true,
+		"sounds": [
+      "custom/dispenser_launch"
+    ]
+  },
+  "block.lever.click": {
+	"replace": true,
+		"sounds": [
+      "custom/lever_switch"
+    ]
+  },
+  "block.slime.break": {
+	"replace": true,
+		"sounds": [
+      "custom/slimeblock_breakhit"
+    ]
+  },
+	"block.slime.fall": {
+	"replace": true,
+		"sounds": [
+      "custom/slimeblock_fall"
+    ]
+  },
+  	"block.slime.hit": {
+	"replace": true,
+		"sounds": [
+      "custom/slimeblock_breakhit"
+    ]
+  },
+    "block.slime.place": {
+	"replace": true,
+		"sounds": [
+      "custom/slimeblock_stepplace"
+    ]
+  },
+    "block.slime.step": {
+	"replace": true,
+		"sounds": [
+      "custom/slimeblock_stepplace"
+    ]
+  },
+  "block.metal_pressureplate.click_off": {
+	"replace": true,
+		"sounds": [
+      "custom/pressureplate_metal_off"
+    ]
+  },
+  "block.metal_pressureplate.click_on": {
+	"replace": true,
+		"sounds": [
+      "custom/pressureplate_metal_on"
+    ]
+  },
+  "block.stone_button.click_off": {
+	"replace": true,
+		"sounds": [
+      "custom/button_stone_off"
+    ]
+  },
+  "block.stone_button.click_on": {
+	"replace": true,
+		"sounds": [
+      "custom/button_stone_on"
+    ]
+  },
+  "block.stone_pressureplate.click_off": {
+	"replace": true,
+    "sounds": [
+      "custom/pressureplate_stone_off"
+    ]
+  },
+  "block.stone_pressureplate.click_on": {
+	"replace": true,
+    "sounds": [
+      "custom/pressureplate_stone_on"
+    ]
+  },
+  "block.wood_pressureplate.click_off": {
+	"replace": true,
+		"sounds": [
+      "custom/pressureplate_wood_off"
+    ]
+  },
+  "block.wood_pressureplate.click_on": {
+	"replace": true,
+		"sounds": [
+      "custom/pressureplate_wood_on"
+    ]
+  },
+    "block.wooden_trapdoor.close": {
+	"replace": true,
+		"sounds": [
+      "block/wooden_trapdoor/close"
+    ]
+  },
+      "block.wooden_trapdoor.open": {
+	"replace": true,
+		"sounds": [
+      "block/wooden_trapdoor/open"
+    ]
+  },
+  "block.tripwire.attach": {
+	"replace": true,
+		"sounds": [
+      "custom/tripwire"
+    ]
+  },
+  "block.tripwire.click_off": {
+	"replace": true,
+		"sounds": [
+      "custom/sound_null"
+    ]
+  },
+  "block.tripwire.click_on": {
+	"replace": true,
+		"sounds": [
+      "custom/tripwire"
+    ]
+  },
+  "entity.bobber.throw": {
+	"replace": true,
+		"sounds": [
+      "custom/fishing_cast"
+    ]
+  },
+  "entity.chicken.death": {
+	"replace": true,
+		"sounds": [
+      "mob/chicken/death"
+    ]
+  },
+  "entity.cow.death": {
+	"replace": true,
+		"sounds": [
+      "mob/cow/death"
+    ]
+  },
+  "entity.creeper.primed": {
+	"replace": true,
+		"sounds": [
+      "custom/creeper_primed"
+    ]
+  },
+  "entity.egg.throw": {
+	"replace": true,
+		"sounds": [
+      "custom/throw_egg"
+    ]
+  },
+  "entity.endereye.launch": {
+	"replace": true,
+		"sounds": [
+      "custom/throw_endereye"
+    ]
+  },
+  "entity.enderpearl.throw": {
+	"replace": true,
+		"sounds": [
+      "custom/throw_generic"
+    ]
+  },
+  "entity.experience_bottle.throw": {
+	"replace": true,
+		"sounds": [
+      "custom/throw_generic"
+    ]
+  },
+  "entity.lingeringpotion.throw": {
+	"replace": true,
+		"sounds": [
+      "custom/throw_generic"
+    ]
+  },
+  "entity.sheep.death": {
+	"replace": true,
+		"sounds": [
+      "mob/sheep/death"
+    ]
+  },
+  "entity.snowball.throw": {
+	"replace": true,
+		"sounds": [
+      "custom/throw_generic"
+    ]
+  },
+  "entity.snowman.shoot": {
+	"replace": true,
+		"sounds": [
+      "custom/throw_generic"
+    ]
+  },
+  "entity.splash_potion.throw": {
+	"replace": true,
+		"sounds": [
+      "custom/throw_generic"
+    ]
+  },
+  "entity.tnt.primed": {
+	"replace": true,
+		"sounds": [
+		"custom/fuse"
+    ]
+  },
+  "item.armor.equip_chain": {
+	"replace": true,
+    "sounds": [
+      "item/armor/equip_generic1",
+	  "item/armor/equip_generic2"
+    ]
+  },
+    "item.armor.equip_diamond": {
+	"replace": true,
+    "sounds": [
+      "item/armor/equip_generic1",
+	  "item/armor/equip_generic2"
+    ]
+  },
+    "item.armor.equip_elytra": {
+	"replace": true,
+		"sounds": [
+      "item/armor/equip_elytra"
+    ]
+  },
+    "item.armor.equip_generic": {
+	"replace": true,
+		"sounds": [
+      "item/armor/equip_generic1",
+	  "item/armor/equip_generic2"
+    ]
+  },
+      "item.armor.equip_gold": {
+	"replace": true,
+		"sounds": [
+      "item/armor/equip_generic1",
+	  "item/armor/equip_generic2"
+    ]
+  },
+      "item.armor.equip_iron": {
+	"replace": true,
+		"sounds": [
+      "item/armor/equip_generic1",
+	  "item/armor/equip_generic2"
+    ]
+  },
+      "item.armor.equip_leather": {
+	"replace": true,
+		"sounds": [
+      "item/armor/equip_generic1",
+	  "item/armor/equip_generic2"
+    ]
+  },
+  "ui.button.click": {
+	"replace": true,
+		"sounds": [
+      "random/ui_click"
+    ]
+  }
+}

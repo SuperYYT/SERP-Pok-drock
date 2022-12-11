@@ -1,0 +1,14 @@
+Most textures were taken from a sprite sheet and arranged by RileyVace. He did also make some of his own textures.
+
+Some mobs and textures were done by Audra.
+
+SeanVanPelt did some work on this. I don't know who this is, because I can't find the user on Planet Minecraft.
+
+Almost all work done past 1.5 was by Iaeyan Elyuex. (That's me!)
+
+CK20XX gave me some assistance with Language Files. I also borrowed the sounds.json from his pack to look off of. He makes a mean Mega Man pack. Best in the biz. Check him out.
+
+
+This may not be 100% accurate, but to the best of my knowledge, it's what I know.
+
+This is NOT an official Nintendo or Pokémon Company product. Pokécraft is not a substitute for a real Pokémon game. If you like this pack, buy an actual Pokémon game. Sun and Moon are definitely worth playing. Also, Popplio did nothing wrong.

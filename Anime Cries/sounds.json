@@ -1,0 +1,5026 @@
+{
+  "entity_sounds": {
+    "entities": {
+    "serp:bulbasaur": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.bulbasaur.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.bulbasaur.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.bulbasaur.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.bulbasaur.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ivysaur": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ivysaur.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ivysaur.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ivysaur.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ivysaur.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:venusaur": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.venusaur.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.venusaur.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:charmander": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.charmander.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.charmander.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.charmander.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.charmander.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:charmeleon": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.charmeleon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.charmeleon.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.charmeleon.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.charmeleon.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:charizard": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.charizard.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.charizard.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:squirtle": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.squirtle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.squirtle.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.squirtle.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.squirtle.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:wartortle": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.wartortle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.wartortle.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.wartortle.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.wartortle.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:blastoise": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.blastoise.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.blastoise.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:caterpie": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.caterpie.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.caterpie.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.caterpie.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.caterpie.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:metapod": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.metapod.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.metapod.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.metapod.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.metapod.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:butterfree": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.butterfree.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.butterfree.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:weedle": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.weedle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.weedle.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.weedle.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.weedle.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:kakuna": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kakuna.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kakuna.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.kakuna.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.kakuna.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:beedrill": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.beedrill.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.beedrill.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pidgey": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pidgey.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pidgey.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.pidgey.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pidgey.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:pidgeotto": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pidgeotto.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pidgeotto.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.pidgeotto.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pidgeotto.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:pidgeot": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pidgeot.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pidgeot.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:rattata": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ratata.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ratata.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ratata.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ratata.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:raticate": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.raticate.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.raticate.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:spearow": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.spearow.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.spearow.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.spearow.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.spearow.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:fearow": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.fearow.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.fearow.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ekans": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ekans.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ekans.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ekans.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ekans.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:arbok": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.arbok.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.arbok.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pikachu": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pikachu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pikachu.defeat","volume": 0.5},
+        "ambient.baby":{"sound": "mob.pikachu.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pikachu.defeat","volume": 0.5,"pitch": 0.5},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:raichu": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.raichu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.raichu.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sandshrew": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sandshrew.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sandshrew.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.sandshrew.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.sandshrew.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:sandslash": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sandslash.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sandslash.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:nidoranh": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidoranh.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidoranh.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.nidoranh.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.nidoranh.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:nidorina": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidorina.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidorina.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:nidoqueen": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidoqueen.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidoqueen.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:nidoranm": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidoranm.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidoranm.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.nidoranm.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.nidoranm.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:nidorino": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidorino.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidorino.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:nidoking": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidoking.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidoking.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:clefairy": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.clefairy.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.clefairy.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:clefable": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.clefable.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.clefable.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:vulpix": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.vulpix.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.vulpix.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ninetales": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ninetales.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ninetales.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:jigglypuff": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.jigglypuff.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.jigglypuff.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:wigglytuff": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.wigglytuff.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.wigglytuff.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:zubat": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.zubat.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.zubat.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.zubat.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.zubat.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:golbat": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.golbat.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.golbat.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:oddish": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.oddish.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.oddish.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.oddish.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.oddish.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:gloom": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gloom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gloom.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:vileplume": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.vileplume.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.vileplume.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:paras": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.paras.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.paras.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.paras.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.paras.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:parasect": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.parasect.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.parasect.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:venonat": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.venonat.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.venonat.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.venonat.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.venonat.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:venomoth": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.venomoth.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.venomoth.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:diglett": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.diglett.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.diglett.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.diglett.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.diglett.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:dugtrio": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dugtrio.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dugtrio.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:meowth": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.meowth.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.meowth.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.meowth.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.meowth.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:persian": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.persian.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.persian.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:psyduck": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.psyduck.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.psyduck.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.psyduck.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.psyduck.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:golduck": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.golduck.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.golduck.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mankey": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mankey.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mankey.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.mankey.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.mankey.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:primeape": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.primeape.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.primeape.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:growlithe": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.growlithe.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.growlithe.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.growlithe.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.growlithe.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:arcanine": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.arcanine.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.arcanine.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:poliwag": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.poliwag.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.poliwag.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.poliwag.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.poliwag.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:poliwhirl": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.poliwhirl.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.poliwhirl.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:poliwrath": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.poliwrath.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.poliwrath.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:abra": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.abra.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.abra.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.abra.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.abra.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:kadabra": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kadabra.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kadabra.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:alakazam": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.alakazam.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.alakazam.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:machop": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.machop.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.machop.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.machop.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.machop.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:machoke": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.machoke.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.machoke.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:machamp": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.machamp.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.machamp.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:bellsprout": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.bellsprout.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.bellsprout.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.bellsprout.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.bellsprout.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:weepinbell": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.weepinbell.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.weepinbell.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:victreebel": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.victreebel.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.victreebel.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:tentacool": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tentacool.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tentacool.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.tentacool.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.tentacool.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:tentacruel": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tentacruel.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tentacruel.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:geodude": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.geodude.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.geodude.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.geodude.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.geodude.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:graveler": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.graveler.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.graveler.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:golem": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.golem.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.golem.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ponyta": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ponyta.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ponyta.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ponyta.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ponyta.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:rapidash": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.rapidash.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.rapidash.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:slowpoke": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.slowpoke.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.slowpoke.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.slowpoke.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.slowpoke.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:slowbro": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.slowbro.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.slowbro.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:magnemite": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magnemite.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magnemite.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.magnemite.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.magnemite.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:magneton": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magneton.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magneton.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:farfetchd": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.farfetchd.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.farfetchd.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:doduo": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.doduo.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.doduo.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.doduo.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.doduo.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:dodrio": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dodrio.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dodrio.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:seel": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.seel.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.seel.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.seel.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.seel.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:dewgong": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dewgong.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dewgong.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:grimer": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.grimer.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.grimer.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.grimer.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.grimer.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:muk": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.muk.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.muk.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:shellder": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.shellder.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.shellder.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.shellder.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.shellder.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:cloyster": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.cloyster.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.cloyster.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:gastly": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gastly.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gastly.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.gastly.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.gastly.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:haunter": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.haunter.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.haunter.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:gengar": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gengar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gengar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:onix": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.onix.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.onix.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:drowzee": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.drowzee.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.drowzee.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.drowzee.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.drowzee.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:hypno": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hypno.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hypno.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:krabby": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.krabby.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.krabby.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.krabby.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.krabby.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:kingler": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kingler.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kingler.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:voltorb": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.voltorb.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.voltorb.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.voltorb.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.voltorb.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:electrode": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.electrode.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.electrode.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.electrode.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.electrode.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:exeggcute": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.exeggcute.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.exeggcute.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:exeggutor": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.exeggutor.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.exeggutor.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:cubone": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.cubone.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.cubone.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.cubone.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.cubone.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:marowak": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.marowak.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.marowak.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hitmonlee": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hitmonlee.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hitmonlee.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hitmonchan": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hitmonchan.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hitmonchan.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:lickitung": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.lickitung.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.lickitung.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:koffing": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.koffing.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.koffing.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.koffing.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.koffing.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:weezing": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.weezing.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.weezing.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:rhyhorn": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.rhyhorn.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.rhyhorn.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.rhyhorn.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.rhyhorn.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:rhydon": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.rhydon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.rhydon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:chansey": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.chansey.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.chansey.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:tangela": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tangela.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tangela.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:kangaskhan": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kangaskhan.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kangaskhan.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:horsea": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.horsea.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.horsea.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.horsea.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.horsea.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:seadra": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.seadra.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.seadra.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:goldeen": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.goldeen.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.goldeen.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.goldeen.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.goldeen.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:seaking": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.seaking.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.seaking.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:staryu": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.staryu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.staryu.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:starmie": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.starmie.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.starmie.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mrmime": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mrmime.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mrmime.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:scyther": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.scyther.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.scyther.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:jynx": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.jynx.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.jynx.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:electabuzz": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.electabuzz.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.electabuzz.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:magmar": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magmar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magmar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pinsir": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pinsir.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pinsir.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:tauros": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tauros.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tauros.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:magikarp": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magikarp.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magikarp.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.magikarp.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.magikarp.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:gyarados": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gyarados.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gyarados.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:lapras": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.lapras.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.lapras.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ditto": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ditto.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ditto.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ditto.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ditto.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:eevee": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.eevee.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.eevee.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.eevee.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.eevee.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:vaporeon": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.vaporeon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.vaporeon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:jolteon": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.jolteon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.jolteon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:flareon": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.flareon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.flareon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:porygon": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.porygon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.porygon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:omanyte": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.omanyte.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.omanyte.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.omanyte.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.omanyte.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:omastar": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.omastar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.omastar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:kabuto": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kabuto.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kabuto.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:kabutops": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kabutops.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kabutops.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:aerodactyl": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.aerodactyl.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.aerodactyl.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:snorlax": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.snorlax.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.snorlax.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:articuno": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.articuno.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.articuno.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:zapdos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.zapdos.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.zapdos.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:moltres": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.moltres.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.moltres.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:dratini": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dratini.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dratini.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.dratini.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.dratini.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:dragonair": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dragonair.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dragonair.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:dragonite": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dragonite.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dragonite.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mewtwo": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mewtwo.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mewtwo.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+      "serp:shadow_mewtwo": {
+        "volume": 0.5,
+        "pitch": [ 0.9, 1.1 ],
+        "events": {
+          "ambient": "mob.mewtwo.idle",
+          "death": "mob.serp.defeat"
+        }
+      },
+    "serp:mew": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mew.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mew.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+
+    "serp:bulbasaurs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.bulbasaur.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.bulbasaur.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.bulbasaur.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.bulbasaur.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ivysaurs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ivysaur.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ivysaur.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ivysaur.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ivysaur.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:venusaurs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.venusaur.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.venusaur.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:charmanders": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.charmander.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.charmander.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.charmander.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.charmander.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:charmeleons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.charmeleon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.charmeleon.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.charmeleon.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.charmeleon.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:charizards": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.charizard.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.charizard.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:squirtles": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.squirtle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.squirtle.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.squirtle.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.squirtle.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:wartortles": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.wartortle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.wartortle.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.wartortle.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.wartortle.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:blastoises": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.blastoise.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.blastoise.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:caterpies": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.caterpie.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.caterpie.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.caterpie.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.caterpie.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:metapods": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.metapod.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.metapod.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.metapod.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.metapod.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:butterfrees": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.butterfree.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.butterfree.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:weedles": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.weedle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.weedle.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.weedle.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.weedle.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:kakunas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kakuna.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kakuna.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.kakuna.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.kakuna.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:beedrills": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.beedrill.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.beedrill.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pidgeys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pidgey.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pidgey.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.pidgey.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pidgey.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:pidgeottos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pidgeotto.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pidgeotto.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.pidgeotto.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pidgeotto.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:pidgeots": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pidgeot.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pidgeot.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:rattatas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ratata.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ratata.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ratata.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ratata.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:raticates": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.raticate.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.raticate.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:spearows": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.spearow.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.spearow.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.spearow.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.spearow.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:fearows": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.fearow.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.fearow.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ekanss": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ekans.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ekans.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ekans.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ekans.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:arboks": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.arbok.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.arbok.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pikachus": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pikachu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pikachu.defeat","volume": 0.5},
+        "ambient.baby":{"sound": "mob.pikachu.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pikachu.defeat","volume": 0.5,"pitch": 0.5},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:raichus": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.raichu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.raichu.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sandshrews": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sandshrew.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sandshrew.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.sandshrew.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.sandshrew.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:sandslashs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sandslash.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sandslash.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:nidoranhs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidoranh.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidoranh.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.nidoranh.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.nidoranh.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:nidorinas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidorina.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidorina.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:nidoqueens": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidoqueen.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidoqueen.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:nidoranms": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidoranm.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidoranm.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.nidoranm.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.nidoranm.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:nidorinos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidorino.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidorino.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:nidokings": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.nidoking.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.nidoking.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:clefairys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.clefairy.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.clefairy.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:clefables": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.clefable.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.clefable.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:vulpixs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.vulpix.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.vulpix.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ninetaless": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ninetales.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ninetales.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:jigglypuffs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.jigglypuff.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.jigglypuff.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:wigglytuffs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.wigglytuff.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.wigglytuff.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:zubats": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.zubat.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.zubat.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.zubat.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.zubat.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:golbats": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.golbat.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.golbat.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:oddishs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.oddish.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.oddish.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.oddish.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.oddish.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:glooms": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gloom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gloom.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:vileplumes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.vileplume.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.vileplume.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:parass": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.paras.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.paras.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.paras.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.paras.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:parasects": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.parasect.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.parasect.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:venonats": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.venonat.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.venonat.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.venonat.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.venonat.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:venomoths": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.venomoth.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.venomoth.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:digletts": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.diglett.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.diglett.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.diglett.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.diglett.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:dugtrios": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dugtrio.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dugtrio.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:meowths": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.meowth.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.meowth.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.meowth.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.meowth.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:persians": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.persian.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.persian.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:psyducks": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.psyduck.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.psyduck.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.psyduck.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.psyduck.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:golducks": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.golduck.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.golduck.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mankeys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mankey.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mankey.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.mankey.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.mankey.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:primeapes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.primeape.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.primeape.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:growlithes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.growlithe.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.growlithe.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.growlithe.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.growlithe.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:arcanines": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.arcanine.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.arcanine.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:poliwags": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.poliwag.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.poliwag.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.poliwag.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.poliwag.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:poliwhirls": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.poliwhirl.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.poliwhirl.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:poliwraths": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.poliwrath.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.poliwrath.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:abras": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.abra.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.abra.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.abra.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.abra.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:kadabras": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kadabra.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kadabra.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:alakazams": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.alakazam.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.alakazam.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:machops": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.machop.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.machop.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.machop.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.machop.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:machokes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.machoke.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.machoke.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:machamps": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.machamp.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.machamp.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:bellsprouts": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.bellsprout.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.bellsprout.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.bellsprout.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.bellsprout.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:weepinbells": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.weepinbell.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.weepinbell.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:victreebels": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.victreebel.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.victreebel.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:tentacools": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tentacool.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tentacool.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.tentacool.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.tentacool.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:tentacruels": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tentacruel.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tentacruel.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:geodudes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.geodude.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.geodude.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.geodude.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.geodude.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:gravelers": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.graveler.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.graveler.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:golems": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.golem.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.golem.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ponytas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ponyta.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ponyta.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ponyta.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ponyta.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:rapidashs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.rapidash.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.rapidash.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:slowpokes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.slowpoke.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.slowpoke.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.slowpoke.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.slowpoke.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:slowbros": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.slowbro.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.slowbro.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:magnemites": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magnemite.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magnemite.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.magnemite.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.magnemite.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:magnetons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magneton.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magneton.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:farfetchds": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.farfetchd.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.farfetchd.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:doduos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.doduo.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.doduo.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.doduo.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.doduo.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:dodrios": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dodrio.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dodrio.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:seels": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.seel.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.seel.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.seel.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.seel.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:dewgongs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dewgong.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dewgong.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:grimers": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.grimer.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.grimer.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.grimer.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.grimer.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:muks": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.muk.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.muk.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:shellders": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.shellder.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.shellder.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.shellder.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.shellder.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:cloysters": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.cloyster.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.cloyster.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:gastlys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gastly.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gastly.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.gastly.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.gastly.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:haunters": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.haunter.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.haunter.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:gengars": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gengar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gengar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:onixs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.onix.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.onix.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:drowzees": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.drowzee.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.drowzee.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.drowzee.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.drowzee.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:hypnos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hypno.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hypno.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:krabbys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.krabby.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.krabby.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.krabby.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.krabby.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:kinglers": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kingler.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kingler.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:voltorbs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.voltorb.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.voltorb.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.voltorb.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.voltorb.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:electrodes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.electrode.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.electrode.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.electrode.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.electrode.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:exeggcutes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.exeggcute.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.exeggcute.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:exeggutors": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.exeggutor.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.exeggutor.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:cubones": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.cubone.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.cubone.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.cubone.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.cubone.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:marowaks": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.marowak.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.marowak.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hitmonlees": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hitmonlee.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hitmonlee.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hitmonchans": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hitmonchan.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hitmonchan.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:lickitungs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.lickitung.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.lickitung.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:koffings": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.koffing.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.koffing.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.koffing.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.koffing.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:weezings": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.weezing.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.weezing.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:rhyhorns": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.rhyhorn.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.rhyhorn.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.rhyhorn.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.rhyhorn.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:rhydons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.rhydon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.rhydon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:chanseys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.chansey.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.chansey.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:tangelas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tangela.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tangela.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:kangaskhans": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kangaskhan.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kangaskhan.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:horseas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.horsea.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.horsea.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.horsea.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.horsea.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:seadras": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.seadra.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.seadra.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:goldeens": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.goldeen.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.goldeen.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.goldeen.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.goldeen.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:seakings": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.seaking.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.seaking.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:staryus": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.staryu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.staryu.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:starmies": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.starmie.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.starmie.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mrmimes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mrmime.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mrmime.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:scythers": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.scyther.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.scyther.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:jynxs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.jynx.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.jynx.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:electabuzzs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.electabuzz.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.electabuzz.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:magmars": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magmar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magmar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pinsirs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pinsir.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pinsir.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:tauross": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tauros.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tauros.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:magikarps": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magikarp.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magikarp.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.magikarp.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.magikarp.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:gyaradoss": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gyarados.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gyarados.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:laprass": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.lapras.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.lapras.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:dittos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ditto.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ditto.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ditto.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ditto.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:eevees": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.eevee.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.eevee.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.eevee.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.eevee.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:vaporeons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.vaporeon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.vaporeon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:jolteons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.jolteon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.jolteon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:flareons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.flareon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.flareon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:porygons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.porygon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.porygon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:omanytes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.omanyte.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.omanyte.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.omanyte.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.omanyte.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:omastars": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.omastar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.omastar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:kabutos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kabuto.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kabuto.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:kabutopss": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kabutops.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kabutops.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:aerodactyls": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.aerodactyl.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.aerodactyl.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:snorlaxs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.snorlax.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.snorlax.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:articunos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.articuno.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.articuno.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:zapdoss": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.zapdos.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.zapdos.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:moltress": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.moltres.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.moltres.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:dratinis": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dratini.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dratini.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.dratini.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.dratini.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:dragonairs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dragonair.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dragonair.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:dragonites": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dragonite.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dragonite.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mewtwos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mewtwo.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mewtwo.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mews": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mew.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mew.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:chikorita": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.chikorita.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.chikorita.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.chikorita.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.chikorita.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:bayleef": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.bayleef.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.bayleef.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.bayleef.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.bayleef.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:meganium": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.meganium.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.meganium.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:cyndaquil": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.cyndaquil.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.cyndaquil.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.cyndaquil.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.cyndaquil.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:quilava": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.quilava.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.quilava.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.quilava.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.quilava.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:typhlosion": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.typhlosion.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.typhlosion.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:totodile": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.totodile.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.totodile.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.totodile.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.totodile.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:croconaw": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.croconaw.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.croconaw.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.croconaw.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.croconaw.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:feraligatr": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.feraligatr.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.feraligatr.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sentret": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sentret.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sentret.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.sentret.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.sentret.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:furret": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.furret.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.furret.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hoothoot": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hoothoot.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hoothoot.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.hoothoot.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.hoothoot.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:noctowl": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.noctowl.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.noctowl.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ledyba": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ledyba.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ledyba.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ledyba.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ledyba.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ledian": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ledian.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ledian.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:spinarak": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.spinarak.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.spinarak.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.spinarak.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.spinarak.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ariados": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ariados.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ariados.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:crobat": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.crobat.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.crobat.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:chinchou": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.chinchou.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.chinchou.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.chinchou.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.chinchou.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:lanturn": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.lanturn.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.lanturn.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pichu": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pichu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pichu.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:cleffa": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.cleffa.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.cleffa.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:igglybuff": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.igglybuff.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.igglybuff.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:togepi": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.togepi.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.togepi.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:togetic": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.togetic.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.togetic.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:natu": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.natu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.natu.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.natu.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.natu.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:xatu": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.xatu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.xatu.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mareep": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mareep.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mareep.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.mareep.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.mareep.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:flaaffy": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.flaaffy.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.flaaffy.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.flaaffy.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.flaaffy.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ampharos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ampharos.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ampharos.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:bellossom": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.bellossom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.bellossom.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:marill": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.marill.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.flaaffy.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.marill.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.marill.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:azumarill": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.azumarill.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.azumarill.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sudowoodo": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sudowoodo.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sudowoodo.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:politoed": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.politoed.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.politoed.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hoppip": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hoppip.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hoppip.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.hoppip.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.hoppip.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:skiploom": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.skiploom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.skiploom.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.skiploom.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.skiploom.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:jumpluff": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.jumpluff.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.jumpluff'.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:aipom": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.aipom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.aipom'.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sunkern": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sunkern.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sunkern'.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sunflora": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sunflora.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sunflora.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:yanma": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.yanma.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.yanma.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:wooper": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.wooper.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.wooper.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.wooper.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.wooper.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:quagsire": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.quagsire.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.quagsire.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:espeon": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.espeon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.espeon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:umbreon": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.umbreon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.umbreon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:murkrow": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.murkrow.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.murkrow.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:slowking": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.slowking.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.slowking.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:misdreavus": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.misdreavus.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.misdreavus.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:unoun": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.unoun.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.unoun.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:wobbuffet": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.wobbuffet.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.wobbuffet.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:girafarig": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.girafarig.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.girafarig.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pineco": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pineco.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pineco.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.pineco.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pineco.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:forretress": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.forretress.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.forretress.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:dunsparce": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dunsparce.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dunsparce.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:gligar": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gligar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gligar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:steelix": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.steelix.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.steelix.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:snubull": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.snubull.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.snubull.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.snubull.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.snubull.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:granbull": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.granbull.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.granbull.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:qwilfish": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.qwilfish.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.qwilfish.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:scizor": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.scizor.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.scizor.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:shuckle": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.shuckle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.shuckle.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:heracross": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.heracross.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.heracross.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sneasel": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sneasel.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sneasel.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:teddiursa": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.teddiursa.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.teddiursa.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.teddiursa.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.teddiursa.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ursaring": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ursaring.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ursaring.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:slugma": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.slugma.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.slugma.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.slugma.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.slugma.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:magcargo": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magcargo.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magcargo.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:swinub": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.swinub.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.swinub.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.swinub.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.swinub.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:piloswine": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.piloswine.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.piloswine.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:corsola": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.corsola.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.corsola.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:remoraid": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.remoraid.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.remoraid.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.remoraid.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.remoraid.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:octillery": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.octillery.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.octillery.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:delibird": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.delibird.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.delibird.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mantine": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mantine.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mantine.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:skarmory": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.skarmory.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.skarmory.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:houndour": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.houndour.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.houndour.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.houndour.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.houndour.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:houndoom": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.houndoom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.houndoom.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:kingdra": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kingdra.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kingdra.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:phanpy": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.phanpy.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.phanpy.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.phanpy.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.phanpy.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:donphan": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.donphan.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.donphan.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:porygon2": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.porygon2.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.porygon2.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:stantler": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.stantler.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.stantler.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:smeargle": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.smeargle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.smeargle.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:tyrogue": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tyrogue.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tyrogue.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.tyrogue.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.tyrogue.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:smoochum": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.smoochum.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.smoochum.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:elekid": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.elekid.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.elekid.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:magby": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magby.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magby.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:miltank": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.miltank.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.miltank.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:blissey": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.blissey.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.blissey.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:raikou": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.raikou.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.raikou.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:entei": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.entei.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.entei.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:suicune": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.suicune.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.suicune.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:larvitar": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.larvitar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.larvitar.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.larvitar.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.larvitar.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:pupitar": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pupitar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pupitar.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.pupitar.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pupitar.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:tyranitar": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tyranitar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tyranitar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:lugia": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.lugia.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.lugia.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hooh": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hooh.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hooh.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:celebi": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.celebi.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.celebi.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+
+    "serp:chikoritas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.chikorita.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.chikorita.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.chikorita.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.chikorita.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:bayleefs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.bayleef.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.bayleef.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.bayleef.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.bayleef.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:meganiums": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.meganium.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.meganium.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:cyndaquils": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.cyndaquil.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.cyndaquil.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.cyndaquil.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.cyndaquil.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:quilavas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.quilava.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.quilava.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.quilava.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.quilava.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:typhlosions": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.typhlosion.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.typhlosion.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:totodiles": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.totodile.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.totodile.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.totodile.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.totodile.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:croconaws": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.croconaw.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.croconaw.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.croconaw.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.croconaw.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:feraligatrs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.feraligatr.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.feraligatr.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sentrets": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sentret.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sentret.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.sentret.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.sentret.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:furrets": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.furret.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.furret.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hoothoots": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hoothoot.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hoothoot.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.hoothoot.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.hoothoot.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:noctowls": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.noctowl.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.noctowl.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:ledybas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ledyba.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ledyba.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.ledyba.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.ledyba.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ledians": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ledian.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ledian.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:spinaraks": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.spinarak.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.spinarak.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.spinarak.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.spinarak.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ariadoss": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ariados.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ariados.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:crobats": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.crobat.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.crobat.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:chinchous": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.chinchou.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.chinchou.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.chinchou.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.chinchou.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:lanturns": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.lanturn.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.lanturn.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pichus": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pichu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pichu.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:cleffas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.cleffa.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.cleffa.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:igglybuffs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.igglybuff.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.igglybuff.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:togepis": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.togepi.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.togepi.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:togetics": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.togetic.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.togetic.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:natus": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.natu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.natu.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.natu.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.natu.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:xatus": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.xatu.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.xatu.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mareeps": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mareep.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mareep.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.mareep.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.mareep.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:flaaffys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.flaaffy.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.flaaffy.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.flaaffy.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.flaaffy.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:amphaross": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ampharos.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ampharos.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:bellossoms": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.bellossom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.bellossom.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:marills": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.marill.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.flaaffy.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.marill.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.marill.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:azumarills": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.azumarill.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.azumarill.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sudowoodos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sudowoodo.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sudowoodo.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:politoeds": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.politoed.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.politoed.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hoppips": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hoppip.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hoppip.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.hoppip.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.hoppip.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:skiplooms": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.skiploom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.skiploom.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.skiploom.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.skiploom.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:jumpluffs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.jumpluff.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.jumpluff'.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:aipoms": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.aipom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.aipom'.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sunkerns": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sunkern.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sunkern'.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sunfloras": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sunflora.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sunflora.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:yanmas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.yanma.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.yanma.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:woopers": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.wooper.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.wooper.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.wooper.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.wooper.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:quagsires": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.quagsire.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.quagsire.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:espeons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.espeon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.espeon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:umbreons": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.umbreon.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.umbreon.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:murkrows": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.murkrow.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.murkrow.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:slowkings": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.slowking.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.slowking.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:misdreavuss": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.misdreavus.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.misdreavus.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:unouns": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.unoun.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.unoun.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:wobbuffets": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.wobbuffet.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.wobbuffet.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:girafarigs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.girafarig.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.girafarig.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:pinecos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pineco.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pineco.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.pineco.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pineco.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:forretresss": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.forretress.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.forretress.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:dunsparces": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.dunsparce.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.dunsparce.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:gligars": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.gligar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.gligar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:steelixs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.steelix.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.steelix.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:snubulls": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.snubull.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.snubull.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.snubull.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.snubull.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:granbulls": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.granbull.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.granbull.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:qwilfishs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.qwilfish.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.qwilfish.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:scizors": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.scizor.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.scizor.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:shuckles": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.shuckle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.shuckle.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:heracrosss": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.heracross.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.heracross.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:sneasels": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.sneasel.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.sneasel.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:teddiursas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.teddiursa.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.teddiursa.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.teddiursa.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.teddiursa.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:ursarings": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.ursaring.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.ursaring.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:slugmas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.slugma.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.slugma.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.slugma.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.slugma.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:magcargos": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magcargo.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magcargo.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:swinubs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.swinub.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.swinub.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.swinub.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.swinub.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:piloswines": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.piloswine.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.piloswine.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:corsolas": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.corsola.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.corsola.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:remoraids": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.remoraid.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.remoraid.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.remoraid.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.remoraid.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:octillerys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.octillery.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.octillery.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:delibirds": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.delibird.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.delibird.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:mantines": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.mantine.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.mantine.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:skarmorys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.skarmory.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.skarmory.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:houndours": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.houndour.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.houndour.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.houndour.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.houndour.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:houndooms": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.houndoom.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.houndoom.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:kingdras": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.kingdra.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.kingdra.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:phanpys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.phanpy.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.phanpy.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.phanpy.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.phanpy.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:donphans": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.donphan.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.donphan.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:porygon2s": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.porygon2.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.porygon2.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:stantlers": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.stantler.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.stantler.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:smeargles": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.smeargle.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.smeargle.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:tyrogues": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tyrogue.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tyrogue.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.tyrogue.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.tyrogue.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:smoochums": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.smoochum.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.smoochum.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:elekids": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.elekid.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.elekid.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:magbys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.magby.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.magby.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:miltanks": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.miltank.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.miltank.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:blisseys": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.blissey.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.blissey.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:raikous": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.raikou.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.raikou.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:enteis": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.entei.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.entei.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:suicunes": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.suicune.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.suicune.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:larvitars": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.larvitar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.larvitar.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.larvitar.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.larvitar.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:pupitars": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.pupitar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.pupitar.idle","volume": 0.5,"pitch": 1},
+        "ambient.baby":{"sound": "mob.pupitar.idle","volume": 0.5,"pitch": 0.5},
+        "death.baby":{"sound": "mob.pupitar.idle","volume": 0.5,"pitch": 0.25},
+        "hurt.baby":{"sound": "mob.pokemon.hurt","volume": 0.5,"pitch": 0.5}
+        }
+      },
+    "serp:tyranitars": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.tyranitar.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.tyranitar.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:lugias": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.lugia.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.lugia.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:hoohs": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.hooh.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.hooh.idle","volume": 0.5,"pitch": 1}
+        }
+      },
+    "serp:celebis": {
+        "volume": 0.5,
+        "pitch": 1,
+    "events": {
+        "ambient": "mob.celebi.idle",
+        "hurt": "mob.pokemon.hurt",
+        "death":{"sound": "mob.celebi.idle","volume": 0.5,"pitch": 1}
+        }
+      }
+    }
+  }
+}
