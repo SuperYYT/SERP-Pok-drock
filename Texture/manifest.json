@@ -1,7 +1,7 @@
 {
     "format_version":2,
     "header":{
-"name":"§2SERP §ePokédrock §fTexture Pack",
+"name":"§d[纹理包]§2SERP §ePokédrock §fTexture Pack",
 "description":"pack.description",
 "version":[1,0,5], 
 "min_engine_version":[1,14,0],

@@ -1,0 +1,406 @@
+pack.description=§f通过这个我的世界基岩版模组，与宝可梦们享受捕捉、培育和战斗的乐趣！ §2由 Zacek el Serpentín 创作，MineBBS 汉化， §c除 MCPEDL 、 www.serpzacek.com 和 MineBBS 之外，没有任何商店或页面有权分发此项目，请勿鼓励盗版。物种名称和各种物体的名称是 Pokémon 公司的资产，本项目与 Pokémon 游戏无关。
+
+对话///////////////////////////////////
+
+rocket.1=你想和火箭队作对是吧？这是你这辈子做过最错误的事情！
+rocket.2=宝可梦，攻击！
+rocket.3=啧...算你运气好！
+rocket.4=来领取你的奖励吧，即使是最伟大的反派，我们也有必须遵守的荣誉与原则……
+rocket.5=看什么看！？老子已经没有宝可梦可以继续战斗了！
+rocket.6=哈哈哈！我警告过你小子的！
+trainer.1=宝可梦对战？来来来，我不会输给你这个臭小子的！
+trainer.2=上吧！宝可梦！
+trainer.3=不！不会一直这样的！
+trainer.4=精彩的战斗！来领取你的奖励吧...
+trainer.5=我没有宝可梦可以继续战斗了，我得去一趟宝可梦中心……
+trainer.6=走吧！我和我的宝可梦是无敌的！
+
+//////////////////////////////////////////
+
+item.serp:second_generation.name=第二世代
+item.serp:pre_chikorita.name=菊草叶，§a草§f属性的叶子宝可梦？
+item.serp:pre_cyndaquil.name=火球鼠，§c火§f属性的火鼠宝可梦？
+item.serp:pre_totodile.name=小锯鳄，§b水§f系的大颚宝可梦？
+item.serp:badge.name=战斗徽章
+item.serp:battle_permission.name=战斗许可
+item.serp:pichu_plush.name=皮丘玩偶
+item.serp:metal_coat.name=金属膜
+
+//////////////////////////////////////////
+
+action.interact.next=下一步
+action.interact.serp_other=查看其它初始宝可梦
+action.interact.mega=超级进化！
+action.interact.max=极巨化！
+action.interact.pokedex=查看宝可梦图鉴的记录
+action.interact.evolve=进化！
+action.interact.pokeride=装配宝可梦骑行
+action.interact.unride=移除宝可梦骑行
+action.interact.ride.pokemon=使用宝可梦骑行！
+action.interact.return=回来吧，宝可梦！
+action.interact.to_fight=去战斗！
+action.interact.stop_fight=停止战斗
+
+//////////////////////////////////////////
+
+action.hint.exit.serp:meganium=按潜行离开大兰葵
+action.hint.exit.serp:meganiums=按潜行离开闪光大兰葵
+action.hint.exit.serp:typhlosion=按潜行离开火暴兽
+action.hint.exit.serp:typhlosions=按潜行离开闪光火暴兽
+action.hint.exit.serp:feraligatr=按潜行离开大力鳄
+action.hint.exit.serp:feraligatrs=按潜行离开闪光大力鳄
+action.hint.exit.serp:xatu=按潜行离开天然鸟
+action.hint.exit.serp:xatus=按潜行离开闪光天然鸟
+action.hint.exit.serp:skarmory=按潜行离开盔甲鸟
+action.hint.exit.serp:skarmorys=按潜行离开闪光盔甲鸟
+action.hint.exit.serp:kingdra=按潜行离开刺龙王
+action.hint.exit.serp:kingdras=按潜行离开闪光刺龙王
+action.hint.exit.serp:entei=按潜行离开炎帝
+action.hint.exit.serp:enteis=按潜行离开闪光炎帝
+action.hint.exit.serp:raikou=按潜行离开雷公
+action.hint.exit.serp:raikous=按潜行离开闪光雷公
+action.hint.exit.serp:suicune=按潜行离开水君
+action.hint.exit.serp:suicunes=按潜行离开闪光水君
+action.hint.exit.serp:hooh=按潜行离开凤王
+action.hint.exit.serp:hoohs=按潜行离开闪光凤王
+action.hint.exit.serp:lugia=按潜行离开洛奇亚
+action.hint.exit.serp:lugias=按潜行离开闪光洛奇亚
+action.hint.exit.serp:bike=按潜行离开自行车
+
+//////////////////////////////////////////
+
+item.spawn_egg.entity.serp:elm.name=空木博士
+item.spawn_egg.entity.serp:neo_rocket.name=新火箭队
+item.spawn_egg.entity.serp:trainer2.name=第二世代训练师
+item.serp:sun_stone.name=日之石
+item.serp:kings_rock.name=王者之证
+
+//////////////////////////////////////////
+
+entity.serp:treeckot.name=木守宫 [已驯服]
+entity.serp:grovylet.name=森林蜥蜴 [已驯服]
+entity.serp:sceptilet.name=蜥蜴王 [已驯服]
+entity.serp:torchict.name=火稚鸡 [已驯服]
+entity.serp:combuskent.name=力壮鸡 [已驯服]
+entity.serp:blazikent.name=火焰鸡 [已驯服]
+entity.serp:mudkipt.name=水跃鱼 [已驯服]
+entity.serp:marshtompt.name=沼跃鱼 [已驯服]
+entity.serp:swampertt.name=巨沼怪 [已驯服]
+entity.serp:poochyenat.name=土狼犬 [已驯服]
+entity.serp:mightyenat.name=大狼犬 [已驯服]
+entity.serp:zigzagoont.name=蛇纹熊 [已驯服]
+entity.serp:linoonet.name=直冲熊 [已驯服]
+entity.serp:wurmplet.name=刺尾虫 [已驯服]
+entity.serp:silcoont.name=甲壳茧 [已驯服]
+entity.serp:beautiflyt.name=狩猎凤蝶 [已驯服]
+entity.serp:cascoont.name=盾甲茧 [已驯服]
+entity.serp:dustoxt.name=毒粉蛾 [已驯服]
+entity.serp:lotadt.name=莲叶童子 [已驯服]
+entity.serp:lombret.name=莲帽小童 [已驯服]
+entity.serp:ludicolot.name=乐天河童 [已驯服]
+entity.serp:seedott.name=橡实果 [已驯服]
+entity.serp:nuzleaft.name=长鼻叶 [已驯服]
+entity.serp:shiftryt.name=狡猾天狗 [已驯服]
+entity.serp:taillowt.name=傲骨燕 [已驯服]
+entity.serp:swellowt.name=大王燕 [已驯服]
+entity.serp:wingullt.name=长翅鸥 [已驯服]
+entity.serp:pelippert.name=大嘴鸥 [已驯服]
+entity.serp:raltst.name=拉鲁拉丝 [已驯服]
+entity.serp:kirliat.name=奇鲁莉安 [已驯服]
+entity.serp:gardevoirt.name=沙奈朵 [已驯服]
+entity.serp:surskitt.name=溜溜糖球 [已驯服]
+entity.serp:masqueraint.name=雨翅蛾 [已驯服]
+entity.serp:shroomisht.name=蘑蘑菇 [已驯服]
+entity.serp:breloomt.name=斗笠菇 [已驯服]
+entity.serp:slakotht.name=懒人獭 [已驯服]
+entity.serp:vigorotht.name=过动猿 [已驯服]
+entity.serp:slakingt.name=请假王 [已驯服]
+entity.serp:nincadat.name=土居忍士 [已驯服]
+entity.serp:ninjaskt.name=铁面忍者 [已驯服]
+entity.serp:shedinjat.name=脱壳忍者 [已驯服]
+entity.serp:whismurt.name=咕妞妞 [已驯服]
+entity.serp:loudredt.name=吼爆弹 [已驯服]
+entity.serp:exploudt.name=爆音怪 [已驯服]
+entity.serp:makuhitat.name=幕下力士 [已驯服]
+entity.serp:hariyamat.name=铁掌力士 [已驯服]
+entity.serp:azurillt.name=露力丽 [已驯服]
+entity.serp:nosepasst.name=朝北鼻 [已驯服]
+entity.serp:skittyt.name=向尾喵 [已驯服]
+entity.serp:delcattyt.name=优雅猫 [已驯服]
+entity.serp:sableyet.name=勾魂眼 [已驯服]
+entity.serp:mawilet.name=大嘴娃 [已驯服]
+entity.serp:aront.name=可可多拉 [已驯服]
+entity.serp:lairont.name=可多拉 [已驯服]
+entity.serp:aggront.name=波士可多拉 [已驯服]
+entity.serp:medititet.name=玛沙那 [已驯服]
+entity.serp:medichamt.name=恰雷姆 [已驯服]
+entity.serp:electriket.name=落雷兽 [已驯服]
+entity.serp:manectrict.name=雷电兽 [已驯服]
+entity.serp:pluslet.name=正电拍拍 [已驯服]
+entity.serp:minunt.name=负电拍拍 [已驯服]
+entity.serp:volbeatt.name=电萤虫 [已驯服]
+entity.serp:illumiset.name=甜甜萤 [已驯服]
+entity.serp:roseliat.name=毒蔷薇 [已驯服]
+entity.serp:gulpint.name=溶食兽 [已驯服]
+entity.serp:swallott.name=吞食兽 [已驯服]
+entity.serp:carvanhat.name=利牙鱼 [已驯服]
+entity.serp:sharpedot.name=巨牙鲨 [已驯服]
+entity.serp:wailmert.name=吼吼鲸 [已驯服]
+entity.serp:wailordt.name=吼鲸王 [已驯服]
+entity.serp:numelt.name=呆火驼 [已驯服]
+entity.serp:cameruptt.name=喷火驼 [已驯服]
+entity.serp:torkoalt.name=煤炭龟 [已驯服]
+entity.serp:spoinkt.name=跳跳猪 [已驯服]
+entity.serp:grumpigt.name=噗噗猪 [已驯服]
+entity.serp:spindat.name=晃晃斑 [已驯服]
+entity.serp:trapincht.name=晃晃斑 [已驯服]
+entity.serp:vibravat.name=超音波幼虫 [已驯服]
+entity.serp:flygont.name=沙漠蜻蜓 [已驯服]
+entity.serp:cacneat.name=刺球仙人掌 [已驯服]
+entity.serp:cacturnet.name=梦歌仙人掌 [已驯服]
+entity.serp:swablut.name=青绵鸟 [已驯服]
+entity.serp:altariat.name=七夕青鸟 [已驯服]
+entity.serp:zangooset.name=饭匙蛇 [已驯服]
+entity.serp:sevipert.name=饭匙蛇 [已驯服]
+entity.serp:lunatonet.name=月石 [已驯服]
+entity.serp:solrockt.name=太阳岩 [已驯服]
+entity.serp:barboacht.name=泥泥鳅 [已驯服]
+entity.serp:whiscasht.name=鲶鱼王 [已驯服]
+entity.serp:corphisht.name=龙虾小兵 [已驯服]
+entity.serp:crawdauntt.name=铁螯龙虾 [已驯服]
+entity.serp:baltoyt.name=天秤偶 [已驯服]
+entity.serp:claydollt.name=念力土偶 [已驯服]
+entity.serp:lileept.name=触手百合 [已驯服]
+entity.serp:cradilyt.name=摇篮百合 [已驯服]
+entity.serp:anoritht.name=太古羽虫 [已驯服]
+entity.serp:armaldot.name=太古盔甲 [已驯服]
+entity.serp:feebast.name=丑丑鱼 [已驯服]
+entity.serp:milotict.name=美纳斯 [已驯服]
+entity.serp:castformt.name=飘浮泡泡 [已驯服]
+entity.serp:kecleont.name=变隐龙 [已驯服]
+entity.serp:shuppett.name=怨影娃娃 [已驯服]
+entity.serp:banettet.name=诅咒娃娃 [已驯服]
+entity.serp:duskullt.name=夜巡灵 [已驯服]
+entity.serp:dusclopst.name=彷徨夜灵 [已驯服]
+entity.serp:tropiust.name=热带龙 [已驯服]
+entity.serp:chimechot.name=热带龙 [已驯服]
+entity.serp:absolt.name=阿勃梭鲁 [已驯服]
+entity.serp:wynautt.name=小果然 [已驯服]
+entity.serp:snoruntt.name=小果然 [已驯服]
+entity.serp:glaliet.name=冰鬼护 [已驯服]
+entity.serp:sphealt.name=海豹球 [已驯服]
+entity.serp:sealeot.name=海魔狮 [已驯服]
+entity.serp:walreint.name=帝牙海狮 [已驯服]
+entity.serp:clamperlt.name=珍珠贝 [已驯服]
+entity.serp:huntailt.name=猎斑鱼 [已驯服]
+entity.serp:gorebysst.name=樱花鱼 [已驯服]
+entity.serp:relicantht.name=古空棘鱼 [已驯服]
+entity.serp:luvdisct.name=爱心鱼 [已驯服]
+entity.serp:bagont.name=宝贝龙 [已驯服]
+entity.serp:shelgont.name=甲壳龙 [已驯服]
+entity.serp:salamencet.name=暴飞龙 [已驯服]
+entity.serp:beleumt.name=铁哑铃 [已驯服]
+entity.serp:metangt.name=金属怪 [已驯服]
+entity.serp:metagrosst.name=巨金怪 [已驯服]
+entity.serp:regirockt.name=雷吉洛克 [已驯服]
+entity.serp:regicet.name=雷吉艾斯 [已驯服]
+entity.serp:registeelt.name=雷吉斯奇鲁 [已驯服]
+entity.serp:latiast.name=拉帝亚斯 [已驯服]
+entity.serp:latiost.name=拉帝亚斯 [已驯服]
+entity.serp:kyogret.name=盖欧卡 [已驯服]
+entity.serp:groudont.name=固拉多 [已驯服]
+entity.serp:rayquazat.name=烈空坐 [已驯服]
+entity.serp:jirachit.name=基拉祈 [已驯服]
+entity.serp:deoxyst.name=代欧奇希斯 [已驯服]
+
+//////////////////////////////////////////
+
+entity.serp:treecko.name=木守宫
+entity.serp:grovyle.name=森林蜥蜴
+entity.serp:sceptile.name=蜥蜴王
+entity.serp:torchic.name=火稚鸡
+entity.serp:combusken.name=力壮鸡
+entity.serp:blaziken.name=火焰鸡
+entity.serp:mudkip.name=水跃鱼
+entity.serp:marshtomp.name=沼跃鱼
+entity.serp:swampert.name=巨沼怪
+entity.serp:poochyena.name=土狼犬
+entity.serp:mightyena.name=大狼犬
+entity.serp:zigzagoon.name=蛇纹熊
+entity.serp:linoone.name=直冲熊
+entity.serp:wurmple.name=刺尾虫
+entity.serp:silcoon.name=甲壳茧
+entity.serp:beautifly.name=狩猎凤蝶
+entity.serp:cascoon.name=盾甲茧
+entity.serp:dustox.name=毒粉蛾
+entity.serp:lotad.name=莲叶童子
+entity.serp:lombre.name=莲帽小童
+entity.serp:ludicolo.name=乐天河童
+entity.serp:seedot.name=橡实果
+entity.serp:nuzleaf.name=长鼻叶
+entity.serp:shiftry.name=狡猾天狗
+entity.serp:taillow.name=傲骨燕
+entity.serp:swellow.name=大王燕
+entity.serp:wingull.name=长翅鸥
+entity.serp:pelipper.name=大嘴鸥
+entity.serp:ralts.name=拉鲁拉丝
+entity.serp:kirlia.name=奇鲁莉安
+entity.serp:gardevoir.name=沙奈朵
+entity.serp:surskit.name=溜溜糖球
+entity.serp:masquerain.name=雨翅蛾
+entity.serp:shroomish.name=蘑蘑菇
+entity.serp:breloom.name=斗笠菇
+entity.serp:slakoth.name=懒人獭
+entity.serp:vigoroth.name=过动猿
+entity.serp:slaking.name=请假王
+entity.serp:nincada.name=土居忍士
+entity.serp:ninjask.name=铁面忍者
+entity.serp:shedinja.name=脱壳忍者
+entity.serp:whismur.name=咕妞妞
+entity.serp:loudred.name=吼爆弹
+entity.serp:exploud.name=爆音怪
+entity.serp:makuhita.name=幕下力士
+entity.serp:hariyama.name=铁掌力士
+entity.serp:azurill.name=露力丽
+entity.serp:nosepass.name=朝北鼻
+entity.serp:skitty.name=向尾喵
+entity.serp:delcatty.name=优雅猫
+entity.serp:sableye.name=勾魂眼
+entity.serp:mawile.name=大嘴娃
+entity.serp:aron.name=可可多拉
+entity.serp:lairon.name=可多拉
+entity.serp:aggron.name=波士可多拉
+entity.serp:meditite.name=玛沙那
+entity.serp:medicham.name=恰雷姆
+entity.serp:electrike.name=落雷兽
+entity.serp:manectric.name=雷电兽
+entity.serp:plusle.name=正电拍拍
+entity.serp:minun.name=负电拍拍
+entity.serp:volbeat.name=电萤虫
+entity.serp:illumise.name=甜甜萤
+entity.serp:roselia.name=毒蔷薇
+entity.serp:gulpin.name=溶食兽
+entity.serp:swallot.name=吞食兽
+entity.serp:carvanha.name=利牙鱼
+entity.serp:sharpedo.name=巨牙鲨
+entity.serp:wailmer.name=吼吼鲸
+entity.serp:wailord.name=吼鲸王
+entity.serp:numel.name=呆火驼
+entity.serp:camerupt.name=喷火驼
+entity.serp:torkoal.name=煤炭龟
+entity.serp:spoink.name=跳跳猪
+entity.serp:grumpig.name=噗噗猪
+entity.serp:spinda.name=晃晃斑
+entity.serp:trapinch.name=晃晃斑
+entity.serp:vibrava.name=超音波幼虫
+entity.serp:flygon.name=沙漠蜻蜓
+entity.serp:cacnea.name=刺球仙人掌
+entity.serp:cacturne.name=梦歌仙人掌
+entity.serp:swablu.name=青绵鸟
+entity.serp:altaria.name=七夕青鸟
+entity.serp:zangoose.name=饭匙蛇
+entity.serp:seviper.name=饭匙蛇
+entity.serp:lunatone.name=月石
+entity.serp:solrock.name=太阳岩
+entity.serp:barboach.name=泥泥鳅
+entity.serp:whiscash.name=鲶鱼王
+entity.serp:corphish.name=龙虾小兵
+entity.serp:crawdaunt.name=铁螯龙虾
+entity.serp:baltoy.name=天秤偶
+entity.serp:claydoll.name=念力土偶
+entity.serp:lileep.name=触手百合
+entity.serp:cradily.name=摇篮百合
+entity.serp:anorith.name=太古羽虫
+entity.serp:armaldo.name=太古盔甲
+entity.serp:feebas.name=丑丑鱼
+entity.serp:milotic.name=美纳斯
+entity.serp:castform.name=飘浮泡泡
+entity.serp:kecleon.name=变隐龙
+entity.serp:shuppet.name=怨影娃娃
+entity.serp:banette.name=诅咒娃娃
+entity.serp:duskull.name=夜巡灵
+entity.serp:dusclops.name=彷徨夜灵
+entity.serp:tropius.name=热带龙
+entity.serp:chimecho.name=热带龙
+entity.serp:absol.name=阿勃梭鲁
+entity.serp:wynaut.name=小果然
+entity.serp:snorunt.name=小果然
+entity.serp:glalie.name=冰鬼护
+entity.serp:spheal.name=海豹球
+entity.serp:sealeo.name=海魔狮
+entity.serp:walrein.name=帝牙海狮
+entity.serp:clamperl.name=珍珠贝
+entity.serp:huntail.name=猎斑鱼
+entity.serp:gorebyss.name=樱花鱼
+entity.serp:relicanth.name=古空棘鱼
+entity.serp:luvdisc.name=爱心鱼
+entity.serp:bagon.name=宝贝龙
+entity.serp:shelgon.name=甲壳龙
+entity.serp:salamence.name=暴飞龙
+entity.serp:beleum.name=铁哑铃
+entity.serp:metang.name=金属怪
+entity.serp:metagross.name=巨金怪
+entity.serp:regirock.name=雷吉洛克
+entity.serp:regice.name=雷吉艾斯
+entity.serp:registeel.name=雷吉斯奇鲁
+entity.serp:latias.name=拉帝亚斯
+entity.serp:latios.name=拉帝亚斯
+entity.serp:kyogre.name=盖欧卡
+entity.serp:groudon.name=固拉多
+entity.serp:rayquaza.name=烈空坐
+entity.serp:jirachi.name=基拉祈
+entity.serp:deoxys.name=代欧奇希斯
+
+宝可梦信息///////////////////////////////////
+
+treecko.info=木守宫的身体是草绿色的，尾巴的颜色较深。它的肚皮是玫瑰红的，眼睛很大，是黄色的。三个手指是圆形的，头顶有两道起伏。木守宫在森林里的大树中筑巢而居。它会激烈地威吓侵入地盘的敌人，被称作保护森林之树的宝可梦。它性格沉着冷静，对任何事都能镇定自若，就算被体型很大的宝可梦瞪住也会毫不退让地瞪回去。它的脚底长有许多小刺，能够用脚底的小刺钩住垂直的墙壁轻快地攀爬。所以它就算倒挂着也不会掉下来，能够在墙壁和天花板上行走。它会甩动粗粗的尾巴进行摔打，也会用尾巴感知空气的湿度，以此来判断明天的天气。
+
+grovyle.info=森林蜥蜴的手腕处有三片深色的叶子。它的头上有一片很长的叶子，尾巴也变得薄而长。森林蜥蜴栖息在密林里，是生活在密林里的爬树高手，会在枝头间跳跃移动着接近猎物。它能在大树的枝干间轻盈地跳跃移动，发达的大腿肌肉会产生出惊人的爆发力和弹跳力。不管是多快的宝可梦，都无法在森林中捉住森林蜥蜴。在繁盛茂密的丛林里时，从身体里长出来的叶子能让森林蜥蜴的身形躲过敌人的视线。
+
+sceptile.info=蜥蜴王身体的颜色为绿色。它有着大大的尾巴，两腕上长出的叶子像刀刃般锋利。它背上的种子里贮存了许多能让树木生机盎然的营养。超级蜥蜴王的胸前长出绿色的护甲状物体，全身的叶子变得更加锋利了并且末端变为红色。尾巴的巨大叶片上也多了锋利的尖端，背后多了一对橙色和一对红色的球体，尾部的花纹跟颜色也有了颜色上的改变。蜥蜴王是会小心培育森林里树木的宝可梦，会晒太阳来调节体温。它在雨林中强悍得无人能敌，能轻快地在丛林里跑来跑去，用敏捷的动作在树枝间跳来跳去。它会从敌人的头上或背后猛扑过去。并用手臂上长出的锋利叶子解决猎物。手臂上长出的叶子锋利得连大树都能唰地一刀砍倒。
+
+torchic.info=火稚鸡有着类似于小鸡的身躯，身体主要为橙色。它全身覆盖着蓬松的羽毛，有两个很小的翅膀。雄性火稚鸡在靠近尾巴部位有极小的黑点。火稚鸡体内有燃着火焰的袋子，只要生命尚存火焰就会持续燃烧，抱住的时候就像热水袋一样温暖。当它受到敌人袭击时会从口中吐出肚子里形成的火球来攻击，摄氏1000度的灼热火球可以把对手烧焦。它会紧贴着训练家摇摇晃晃地走路，最害怕伸手不见五指的黑夜。它经常对地面东啄西啄是为了吃下能够帮助消化的小石子。这些石子还能提高它喷出的火焰的温度，正所谓一石二鸟。
+
+combusken.info=力壮鸡的身体主要由浅黄色和橙色构成。它有着十分锋利的爪子。雌性力壮鸡头部的羽毛更小。力壮鸡会在山野上跑来跑去锻炼腰腿，会用鸟嘴里吐出的灼热火焰和极具破坏力的腿技战斗。战斗时体内的火焰便会熊熊燃烧，能用兼具速度和力量的腿在1秒内连踢10次，极具破坏力。它能发出尖锐的叫声来集中注意力，会用尖锐的叫声威吓对手。因为叫声很大，所以非常吵。在对方放弃之前会持续奋战，是拥有强烈战斗本能的宝可梦。
+
+blaziken.info=火焰鸡拥有一头白色的羽毛和V字形的鸡冠。它的眼睛是蓝色的。它还有着缠着绷带的爪和强健有力的双腿。它每经过几年就会烧掉老化的羽毛，以重新长出全新的鲜艳羽毛。雌性火焰鸡头部的羽毛更小。超级火焰鸡头上的羽毛向上竖起，头上的角由两根变成了一根。它身上羽毛的形状也发生了改变，原先黄色的花纹变成了黑色并且呈现为火焰状，手臂上有着四条长长的火焰飘带。火焰鸡擅长拳击与踢腿的格斗招式，战斗时会从手腕喷出灼热的火焰，勇敢地迎战对手。对手越强，火焰就会烧得越旺。从手腕喷出的火焰包裹住整个拳头后使出的拳击能把对手烧成焦炭。他还有着强韧的腰腿，连30层大楼都能轻松跃过。
+
+mudkip.info=水跃鱼拥有黏滑的蓝色皮肤和小巧灵活的身材。头上高立的鳍、两边显眼的橙色腮瓣以及巨大的尾鳍都给人深刻的印象。水跃鱼平时将身体埋在河底的淤泥中休息，在水里时会用脸颊上的腮呼吸。它头上的鳍是非常灵敏的雷达，可以不靠眼睛从水或空气的流动中探测周围的情况。如果遇到危险就会发挥出惊人的力量，能击碎比自己身体还大的岩石。如果用大大的尾鳍划水的话，速度就会快速提升。在陆地上，会用4只脚用力蹬地，发挥出举起巨大岩石的力量。
+
+marshtomp.info=沼跃鱼有着橙色的鳃，眼睛，腹部同为橙色。它的身体和头部都是天蓝色，头顶和身后的鳍则变为黑色。沼跃鱼生活在粘稠泥泞的地上，会把身体埋进泥里睡觉。久而久之它就锻炼出了强韧结实的腰腿，可以用双脚站立，即使是在泥泞的地上也能稳步前进。为了能在地面上也可以生存，它的身体表面覆盖着一层薄薄的粘膜。它会在退潮后的海岸边玩泥巴，皮肤干燥的话就会变弱，因此会靠玩泥巴来补充水分。它在泥泞的场地才会发挥出本领，能一口气冲向无法移动身体的对手。它能在烂泥中快速移动，这绝对比在水中游动要来的更快。
+
+swampert.info=巨沼怪用四足行走，它身体基本的颜色是蓝色，鳍则是黑色，腹部是白色。超级巨沼怪有着更加粗壮的手臂以及身躯，头上的鳍由两片变为三片，鳍向背后延伸与同样向背后延伸的尾鳍连成一片。身上的橙色部分都变为了橙红色并且变得更多，脸颊两侧的物体也变得更尖更长。巨沼怪能用鳍感知波涛声和海风的细微变化，进而预测暴风雨。它喜欢在美丽的沙滩上筑巢，当它预知风暴或海啸来临时，就会将岩石堆积起来保护海边的巢。它的视力很好，在浑浊的水中也能看清，游泳速度与喷射冲浪不相上下。它拥有能拖着大型船只游动的力量，能轻松拖动1吨以上岩石块。它的两腕像岩石一样坚硬，只要挥一挥粗壮的手臂就能打倒对手，将巨大的岩石打得粉碎。它们在陆地上往身上掷泥是为了保持皮肤湿润。
+
+poochyena.info=土狼犬是一只小型宝可梦，全身被有灰色的毛，面部及四肢均有深灰色的纹理。目呈红色，眼白呈黄色。比起身体来，大大的牙齿是其特征。土狼犬性格非常执着，是什么都吃的杂食性宝可梦，找到动的东西就会立刻咬上去。它会露出利牙、将尾巴上的毛竖起来威吓敌人。对于逃跑的对手会凭借着着敏锐的嗅觉固执地追上去，绝对不会放跑被它盯上的猎物。虽然在猎物精疲力尽之前会一直追着不放，但受到反击的话有时也会被吓退。
+
+mightyena.info=大狼犬的身体是灰色的。它的尾部、背部、四肢均有黑色的毛发，其中背部的毛发分为两行且十分浓密。瞳孔呈红色，眼白呈黄色。野生的大狼犬们都是集体行动，过着有严格上下关系的群体生活。它们会组成一个10只左右的群体，凭借有条不紊的团队合作追击并解决猎物，绝不会违反首领的命令。首领一旦吼叫起来，其他大狼犬也会跟着吼叫，以此为远处的伙伴传递信息。它体内残留着群体行动的野性血液，只会认优秀的训练家为首领，并听从其命令。发出凶猛的吼声并压低身体的时候，就是它准备发动攻击的前兆，会用锋利的尖牙一口咬住对手。
+
+zigzagoon.info=蛇纹熊类似于浣熊和獾，身体以褐色为主，面部有类似于浣熊的深褐色毛发，浅褐色的锯齿状毛发呈环状，使蛇纹熊拥有了一节一节的参差感。它那水汪汪的褐色眼睛使它看上去显得更加机灵。伽勒尔的样子的蛇纹熊毛发呈现黑白交替，眼睛由褐色变成红色，周围有黑色五角星图案，并且舌头一直露在外面。蛇纹熊十分擅长通过之字形走路来发现埋藏在草丛或地里的宝物。它会用鼻子在地面上到处摩擦，好像总在寻找什么似的。之所以会一直之字形地到处乱走，是因为它的好奇心太过旺盛，对看到的各种东西都很感兴趣。蛇纹熊会用背上的硬毛摩擦树木，留下代表自己地盘的标记。还会装死欺骗敌人。性情比伽勒尔的蛇纹熊温驯。
+
+linoone.info=直冲熊的身体呈流线型，有助于在奔跑时减少阻力。目为水蓝色，主色为浅褐色，身上有深褐色的条纹，头部的纹理如同一个箭头。它的体毛拥有良好的韧度与质感。用它身上掉下来的毛制成的剃须刷是最上等的高级货。伽勒尔样子的直冲熊主色由浅褐色变成白色,条纹由深褐色变成黑色,眼由水蓝色变成深红色，周围有黑色五角星。它的舌头一直露在外面。直冲熊看到猎物就会笔直地猛跑过去，笔直奔跑的速度可以轻松超越100公里的时速。它在发现障碍物时就会通过直角转弯来躲避，非常不擅长慢慢转弯的道路，如果不急停的话，就无法转弯。直冲熊会用自己超群的爆发力和锐利的爪子来制服猎物。但因为只能沿直线奔跑，所以扑空次数比较多。从水面上发现住在水里的猎物之后，就会飞快地扑进去，用锐利的爪子捕捉。
+
+wurmple.info=刺尾虫的身体由红色和白色组成，有着一双大眼睛。它红色的背部长有利刺，尾部与头上也有黄色利刺。它的脚上有着吸盘，即使在玻璃上也不会打滑。刺尾虫栖息在草丛和森林里，大量生息于山野之中。它会攀附在树枝上面吃树叶，也会用尾部的刺剥开树皮以渗出的树汁为食。它经常被鸟宝可梦盯上，从它嘴里吐出的丝一旦接触到空气就会变得粘粘的，让敌人的行动变得迟缓来封住对手的行动。受到姆克儿、傲骨燕、大王燕之类的敌人袭击时，会从尾部的刺放出毒来进行抵抗。
+
+silcoon.info=刺尾虫的身体由红色和白色组成，有着一双大眼睛。它红色的背部长有利刺，尾部与头上也有黄色利刺。它的脚上有着吸盘，即使在玻璃上也不会打滑。甲壳茧利用在刺尾虫时所储存的能量，作为进化前的准备。在等待进化的时候，为了防止掉落会将丝线缠在树枝上支撑身体，一动不动等待进化的时刻的到来。盾甲茧的丝色泽更胜甲壳茧的丝。虽然过去它被认为在进化之前会忍着什么都不吃，但实际上它好像会喝挂在丝线上的雨水解渴。虽然无手脚且动作迟缓，但双眼射出的凌厉视线不会放过四周的风吹草动，坚硬的茧能够防御攻击。
+
+beautifly.info=狩猎凤蝶身体以黑色和灰色为主，长着水蓝色的复眼。它的特征是色彩缤纷的翅膀花纹，翅膀的底色为黑色，黄色的纹理占大部分，其次是红色和蓝色。管状的口器用于吸取花粉和其它生物的体液。雄性狩猎凤蝶翅膀的红点更大。狩猎凤蝶为了收集花粉而聚集在花田里，会随着春风四处采集花粉。当花圃中满开鲜花时它就会飞来飞去收集花粉，是非常喜欢甜甜花粉的宝可梦。如果把开着花的花盆放在窗边，它就一定会飞过来采集花粉。像针一样的长长嘴巴圆圆卷起，在采集花粉时非常方便，会伸出细细的嘴巴吸取甜甜的花蜜。如果打扰它采集花粉就会被细长的口器刺到。它拥有与外表不符的充满攻击性的好斗性格，生气时的攻击会非常猛烈，会用细长的口器刺向对手并吸取对手的体液攻击。它性情贪婪，会驱赶正在采集花蜜的三蜜蜂，以便独占自己爱吃的花蜜。
+
+cascoon.info=盾甲茧全身被淡紫色的丝包裹起来，红色的眼睛察觉着外面的一切。盾甲茧的茧为了不被敌人找到而静静躲在大树叶的背面或者树枝间的空隙里，会用枯叶盖住作为伪装。它是由其口中吐出的细丝包裹身体后变硬而来的，如果出现裂纹就表示快要进化了。它包裹全身的丝虽细但强度十足，一动不动地忍受对手的攻击，不会忘记对手长什么样子。一旦动了就无法进化出强壮的身体，所以无论受到怎样的痛击都不会动，不过那时受到的疼痛它永远都不会忘记。那时的痛苦会转化为力量，进化出强大的身体，一定会想方设法进行报复。它会在茧里准备进化，茧内温度非常高，浑身细胞都在里面制造进化所需的能量。它的丝色泽更胜甲壳茧的丝，以此织成的衣物被人们视为上品。
+
+dustox.info=毒粉蛾的身体呈紫色，黄色的复眼上均有三个黑点，有金黄色的棒状触角。它的两对足呈深粉色，有绿色的翅膀，翅膀上有红色的环状花纹。雌性毒粉蛾的触角更小。毒粉蛾是夜行性宝可梦，太阳下山后就会开始活动。它有着被灯光吸引的习性，被路灯引诱的毒粉蛾群会把行道树上的叶子吃得一塌糊涂。它会用像雷达一样的触角寻找食物，感觉到危险就会从翅膀撒下剧毒的粉末，受到袭击时也会猛烈地扇动翅膀撒出剧毒的粉末来对抗敌人的攻击。毒性猛烈的鳞粉一旦吸入就连职业摔角手也会卧病不起，人们为了将它们驱离村落而煞费苦心。
+
+lotad.info=毒粉蛾的身体呈紫色，黄色的复眼上均有三个黑点，有金黄色的棒状触角。它的两对足呈深粉色，有绿色的翅膀，翅膀上有红色的环状花纹。雌性毒粉蛾的触角更小。莲叶童子是居住在水面清澈的池塘里的酷似水草的宝可梦。据说它原本是生活在陆地上的，但因为头上的叶子变重了，所以才会改变习性变成了浮在水面上生活。如果长时间不饮水的话，头上的叶子就会枯萎。虽然叶子枯萎了就会变弱，但为了寻找清水，偶尔也会在陆地上移动。它会把坐在头上叶片上的不会游泳的小型宝可梦帮忙运送到对岸去。
+
+lombre.info=莲帽小童是两足宝可梦，有绿色的身体，手指和脚趾是红色的。它有着短又圆的耳朵和鸟喙似的红色嘴巴。头顶着大片莲叶，两边有槽口。莲帽小童住在日照良好的水边，是傍晚时开始活动的夜行性宝可梦，经常被误认为是人类的孩子。它白天在水草做的床上睡觉，太阳下山后就会出来活动。傍晚时分会从河里突然地冒出来，以吓人为乐。如果遇到垂钓者，就会从水中扯线捣乱并引以为乐。它的全身覆盖着黏糊糊的粘液，如果被它的手摸到，就会感觉很恶心。它喜欢吃河底的水苔，以附着在河边岩石上的水草为食。
+
+ludicolo.info=乐天河童的身体是绿色的，身上覆盖着黄色的毛发。它有黑色的眼睛和橙色的大大的喙。它头上有一个片大大的莲叶，就像一顶宽檐帽一样，其顶上有一个棕色的短茎，上面有一簇黄色的毛。它的身体上有两条棕色的锯齿形条纹，雌性乐天河童身上的条纹更细。它的四肢都是绿色的，手掌上有两条黑线样的标记，脚底有黑色环形斑点图案。快乐的音乐节奏会让乐天河童的细胞活性化，它只要一听到欢乐的音乐，身体内的细胞就会跃动并充满力量，身子会情不自禁地随着节奏摇摆开始跳舞。这让它在战斗时也能发挥出强大的力量，即使在面对强敌时也不会畏缩。据说会被郊游的孩子们的合唱吸引从而现身。
+
+seedot.info=橡实果看起来很像一枚橡子，有两个米色的脚。它有一个灰色的帽子盖住了头顶，脸上有米色的面具一样的图案。它的眼睛又大又黑，有米色的瞳孔。橡实果会将头顶粘在树枝上悬挂着吸取水分和营养，在它一动不动的时候，看上去和树果没有分别。它水喝得越多身体就会越滑越光亮，结束用餐后身体变重的橡实果就会一颗颗掉落在地面上，不过也有被大风吹落的时候。它会每天用叶子擦亮身体1次。它会以突然动起来吓唬其他宝可梦，以吓唬来啄食自己的波波或其它宝可梦为乐。
+
+nuzleaf.info=长鼻叶的身体是褐色的，胸口上有两个小黑点。它浅褐色的大腿很粗，上面有细条纹图案。长鼻叶的鼻子尖尖的，它有浅褐色的面罩，上面有尖形的图案延伸到头的后面，其顶端有一片叶子。雌性长鼻叶头上的叶子比较小。长鼻叶是住在茂密繁盛的森林深处的宝可梦，偶尔从森林里出来吓唬人。它居住在大树上的洞穴里，善于爬树，会拔下头上的叶子做成草笛。长鼻叶吹奏出的草笛声会让在森林里迷路的人感到不安。它的弱点是尖尖的长鼻子，非常讨厌有谁抓自己的长鼻子，一旦被握住的话就会全身失去力量。
+
+shiftry.info=狡猾天狗的身体是褐色的，它长而毛茸茸的白色鬃毛覆盖了它脸的大部分。它有长长的耳朵、很长且尖的鼻子，和一张大嘴，里面有着总在咬紧的牙齿。它的眼睛是浑浊的黄色，有黑色的巩膜和瞳仁。它的手是三片宽大的叶子，并且上面还有褐色的辐条。它的脚样子很特别，外观上类似日本的高脚木屐。雌性狡猾天狗的手叶更小。狡猾天狗在不被外界干扰的森林深处静静地生活，据说是在树龄超过1000年的大树顶上居住的谜之宝可梦。它有着读取对手想法并抢先一步行动的能力。据说它会乘着寒风现身，从很久以前就被视为森林之神而被敬畏着。它会用叶子团扇掀起风速30米的瞬时强风吹跑民房。
+
+taillow.info=傲骨燕如同一只家燕，深蓝色的羽毛占身体的大半部分，肚子的羽毛则是纯洁的白色，头部和颈部均有红色的羽毛。它有灰色的双目和黄色的鸟喙，脚爪和羽毛一样呈深蓝色。傲骨燕身材矮小，但却十分勇敢，能和巨大的盔甲鸟互相抗衡。它不擅长应付寒冷的季节，为了寻找温暖的土地会一天飞上300公里的距离。由于才刚刚离巢，所以到了晚上有时会因太寂寞而哭出来。它不管是怎样强大的对手都会勇敢地前去挑战，有着就算输了也不会气馁的毅力。它以捕捉住在森林里的刺尾虫为食，不过一旦肚子饿了就会变得很懦弱，大声痛哭。
+
+swellow.info=大王燕是一种类似家燕的宝可梦，羽毛颜色主要为墨蓝色，颈、尾尖和额头上有朱红色的纹路，而肚子则为白色。2根尾羽笔直地竖起就是健康的证明。它的爪子是红色的，而喙是黄色。大王燕为了寻找温暖的土地而不断移动，会在空中优雅地飞来飞去。它会盘旋在遥远的高空，发现居住在森林里的猎物后就会俯冲而下，用锋利的爪子紧紧抓住猎物，被盯上的猎物绝对无法逃脱。刺尾虫会把尾部的刺对准想捉自己当食物的大王燕进行抵抗。大王燕不会疏于修整自己那光鲜的羽毛，两只大王燕聚集在一起后一定会把对方的羽毛修整得更漂亮。
